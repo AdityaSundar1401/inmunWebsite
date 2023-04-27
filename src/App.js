@@ -45,15 +45,6 @@ import unhcr from './icons/IUNHCR.png';
 import union from './icons/IUNION.png';
 import jcc from './icons/IJCC.png';
 import x from './icons/IX.png';
-
-import bbmp from './pages/icons/IBBMP.png';
-import lok from './pages/icons/ILOK.png';
-import rajya from './pages/icons/IRAJYA.png';
-import unep from './pages/icons/IUNEP.png';
-import unhcr from './pages/icons/IUNHCR.png';
-import union from './pages/icons/IUNION.png';
-import jcc from './pages/icons/IJCC.png';
-import x from './pages/icons/IX.png';
 import Footer from './layout/Footer';
 
 export class App extends Component {
