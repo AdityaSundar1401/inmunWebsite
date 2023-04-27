@@ -41,7 +41,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		},
 		{
 			post: 'Communication',
-			names: ['Aditya Sundar', 'Johann Ullatil (IHOP)'],
+			names: ['Aditya Sundar', 'Johann Ullatil'],
 			imgs: [adi, ullu],
 		},
 	];
@@ -329,6 +329,17 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							<h1>Om Mehta</h1>
 							<h3>Secretary General</h3>
 						</div>
+						<div
+							className='all-center sec-gen-sec'
+							style={{ marginBottom: '50px' }}>
+							<img
+								className='usg-pic'
+								src={samu}
+								alt=''
+							/>
+							<h1>Gautam Chari</h1>
+							<h3>Director General</h3>
+						</div>
 						<h3 className={'usgMobile usg-title'}>Under Secretary Generals</h3>
 
 						<div className='grid-2 usg-box all-center'>
@@ -449,16 +460,29 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				<div className='sec-box'>
 					<h1 className='sec'>Secretariat</h1>
 					<div style={{ marginTop: '50px' }}>
-						<div
-							className='all-center sec-gen-sec'
-							style={{ marginBottom: '50px' }}>
-							<img
-								className='usg-pic'
-								src={omu}
-								alt=''
-							/>
-							<h1>Om Mehta</h1>
-							<h3>Secretary General</h3>
+						<div className='grid-2'>
+							<div
+								className='all-center sec-gen-sec'
+								style={{ marginBottom: '50px' }}>
+								<img
+									className='usg-pic'
+									src={omu}
+									alt=''
+								/>
+								<h1>Om Mehta</h1>
+								<h3>Secretary General</h3>
+							</div>
+							<div
+								className='all-center sec-gen-sec'
+								style={{ marginBottom: '50px' }}>
+								<img
+									className='usg-pic'
+									src={samu}
+									alt=''
+								/>
+								<h1>Gautam Chari</h1>
+								<h3>Director General</h3>
+							</div>
 						</div>
 						<h3 className={'usg-title'}>Under Secretary Generals</h3>
 
