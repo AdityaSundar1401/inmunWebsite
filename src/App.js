@@ -13,6 +13,7 @@ import BBMP from './pages/IndividualComms/BBMPComm';
 import JCC from './pages/IndividualComms/JCCComm';
 import UNEP from './pages/IndividualComms/UNEPComm';
 import UNHCR from './pages/IndividualComms/UNHCRComm';
+import X from './pages/IndividualComms/COMMX';
 import Home from './pages/Home';
 import Sec from './pages/Secretariat/EB';
 import Resources from './pages/Resources';
@@ -426,6 +427,21 @@ export class App extends Component {
 								path='/united-nations-environmental-program'
 								render={(props) => (
 									<UNEP
+										{...props}
+										getCommDetails={this.getCommDetails}
+										currState={this.state.currState}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/committee-x'
+								render={(props) => (
+									<X
 										{...props}
 										getCommDetails={this.getCommDetails}
 										currState={this.state.currState}
