@@ -5,7 +5,9 @@ import Navbar from '../../layout/Navbar';
 import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
-import union from '../icons/IUNION.png';
+import union from '../../icons/IUNION.png';
+
+
 
 // background images
 
