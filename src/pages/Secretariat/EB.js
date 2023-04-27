@@ -462,7 +462,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					<div style={{ marginTop: '50px' }}>
 						<div
 							className='grid-2'
-							style={{ maxWidth: '1100px', margin: 'auto' }}>
+							style={{ maxWidth: '900px', margin: 'auto' }}>
 							<div
 								className='all-center sec-gen-sec'
 								style={{ marginBottom: '50px' }}>
