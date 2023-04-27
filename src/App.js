@@ -6,7 +6,13 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Committees from './pages/Committees';
 import Category from './pages/Category';
 import ConDet from './pages/ConDet';
-import DetComm from './pages/DetComm.js';
+import Uncab from './pages/IndividualComms/Uncab';
+import Lok from './pages/IndividualComms/LOKComm';
+import Rajya from './pages/IndividualComms/RAJYAComm';
+import BBMP from './pages/IndividualComms/BBMPComm';
+import JCC from './pages/IndividualComms/JCCComm';
+import UNEP from './pages/IndividualComms/UNEPComm';
+import UNHCR from './pages/IndividualComms/UNHCRComm';
 import Home from './pages/Home';
 import Sec from './pages/Secretariat/EB';
 import Resources from './pages/Resources';
@@ -30,6 +36,7 @@ import hari from './pages/Secretariat/Images/hari.jpeg';
 import sud from './pages/Secretariat/Images/sud.webp';
 import ananya from './pages/Secretariat/Images/ananya.jpeg';
 import ali from './pages/Secretariat/Images/ali.jpeg';
+
 import bbmp from './icons/IBBMP.png';
 import lok from './icons/ILOK.png';
 import rajya from './icons/IRAJYA.png';
@@ -38,6 +45,16 @@ import unhcr from './icons/IUNHCR.png';
 import union from './icons/IUNION.png';
 import jcc from './icons/IJCC.png';
 import x from './icons/IX.png';
+
+import bbmp from './pages/icons/IBBMP.png';
+import lok from './pages/icons/ILOK.png';
+import rajya from './pages/icons/IRAJYA.png';
+import unep from './pages/icons/IUNEP.png';
+import unhcr from './pages/icons/IUNHCR.png';
+import union from './pages/icons/IUNION.png';
+import jcc from './pages/icons/IJCC.png';
+import x from './pages/icons/IX.png';
+import Footer from './layout/Footer';
 
 export class App extends Component {
 	state = {
@@ -70,7 +87,7 @@ export class App extends Component {
 			},
 
 			UNEP: {
-				commName: 'United-Nations-Environmental-Program',
+				commName: 'united-nations-environmental-program',
 				commDisplay: 'United Nations Environmental Program',
 				commIcon: unep,
 				commAgenda:
@@ -93,6 +110,7 @@ export class App extends Component {
 			},
 			LOK: {
 				commName: 'Lok-Sabha',
+				commName: 'lok-sabha',
 				commDisplay: 'Lok Sabha',
 				commIcon: lok,
 				commAgenda: 'Universal Health Coverage in India',
@@ -114,6 +132,7 @@ export class App extends Component {
 			},
 			BBMP: {
 				commName: 'BBMP',
+				commName: 'bbmp',
 				commDisplay: 'BBMP',
 				commIcon: bbmp,
 				commAgenda: 'Impact of Unplanned Urbanisation in Whitefield',
@@ -135,6 +154,7 @@ export class App extends Component {
 			},
 			RAJYA: {
 				commName: 'Rajya-Sabha',
+				commName: 'rajya-sabha',
 				commDisplay: 'Rajya Sabha',
 				commIcon: rajya,
 				commAgenda: 'Deliberation Over the Reservation System',
@@ -156,6 +176,7 @@ export class App extends Component {
 			},
 			JCC: {
 				commName: 'Joint-Crisis-Committee',
+
 				commDisplay: 'Joint Crisis Committee',
 				commIcon: jcc,
 				commAgenda: 'World War II',
@@ -177,6 +198,7 @@ export class App extends Component {
 			},
 			X: {
 				commName: 'Committee-X',
+
 				commDisplay: 'Committee X',
 				commIcon: x,
 				commAgenda: 'Vietnam War',
@@ -198,6 +220,7 @@ export class App extends Component {
 			},
 			UNION: {
 				commName: 'Union-Cabinet',
+
 				commDisplay: 'Union Cabinet',
 				commIcon: union,
 				commAgenda: 'Operation Blue Star',
@@ -331,9 +354,87 @@ export class App extends Component {
 							/>
 							<Route
 								exact
-								path='/:committee'
+								path='/union-cabinet'
 								render={(props) => (
-									<DetComm
+									<Uncab
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/lok-sabha'
+								render={(props) => (
+									<Lok
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/rajya-sabha'
+								render={(props) => (
+									<Rajya
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/bbmp'
+								render={(props) => (
+									<BBMP
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/joint-crisis-committee'
+								render={(props) => (
+									<JCC
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/united-nations-high-commissioner-for-refugees'
+								render={(props) => (
+									<UNHCR
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+							<Route
+								exact
+								path='/united-nations-environmental-program'
+								render={(props) => (
+									<UNEP
 										{...props}
 										getCommDetails={this.getCommDetails}
 										currState={this.state.currState}
