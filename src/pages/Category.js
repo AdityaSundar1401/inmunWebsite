@@ -134,9 +134,8 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			/>
 			<div className={`grid-${comm.length}  committee`}>
 				{comm.map((comm, index) => (
-					<Link
-						to={`/committees/${comm.name}`}
-						target='_blank'
+					<a
+						href={`/${comm.name}`}
 						className='category-div'
 						key={index}>
 						<div className='overlay-category' />
@@ -153,7 +152,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 							}}
 						/>
 						<h1>{comm.commName}</h1>
-					</Link>
+					</a>
 				))}
 			</div>
 			<div style={{ position: 'relative', top: '110px' }}>
