@@ -71,6 +71,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			agenda: 'Access to jobs and financial services',
 			background: refugees,
 			directors: ['Aditya Narayan'],
+			path: 'united-nations-high-commissioner-for-refugees',
 		},
 		{
 			commName: 'UNEP',
@@ -78,6 +79,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 				'Addressing the problems that arise from land degradation and deforestation',
 			background: unep,
 			directors: ['Ali Oez'],
+			path: 'united-nations-environmental-program',
 		},
 	];
 
@@ -87,18 +89,21 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			agenda: 'Achieving the 2030 goal of universal health coverage in India',
 			background: health,
 			directors: ['Aashna Kumar'],
+			path: 'lok-sabha',
 		},
 		{
 			commName: 'Rajya Sabha',
 			agenda: 'Deliberation over the reservation system in India',
 			background: bangalore,
 			directors: ['Ali Oez'],
+			path: 'rajya-sabha',
 		},
 		{
 			commName: 'BBMP',
 			agenda: 'The impact of unplanned urbanisation in the whitefield area ',
 			background: bangalore,
 			directors: ['Ameya Mundkur'],
+			path: 'bbmp',
 		},
 	];
 	const commCRDetails = [
@@ -107,18 +112,21 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			agenda: 'The Vietnam War',
 			background: vietnam,
 			directors: ['Abhinav Vallur'],
+			path: 'committee-x',
 		},
 		{
 			commName: 'Union Cabinet',
 			agenda: 'Operation Bluestar',
 			background: bluestar,
 			directors: ['Gautam Chari'],
+			path: 'union-cabinet',
 		},
 		{
 			commName: 'JCC',
 			agenda: 'WWII',
 			background: wwii,
 			directors: ['Aditya Sundar', 'Vivin Anand'],
+			path: 'join-crisis-committee',
 		},
 	];
 
