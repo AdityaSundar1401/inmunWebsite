@@ -73,7 +73,10 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 				<div className='timeline'>
 					<h1 className='timeline-heading'>Timeline of important events</h1>
 					<div className='timeline-body'>
-						<div className='vertical-line' />
+						<div
+							className='vertical-line'
+							style={isMobile ? { height: '1550px' } : {}}
+						/>
 						<div className='content-body'>
 							<div className='date right'>
 								<div className='content'>
@@ -121,7 +124,9 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<div style={isMobile ? { marginTop: '450px' } : {}}>
+				<Footer />
+			</div>
 		</div>
 	);
 };
