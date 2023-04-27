@@ -171,7 +171,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 							</h1>
 							<div className='letter-img-mobile'>
 								<a
-									href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+									href='https://www.reddit.com/r/RajasthanRoyals/comments/12w9r51/rr_management_sucks/'
 									target='_blank'>
 									<img
 										src={chari}
@@ -472,7 +472,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 							</div>
 							<div className='letter-img2'>
 								<a
-									href='https://www.cdc.gov/ncbddd/autism/seed.html'
+									href='https://www.reddit.com/r/RajasthanRoyals/comments/12w9r51/rr_management_sucks/'
 									target='_blank'
 									style={{ width: '350px', marginTop: '10px' }}>
 									<img
