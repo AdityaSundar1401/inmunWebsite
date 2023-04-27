@@ -21,14 +21,14 @@ import hari from '../Secretariat/Images/hari.jpeg';
 import sud from '../Secretariat/Images/sud.webp';
 import ananya from '../Secretariat/Images/ananya.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
-import bbmp from '../icons/IBBMP.png';
-import lok from '../icons/ILOK.png';
-import rajya from '../icons/IRAJYA.png';
-import unep from '../icons/IUNEP.png';
-import unhcr from '../icons/IUNHCR.png';
-import union from '../icons/IUNION.png';
-import jcc from '../icons/IJCC.png';
-import x from '../icons/IX.png';
+import bbmp from '../../icons/IBBMP.png';
+import lok from '../../icons/ILOK.png';
+import rajya from '../../icons/IRAJYA.png';
+import unep from '../../icons/IUNEP.png';
+import unhcr from '../../icons/IUNHCR.png';
+import union from '../../icons/IUNION.png';
+import jcc from '../../icons/IJCC.png';
+import x from '../../icons/IX.png';
 
 // background images
 import vietnam from '../Secretariat/Images/vietnam.png';
