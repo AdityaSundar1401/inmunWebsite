@@ -143,7 +143,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			<div className={`grid-${comm.length}  committee`}>
 				{comm.map((comm, index) => (
 					<a
-						href={`/${comm.name}`}
+						href={`/${comm.path}`}
 						className='category-div'
 						key={index}>
 						<div className='overlay-category' />
