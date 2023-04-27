@@ -2,6 +2,7 @@
 
 import React, { Fragment } from 'react';
 import inv from '../invLogo.png';
+import { isMobile } from 'react-device-detect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
@@ -11,93 +12,180 @@ import { faGooglePlusG } from '@fortawesome/free-brands-svg-icons/faGooglePlusG'
 import '../App.css';
 
 const Footer = () => {
-	return (
-		<Fragment>
-			<div style={footStyle}>
-				<br />
-				<img
-					style={imgStyle}
-					src={inv}
-					alt=''
-				/>
-				<div style={addressStyle}>
-					<div style={{ maxWidth: '300px' }}>
+	if (!isMobile) {
+		console.log('not mobile');
+		return (
+			<Fragment>
+				<div style={footStyle}>
+					<br />
+					<img
+						style={imgStyle}
+						src={inv}
+						alt=''
+					/>
+					<div style={addressStyle}>
+						<div style={{ maxWidth: '300px' }}>
+							<p>Inventure Academy, Whitefield</p>
+							<p>SH 35, Near Dommasandra Circle,</p>
+							<p>Kachamaranahalli, Bengaluru,</p>
+							<p>Karnataka 562125</p>
+						</div>
+						<div style={{ maxWidth: '300px' }}>
+							<b>MUN Coordinators</b>
+							<p>Aparajita Bannerjee</p>
+							<p>aparajita@inventureacademy.com</p>
+							<p>Om's teacher chick</p>
+							<p>teacher@inventureacademy.com</p>
+						</div>
+						<div style={{ maxWidth: '300px' }}>
+							<b>Secretariat</b>
+							<p>Om Mehta</p>
+							<p>omrsmehta@gmail.com</p>
+							<p>Hot man</p>
+							<p>writetovivin@gmail.com</p>
+						</div>
+					</div>
+					<ul
+						className='socials'
+						style={socialsStyle}>
+						<li>
+							<a
+								href='https://facebook.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faFacebookF} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://twitter.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faTwitter} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://youtube.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faYoutube} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://linkedin.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faLinkedin} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://google.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faGooglePlusG} />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div style={footStyle2}>
+					<a
+						style={footerBottom}
+						href='https://www.youtube.com/watch?v=tyJPrZzpwcU'
+						target='_blank'
+						rel='noopener noreferrer'>
+						Designed and Coded by Aditya Sundar and Vivin Anand
+					</a>
+				</div>
+			</Fragment>
+		);
+	} else {
+		return (
+			<Fragment>
+				<div style={mobileFootStyle}>
+					<br />
+					<img
+						style={mobileImgStyle}
+						src={inv}
+						alt=''
+					/>
+					<div style={mobileAddressStyle}>
 						<p>Inventure Academy, Whitefield</p>
 						<p>SH 35, Near Dommasandra Circle,</p>
 						<p>Kachamaranahalli, Bengaluru,</p>
 						<p>Karnataka 562125</p>
 					</div>
-					<div style={{ maxWidth: '300px' }}>
-						<b>MUN Coordinators</b>
+					<div style={mobileContactStyle}>
+						<b>MUN Coordinator</b>
 						<p>Aparajita Bannerjee</p>
 						<p>aparajita@inventureacademy.com</p>
-						<p>Om's teacher chick</p>
-						<p>teacher@inventureacademy.com</p>
 					</div>
-					<div style={{ maxWidth: '300px' }}>
+					<div style={mobileOtherStyle}>
 						<b>Secretariat</b>
 						<p>Om Mehta</p>
 						<p>omrsmehta@gmail.com</p>
 						<p>Hot man</p>
 						<p>writetovivin@gmail.com</p>
 					</div>
+					<ul
+						className='socials'
+						style={mobileSocialsStyle}>
+						<li>
+							<a
+								href='https://facebook.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faFacebookF} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://twitter.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faTwitter} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://youtube.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faYoutube} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://linkedin.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faLinkedin} />
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://google.com'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<FontAwesomeIcon icon={faGooglePlusG} />
+							</a>
+						</li>
+					</ul>
 				</div>
-				<ul
-					className='socials'
-					style={socialsStyle}>
-					<li>
-						<a
-							href='https://facebook.com'
-							target='_blank'
-							rel='noopener noreferrer'>
-							<FontAwesomeIcon icon={faFacebookF} />
-						</a>
-					</li>
-					<li>
-						<a
-							href='https://twitter.com'
-							target='_blank'
-							rel='noopener noreferrer'>
-							<FontAwesomeIcon icon={faTwitter} />
-						</a>
-					</li>
-					<li>
-						<a
-							href='https://youtube.com'
-							target='_blank'
-							rel='noopener noreferrer'>
-							<FontAwesomeIcon icon={faYoutube} />
-						</a>
-					</li>
-					<li>
-						<a
-							href='https://linkedin.com'
-							target='_blank'
-							rel='noopener noreferrer'>
-							<FontAwesomeIcon icon={faLinkedin} />
-						</a>
-					</li>
-					<li>
-						<a
-							href='https://google.com'
-							target='_blank'
-							rel='noopener noreferrer'>
-							<FontAwesomeIcon icon={faGooglePlusG} />
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div style={footStyle2}>
-				<a
-					style={footerBottom}
-					href='https://www.youtube.com/watch?v=tyJPrZzpwcU'
-					target='_blank'
-					rel='noopener noreferrer'>
-					Designed and Coded by Aditya Sundar and Vivin Anand
-				</a>
-			</div>
-		</Fragment>
-	);
+				<div style={mobileFootStyle2}>
+					<a
+						style={mobileFooterBottom}
+						href='https://www.youtube.com/watch?v=tyJPrZzpwcU'
+						target='_blank'
+						rel='noopener noreferrer'>
+						Coded by Aditya Sundar and Vivin Anand
+					</a>
+				</div>
+			</Fragment>
+		);
+	}
 };
 
 const footStyle = {
@@ -109,6 +197,8 @@ const footStyle = {
 
 const footerBottom = {
 	paddingTop: '4px',
+	position: 'relative',
+	top: '3px',
 	fontSize: '14px',
 	color: 'white',
 	fontFamily: 'Arial, Helvetica, sans-serif',
@@ -132,7 +222,7 @@ const imgStyle = {
 const socialsStyle = {
 	position: 'relative',
 	left: '0%',
-	top: '-118%',
+	top: '-129%',
 };
 
 const addressStyle = {
@@ -143,6 +233,65 @@ const addressStyle = {
 	left: '30%',
 	gridTemplateColumns: 'repeat(3, 1fr)',
 	maxWidth: '70%',
+};
+
+const mobileFootStyle = {
+	backgroundColor: '#101010',
+	height: '260px',
+	width: '100%',
+};
+
+const mobileImgStyle = {
+	height: '135px',
+	objectFit: 'contain',
+	position: 'relative',
+	bottom: '45px',
+	right: '105px',
+};
+
+const mobileAddressStyle = {
+	position: 'relative',
+	left: '7%',
+	bottom: '21%',
+	color: 'white',
+	fontSize: '11px',
+};
+
+const mobileContactStyle = {
+	position: 'relative',
+	right: '-54%',
+	bottom: '80%',
+	color: 'white',
+	fontSize: '11px',
+};
+
+const mobileOtherStyle = {
+	position: 'relative',
+	left: '54%',
+	bottom: '71%',
+	color: 'white',
+	fontSize: '11px',
+};
+
+const mobileSocialsStyle = {
+	position: 'relative',
+	left: '0%',
+	bottom: '68.5%',
+};
+
+const mobileFootStyle2 = {
+	backgroundColor: '#000000',
+	paddingTop: '12px',
+	paddingLeft: '20px',
+	height: '50px',
+};
+
+const mobileFooterBottom = {
+	paddingTop: '4px',
+	paddingLeft: '10%',
+	fontSize: '14px',
+	color: 'white',
+	fontFamily: 'Arial, Helvetica, sans-serif',
 };
 
 export default Footer;
