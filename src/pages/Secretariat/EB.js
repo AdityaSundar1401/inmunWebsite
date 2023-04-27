@@ -41,7 +41,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		},
 		{
 			post: 'Communication',
-			names: ['Aditya Sundar', 'Johann Ullatil'],
+			names: ['Aditya Sundar', 'Johann Ullatil (IHOP)'],
 			imgs: [adi, ullu],
 		},
 	];
@@ -460,7 +460,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				<div className='sec-box'>
 					<h1 className='sec'>Secretariat</h1>
 					<div style={{ marginTop: '50px' }}>
-						<div className='grid-2'>
+						<div
+							className='grid-2'
+							style={{ maxWidth: '110px' }}>
 							<div
 								className='all-center sec-gen-sec'
 								style={{ marginBottom: '50px' }}>
