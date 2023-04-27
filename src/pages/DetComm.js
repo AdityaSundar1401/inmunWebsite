@@ -1,14 +1,9 @@
 /** @format */
 
 import React, { Fragment, useEffect, useState } from 'react';
-import bg from '../inv.png';
-import matrix from '../invback.jpeg';
-import inventure from '../inv-bg.png';
 import Navbar from '../layout/Navbar';
 import abhi from './Secretariat/Images/abhi.jpg';
-import omu from './Secretariat/Images/omu.jpeg';
 import adi from './Secretariat/Images/adi.jpeg';
-import ullu from './Secretariat/Images/ullu.jpeg';
 import vivin from './Secretariat/Images/vivin.png';
 import aashna from './Secretariat/Images/aashna.jpeg';
 import narayan from './Secretariat/Images/narayan.jpeg';
@@ -24,14 +19,6 @@ import hari from './Secretariat/Images/hari.jpeg';
 import sud from './Secretariat/Images/sud.webp';
 import ananya from './Secretariat/Images/ananya.jpeg';
 import ali from './Secretariat/Images/ali.jpeg';
-import bbmp from '../icons/IBBMP.png';
-import lok from '../icons/ILOK.png';
-import rajya from '../icons/IRAJYA.png';
-import unep from '../icons/IUNEP.png';
-import unhcr from '../icons/IUNHCR.png';
-import union from '../icons/IUNION.png';
-import jcc from '../icons/IJCC.png';
-import x from '../icons/IX.png';
 
 // background images
 import vietnam from './Secretariat/Images/vietnam.png';
@@ -42,7 +29,6 @@ import health from './Secretariat/Images/health.jpeg';
 import refugees from './Secretariat/Images/refugees.jpeg';
 import env from './Secretariat/Images/unep.jpeg';
 import Footer from '../layout/Footer';
-import { isMobile } from 'react-device-detect';
 
 const DetComm = ({ match, dropDown, drop, height, name }) => {
 	const data = [
@@ -396,7 +382,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 									height: '50px',
 									borderRadius: '20px',
 								}}>
-								<a>
+								<a href='https://www.google.com'>
 									<h3>Background Guide</h3>
 								</a>
 							</div>
@@ -407,7 +393,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 									height: '50px',
 									borderRadius: '20px',
 								}}>
-								<a>
+								<a href='https://www.google.com'>
 									<h3>Country Matrix</h3>
 								</a>
 							</div>
