@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
+import Footer from '../../layout/Footer';
 import abhi from './Images/abhi.jpg';
 import omu from './Images/omu.jpeg';
 import adi from './Images/adi.jpeg';
@@ -431,6 +432,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 						</div>
 					))}
 				</div>
+				<Footer />
 			</div>
 		);
 	} else {
@@ -573,6 +575,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 						</div>
 					))}
 				</div>
+				<Footer />
 			</div>
 		);
 	}
