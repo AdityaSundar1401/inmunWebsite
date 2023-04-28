@@ -69,14 +69,11 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						style={{
 							width: '150px',
 							height: 'auto',
-							display: 'block',
-							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
 						<h2
 							style={{
 								maxWidth: '150px',
-								whiteSpace: 'normal',
 								color: 'black',
 							}}>
 							Conference Handbook
@@ -86,14 +83,11 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						style={{
 							width: '150px',
 							height: 'auto',
-							display: 'block',
-							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
 						<h2
 							style={{
 								maxWidth: '150px',
-								whiteSpace: 'normal',
 								color: 'black',
 							}}>
 							Conference Handbook
@@ -103,14 +97,11 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						style={{
 							width: '150px',
 							height: 'auto',
-							display: 'block',
-							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
 						<h2
 							style={{
 								maxWidth: '150px',
-								whiteSpace: 'normal',
 								color: 'black',
 							}}>
 							Conference Handbook
@@ -120,14 +111,11 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						style={{
 							width: '150px',
 							height: 'auto',
-							display: 'block',
-							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
 						<h2
 							style={{
 								maxWidth: '150px',
-								whiteSpace: 'normal',
 								color: 'black',
 							}}>
 							Conference Handbook
