@@ -991,7 +991,7 @@ table th {
 }
 
 .committee {
-	margin-top: 110px
+	margin-top: 110px;
 	height: 100vh;
 	background-color: var(--primary-color);
 }
