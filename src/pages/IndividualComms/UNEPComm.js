@@ -139,6 +139,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						<div
 							style={{
 								margin: 'auto',
+							        margin-top: '30px'
 							}}>
 							<div
 								className='btn btn-primary '
