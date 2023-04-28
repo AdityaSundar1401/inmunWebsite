@@ -936,6 +936,7 @@ table th {
 	height: 560px;
 	display: inline-block;
 	object-fit: cover;
+	width: 100%;
 }
 
 /* the dots  */
