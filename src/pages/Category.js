@@ -162,7 +162,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 					</a>
 				))}
 			</div>
-			<div style={{ position: 'relative', top: '110px' }}>
+			<div style={{ position: 'relative', top: '10px' }}>
 				<Footer />
 			</div>
 		</div>
