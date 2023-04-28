@@ -1440,6 +1440,7 @@ ol {
 	position: relative;
 	margin-top: 30px;
 	width: 90%;
+	margin: auto
 	text-align: justify;
 	font-family: 'Dosis', sans-serif;
 	font-size: larger;
@@ -1516,7 +1517,7 @@ ol {
 
 .aboutUsImage-mobile {
 	width: 90%;
-	position: absolute;
+	position: relative;
 	top: 30px;
 	right: 0px;
 	left: 0px;
@@ -1525,7 +1526,7 @@ ol {
 
 .aboutUsImage2-mobile {
 	width: 90%;
-	position: absolute;
+	position: relative;
 	top: 2875px;
 	margin: auto;
 	left: 0px;
