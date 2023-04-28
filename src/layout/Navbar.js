@@ -104,7 +104,7 @@ const Navbar = ({ dropDown, drop, height, name, classname, show }) => {
 						<a href='/conference-details'>Conference Details</a>
 						<a href='/executive-board'>Executive Board</a>
 						<a href='resources'>Resources</a>
-						<a href='https://docs.google.com/document/d/1-Dz9yCHD9I4gNmAS1EfVTVP9jOTfgw9oybFvjShPPrU/edit'>Register</a>
+						<a href='https://docs.google.com/document/d/1-Dz9yCHD9I4gNmAS1EfVTVP9jOTfgw9oybFvjShPPrU/edit' target='_blank'>Register</a>
 						<a href='about-us'>About Us</a>
 					</div>
 				</nav>
