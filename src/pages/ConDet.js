@@ -70,12 +70,20 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img src={handbook} />
+						<img
+							src={handbook}
+							style={{
+								border: 'solid',
+								borderColor: 'black',
+								borderWidth: '2px',
+							}}
+						/>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
 								margin: '0px 2px',
+								justifyContent: 'center',
 							}}>
 							Conference Handbook
 						</h2>
@@ -85,12 +93,20 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img src={handbook} />
+						<img
+							src={handbook}
+							style={{
+								border: 'solid',
+								borderColor: 'black',
+								borderWidth: '2px',
+							}}
+						/>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
 								margin: '0px 2px',
+								justifyContent: 'center',
 							}}>
 							Conference Handbook
 						</h2>
@@ -100,12 +116,20 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img src={handbook} />
+						<img
+							src={handbook}
+							style={{
+								border: 'solid',
+								borderColor: 'black',
+								borderWidth: '2px',
+							}}
+						/>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
 								margin: '0px 2px',
+								justifyContent: 'center',
 							}}>
 							Conference Handbook
 						</h2>
@@ -115,12 +139,20 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img src={handbook} />
+						<img
+							src={handbook}
+							style={{
+								border: 'solid',
+								borderColor: 'black',
+								borderWidth: '2px',
+							}}
+						/>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
 								margin: '0px 2px',
+								justifyContent: 'center',
 							}}>
 							Conference Handbook
 						</h2>
