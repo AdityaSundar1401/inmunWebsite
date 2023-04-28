@@ -75,16 +75,39 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							style={{
 								border: 'solid',
 								borderColor: 'black',
-								borderWidth: '2px',
+								borderWidth: 'auto',
 							}}
 						/>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
-								margin: '0px 2px',
-								justifyContent: 'center',
-							}}>
+								margin: '0px auto',
+							}}
+							className='text-center'>
+							Conference Handbook
+						</h2>
+					</div>
+					<div
+						style={{
+							width: '150px',
+							height: 'auto',
+						}}>
+						<img
+							src={handbook}
+							style={{
+								border: 'solid',
+								borderColor: 'black',
+								borderWidth: 'auto',
+							}}
+						/>
+						<h2
+							style={{
+								maxWidth: '150px',
+								color: 'black',
+								margin: '0px auto',
+							}}
+							className='text-center'>
 							Conference Handbook
 						</h2>
 					</div>
@@ -106,8 +129,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								maxWidth: '150px',
 								color: 'black',
 								margin: '0px 2px',
-								justifyContent: 'center',
-							}}>
+							}}
+							className='text-center'>
 							Conference Handbook
 						</h2>
 					</div>
@@ -129,31 +152,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								maxWidth: '150px',
 								color: 'black',
 								margin: '0px 2px',
-								justifyContent: 'center',
-							}}>
-							Conference Handbook
-						</h2>
-					</div>
-					<div
-						style={{
-							width: '150px',
-							height: 'auto',
-						}}>
-						<img
-							src={handbook}
-							style={{
-								border: 'solid',
-								borderColor: 'black',
-								borderWidth: '2px',
 							}}
-						/>
-						<h2
-							style={{
-								maxWidth: '150px',
-								color: 'black',
-								margin: '0px 2px',
-								justifyContent: 'center',
-							}}>
+							className='text-center'>
 							Conference Handbook
 						</h2>
 					</div>
