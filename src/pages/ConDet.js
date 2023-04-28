@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
+import handbook from './confHandbook.jpeg';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
 	// Drop Down Functions
@@ -56,11 +57,26 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 
 			<div className={isMobile ? 'confMobile conf' : 'conf'}>
 				<h1 className='pageTitle'>Conference Details</h1>
-				<div className='grid-4 all-center' style={{margin: 'auto', width: '90%', placeItems: 'center', gridGap: '1rem'}}>
-					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
-					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
-					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
-					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
+				<div
+					className='grid-4 all-center'
+					style={{
+						margin: 'auto',
+						width: '90%',
+						placeItems: 'center',
+						gridGap: '1rem',
+					}}>
+					<div style={{ width: '50px', height: 'auto' }}>
+						<img src={handbook} />
+					</div>
+					<div style={{ width: '50px', height: 'auto' }}>
+						<img src={handbook} />
+					</div>
+					<div style={{ width: '50px', height: 'auto' }}>
+						<img src={handbook} />
+					</div>
+					<div style={{ width: '50px', height: 'auto' }}>
+						<img src={handbook} />
+					</div>
 				</div>
 				<div className='timeline'>
 					<h1 className='timeline-heading'>Timeline of important events</h1>
