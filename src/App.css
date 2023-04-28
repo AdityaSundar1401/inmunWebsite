@@ -804,6 +804,7 @@ table th {
 	vertical-align: center;
 	margin: auto;
 	padding: 10px 0px;
+	padding-bottom: 12px !important;
 }
 
 .dropDown hr {
@@ -860,7 +861,7 @@ table th {
 .letter-img2 {
 	object-fit: cover;
 	position: relative;
-	top: -900px;
+	top: -800px;
 	width: 350px;
 }
 
