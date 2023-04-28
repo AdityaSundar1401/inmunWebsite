@@ -56,7 +56,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 
 			<div className={isMobile ? 'confMobile conf' : 'conf'}>
 				<h1 className='pageTitle'>Conference Details</h1>
-				<div className='grid-4 all-center' style={{margin: 'auto', width: '90%', placeItems: 'center'}}>
+				<div className='grid-4 all-center' style={{margin: 'auto', width: '90%', placeItems: 'center', gridGap: '1rem'}}>
 					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
 					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
 					<div style={{width: '10px', height: '20px', backgroundColor: 'red'}} />
