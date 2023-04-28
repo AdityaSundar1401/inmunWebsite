@@ -47,7 +47,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 							28th-30th August, 2023
 						</h3>
 						<a
-							href='https://www.google.com'
+							href='https://docs.google.com/document/d/1-Dz9yCHD9I4gNmAS1EfVTVP9jOTfgw9oybFvjShPPrU/edit'
 							target='_blank'
 							className='register'>
 							Register Now!
