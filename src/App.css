@@ -1439,7 +1439,7 @@ ol {
 .historyINMUN-mobile p,
 ol {
 	position: relative;
-	margin-top: 100px;
+	margin-top: 30px;
 	width: 90%;
 	text-align: justify;
 	font-family: 'Dosis', sans-serif;
@@ -1500,7 +1500,7 @@ ol {
 
 .about-body-mobile p {
 	margin-left: 16px;
-	margin-top: 440px;
+	margin-top: 380px;
 	display: inline-block;
 	font-family: 'Dosis', sans-serif;
 	font-size: larger;
@@ -1519,7 +1519,7 @@ ol {
 .aboutUsImage-mobile {
 	width: 90%;
 	position: absolute;
-	top: 75px;
+	top: 50px;
 	right: 0px;
 	left: 0px;
 	margin: auto;
@@ -1529,7 +1529,7 @@ ol {
 	margin-top: -65px;
 	width: 90%;
 	position: absolute;
-	top: 2915px;
+	top: 2885px;
 	margin: auto;
 	left: 0px;
 	right: 0px;
