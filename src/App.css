@@ -1482,7 +1482,7 @@ ol {
 }
 
 .historyINMUN2-mobile {
-	margin-top: 70px;
+	margin-top: 30px;
 	padding-bottom: 100px;
 }
 
@@ -1518,6 +1518,10 @@ ol {
 
 .aboutUsImage-mobile {
 	width: 90%;
+	position: absolute;
+	top: 75px;
+	right: 0px;
+	left: 0px;
 	margin: auto;
 }
 
