@@ -65,17 +65,45 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						placeItems: 'center',
 						gridGap: '1rem',
 					}}>
-					<div style={{ width: '50px', height: 'auto' }}>
+					<div
+						style={{
+							width: '150px',
+							height: 'auto',
+							display: 'block',
+							whiteSpace: 'nowrap',
+						}}>
 						<img src={handbook} />
+						<h2>Conference Handbook</h2>
 					</div>
-					<div style={{ width: '50px', height: 'auto' }}>
+					<div
+						style={{
+							width: '150px',
+							height: 'auto',
+							display: 'block',
+							whiteSpace: 'nowrap',
+						}}>
 						<img src={handbook} />
+						<h2>Conference Handbook</h2>
 					</div>
-					<div style={{ width: '50px', height: 'auto' }}>
+					<div
+						style={{
+							width: '150px',
+							height: 'auto',
+							display: 'block',
+							whiteSpace: 'nowrap',
+						}}>
 						<img src={handbook} />
+						<h2>Conference Handbook</h2>
 					</div>
-					<div style={{ width: '50px', height: 'auto' }}>
+					<div
+						style={{
+							width: '150px',
+							height: 'auto',
+							display: 'block',
+							whiteSpace: 'nowrap',
+						}}>
 						<img src={handbook} />
+						<h2>Conference Handbook</h2>
 					</div>
 				</div>
 				<div className='timeline'>
