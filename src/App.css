@@ -907,7 +907,7 @@ table th {
 
 .slideShowMobile {
 	height: 350px !important;
-	width: auto !important;
+	width: 100% !important;
 }
 
 .slides {
@@ -936,7 +936,6 @@ table th {
 	height: 560px;
 	display: inline-block;
 	object-fit: cover;
-	width: 100%;
 }
 
 /* the dots  */
