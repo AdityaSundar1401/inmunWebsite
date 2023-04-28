@@ -817,7 +817,8 @@ table th {
 
 .dropDown a {
 	margin: auto;
-	padding: 0rem 0px;
+	padding-bottom: 12px;
+	padding-top: 12px;
 }
 
 .dropDown li:hover {
