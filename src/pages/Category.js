@@ -154,7 +154,6 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 								position: 'absolute',
 								objectFit: 'cover',
 								height: '100%',
-								zIndex: '-5',
 								opacity: '0.6',
 								margin: 'auto',
 							}}
