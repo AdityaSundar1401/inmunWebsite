@@ -56,20 +56,11 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 
 			<div className={isMobile ? 'confMobile conf' : 'conf'}>
 				<h1 className='pageTitle'>Conference Details</h1>
-				<p>
-					Dress code : Indian Formals for Parliamentary Committees, Western
-					Formals for MUN Committees (Girls: Formal shirt/top, trousers.
-					Comfortable shoes. (school shoes are fine) Boys: Formal
-					shirt/trousers. Blazer optional. Tie compulsory. Formal shoes (school
-					shoes are fine))
-				</p>
-				<p>Conference date : 28th to 30th August</p>
-				<p>
-					Venue : Inventure Academy, Whitefield, SH 35, Bengaluru Policy : Will
-					Update Later Fees : Will update later
-				</p>
-				<p>Bengaluru Policy : Will Update Later </p>
-				<p>Fees : Will update later</p>
+				<div className='grid-4'>
+					<div style={{width: '10px', height: '20px'}}>
+
+					</div>
+				</div>
 				<div className='timeline'>
 					<h1 className='timeline-heading'>Timeline of important events</h1>
 					<div className='timeline-body'>
