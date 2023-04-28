@@ -991,6 +991,10 @@ table th {
 	top: 110px;
 }
 
+.committee {
+	background-color: var(--primary-color);
+}
+
 .overlay-category {
 	transition: 0.5s ease;
 	background-color: #000b3a;
