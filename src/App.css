@@ -987,11 +987,13 @@ table th {
 
 .category-div {
 	height: 100vh;
-	position: relative;
-	top: 110px;
+	z-index: 5;
 }
 
 .committee {
+	position: relative;
+	top: 110px;
+	height: 100vh;
 	background-color: var(--primary-color);
 }
 
@@ -1002,7 +1004,7 @@ table th {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	z-index: -1;
+	z-index: 1;
 	top: 0%;
 	left: 0%;
 }
