@@ -721,7 +721,7 @@ table th {
 	position: absolute;
 	width: 350px;
 	right: 0%;
-	top: 11%;
+	top: 15%;
 }
 
 .letter-img-mobile {
@@ -801,6 +801,7 @@ table th {
 	max-height: 39.67px;
 	width: 100%;
 	white-space: nowrap;
+	vertical-align: center;
 	margin: auto;
 	padding: 10px 0px;
 }
@@ -859,7 +860,7 @@ table th {
 .letter-img2 {
 	object-fit: cover;
 	position: relative;
-	top: -1020px;
+	top: -900px;
 	width: 350px;
 }
 
