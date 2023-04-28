@@ -993,7 +993,7 @@ table th {
 }
 
 .committee {
-	margin-top: 110px;
+	margin-top: 100px;
 	height: 100vh;
 	background-color: var(--primary-color);
 }
@@ -1018,6 +1018,7 @@ table th {
 	position: relative;
 	text-align: center;
 	top: 150px;
+	z-index: 10;
 	color: white;
 }
 
