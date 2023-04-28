@@ -73,7 +73,14 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
-						<h2>Conference Handbook</h2>
+						<h2
+							style={{
+								maxWidth: '150px',
+								whiteSpace: 'normal',
+								color: 'black',
+							}}>
+							Conference Handbook
+						</h2>
 					</div>
 					<div
 						style={{
@@ -83,7 +90,14 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
-						<h2>Conference Handbook</h2>
+						<h2
+							style={{
+								maxWidth: '150px',
+								whiteSpace: 'normal',
+								color: 'black',
+							}}>
+							Conference Handbook
+						</h2>
 					</div>
 					<div
 						style={{
@@ -93,7 +107,14 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
-						<h2>Conference Handbook</h2>
+						<h2
+							style={{
+								maxWidth: '150px',
+								whiteSpace: 'normal',
+								color: 'black',
+							}}>
+							Conference Handbook
+						</h2>
 					</div>
 					<div
 						style={{
@@ -103,7 +124,14 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							whiteSpace: 'nowrap',
 						}}>
 						<img src={handbook} />
-						<h2>Conference Handbook</h2>
+						<h2
+							style={{
+								maxWidth: '150px',
+								whiteSpace: 'normal',
+								color: 'black',
+							}}>
+							Conference Handbook
+						</h2>
 					</div>
 				</div>
 				<div className='timeline'>
