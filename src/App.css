@@ -364,7 +364,7 @@ table th {
 /* Navbar */
 .navbar {
 	background-color: rgba(255, 133, 0, 0.6);
-	z-index: 5;
+	z-index: 50;
 	height: 100px;
 	padding: 0rem 2rem;
 	position: absolute;
@@ -1017,7 +1017,8 @@ table th {
 .category-div h1 {
 	position: relative;
 	text-align: center;
-	top: 150px;
+	top: 100px;
+	font-size: 80px;
 	z-index: 10;
 	color: white;
 }
