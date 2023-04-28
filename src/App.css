@@ -986,7 +986,7 @@ table th {
 /* Committee Category Page */
 
 .category-div {
-	height: 1100px;
+	height: 100hv;
 	position: relative;
 	top: 110px;
 }
