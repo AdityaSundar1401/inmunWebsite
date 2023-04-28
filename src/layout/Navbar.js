@@ -58,9 +58,6 @@ const Navbar = ({ dropDown, drop, height, name, classname, show }) => {
 							<a href='/executive-board'>Executive Board</a>
 						</li>
 						<li>
-							<a href='/resources'>Resources</a>
-						</li>
-						<li>
 							<a href='https://forms.gle/P4GTFMBo2qVGtdAF6'>Register</a>
 						</li>
 						<li>
@@ -103,7 +100,7 @@ const Navbar = ({ dropDown, drop, height, name, classname, show }) => {
 						</div>
 						<a href='/conference-details'>Conference Details</a>
 						<a href='/executive-board'>Executive Board</a>
-						<a href='resources'>Resources</a>
+
 						<a href='https://forms.gle/P4GTFMBo2qVGtdAF6' target='_blank'>Register</a>
 						<a href='about-us'>About Us</a>
 					</div>
