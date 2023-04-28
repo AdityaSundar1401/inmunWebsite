@@ -75,6 +75,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							style={{
 								maxWidth: '150px',
 								color: 'black',
+								margin: '0px 2px',
 							}}>
 							Conference Handbook
 						</h2>
@@ -89,6 +90,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							style={{
 								maxWidth: '150px',
 								color: 'black',
+								margin: '0px 2px',
 							}}>
 							Conference Handbook
 						</h2>
@@ -103,6 +105,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							style={{
 								maxWidth: '150px',
 								color: 'black',
+								margin: '0px 2px',
 							}}>
 							Conference Handbook
 						</h2>
@@ -117,6 +120,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							style={{
 								maxWidth: '150px',
 								color: 'black',
+								margin: '0px 2px',
 							}}>
 							Conference Handbook
 						</h2>
