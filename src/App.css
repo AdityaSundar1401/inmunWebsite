@@ -1518,9 +1518,7 @@ ol {
 
 .aboutUsImage-mobile {
 	width: 90%;
-	position: absolute;
-	top: 20px;
-	right: 0px;
+	margin: auto;
 }
 
 .aboutUsImage2-mobile {
@@ -1528,6 +1526,8 @@ ol {
 	width: 90%;
 	position: absolute;
 	top: 2915px;
+	margin: auto;
+	left: 0px;
 	right: 0px;
 }
 
