@@ -584,9 +584,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 								<div
-									className={`grid-${comm.ads.length} all-center directorBox`}>
+									className={`grid-${comm.ads.length} all-center directorBox`} style={{alignItems: 'start', margin: 'auto'}}>
 									{comm.ads.map((ad, ind) => (
-										<div key={ind}>
+										<div key={ind} style={{margin: '0px auto'}}>
 											<img
 												src={ad.image}
 												className='directorImage'
