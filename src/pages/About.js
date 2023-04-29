@@ -82,7 +82,7 @@ const About = ({ dropDown, drop, height, name }) => {
 							/>
 						</div>
 					</div>
-					<h1>About Inventure Academy</h1>
+					<h1 style={{ marginTop: '50px' }}>About Inventure Academy</h1>
 					<div className='about-body'>
 						<div
 							className='container'
@@ -162,7 +162,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<div style={{ position: 'relative', top: '1530px' }}>
+				<div style={{ position: 'relative', top: '10px' }}>
 					<Footer />
 				</div>
 			</div>
