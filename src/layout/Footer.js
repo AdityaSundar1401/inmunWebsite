@@ -18,7 +18,11 @@ const Footer = () => {
 			<Fragment>
 				<div style={footStyle}>
 					<br />
-					
+					<img
+						style={imgStyle}
+						src={inv}
+						alt=''
+					/>
 					<div style={addressStyle}>
 						<div style={{ maxWidth: '100%' }}>
 							<p>Inventure Academy, Whitefield</p>
@@ -100,11 +104,7 @@ const Footer = () => {
 			<Fragment>
 				<div style={mobileFootStyle}>
 					<br />
-					<img
-						style={mobileImgStyle}
-						src={inv}
-						alt=''
-					/>
+					
 					<div style={mobileAddressStyle}>
 						<p>Inventure Academy, Whitefield</p>
 						<p>SH 35, Near Dommasandra Circle,</p>
