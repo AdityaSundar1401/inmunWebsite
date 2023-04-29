@@ -171,7 +171,6 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					<br />
 
 					<div
-
 						style={{ position: 'relative' }}
 						className='comm-div'>
 						<div className='overlay-comm' />
@@ -199,9 +198,11 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 											src={director.image}
 											className='directorImage'
 										/>
-										<h1 style={{color: 'white'}}>{director.name}</h1>
+										<h1 style={{ color: 'white' }}>{director.name}</h1>
 										<h3>{director.post}</h3>
-										<p style={{ maxWidth: '90%', color: 'white' }}>{director.des}</p>
+										<p style={{ maxWidth: '90%', color: 'white' }}>
+											{director.des}
+										</p>
 									</div>
 								))}
 							</div>
@@ -212,7 +213,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 											src={ad.image}
 											className='directorImage'
 										/>
-										<h1 style={{color: 'white'}}>{ad.name}</h1>
+										<h1 style={{ color: 'white' }}>{ad.name}</h1>
 										<h3 style={{ color: 'white' }}>Assistant Director</h3>
 										<p style={{ maxWidth: '90%', color: 'white' }}>{ad.des}</p>
 									</div>
@@ -232,7 +233,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<Footer />
+				<div style={{ marginTop: '100px' }}>
+					<Footer />
+				</div>
 			</Fragment>
 		);
 	} else {
