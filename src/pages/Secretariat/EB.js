@@ -570,7 +570,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									<h6>Agenda: {comm.agenda}</h6>
 								</div>
 								<div
-									className={`grid-${comm.directors.length} all-center directorBox`} style={{alignItems: 'start', verticalAlign: 'top'}}>
+									className={`grid-${comm.directors.length} all-center directorBox`} style={{verticalAlign: 'top'}}>
 									{comm.directors.map((director, idx) => (
 										<div key={idx} >
 											<img
