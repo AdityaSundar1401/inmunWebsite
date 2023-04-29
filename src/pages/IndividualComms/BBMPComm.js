@@ -235,137 +235,138 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				<Footer />
 			</Fragment>
 		);
-	}
-	return (
-		<Fragment>
-			<Navbar
-				dropDown={Down}
-				drop={drop}
-				height={heightfunc}
-				name={namefunc}
-				classname='navbarpage'
-				show={show}
-			/>{' '}
-			<div style={{ position: 'relative', top: '120px' }}>
-				<div style={{ backgroundColor: 'white' }}>
+	} else {
+		return (
+			<Fragment>
+				<Navbar
+					dropDown={Down}
+					drop={drop}
+					height={heightfunc}
+					name={namefunc}
+					classname='navbarpage'
+					show={show}
+				/>{' '}
+				<div style={{ position: 'relative', top: '120px' }}>
+					<div style={{ backgroundColor: 'white' }}>
+						<div
+							className='container text-center '
+							style={p1}>
+							<img
+								className='img round-img stylea center'
+								src={comm.icon}
+								alt='Alt...'></img>
+							<div className='large text-center headfont'>{comm.commName}</div>
+							<h1
+								className='headfont'
+								style={{ fontWeight: 'normal', fontSize: '30px' }}>
+								{comm.agenda}
+							</h1>
+							<br />
+							<h2
+								className='generalfont2'
+								style={mainbody}>
+								{comm.commDesc}
+							</h2>
+							<div
+								style={{
+									margin: 'auto',
+									marginTop: '30px',
+								}}>
+								<div
+									className='btn btn-primary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Background Guide</h3>
+									</a>
+								</div>
+								<div
+									className='btn btn-secondary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Country Matrix</h3>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+
 					<div
-						className='container text-center '
-						style={p1}>
+						style={{ position: 'relative' }}
+						className='comm-div'>
+						<div className='overlay-comm' />
 						<img
-							className='img round-img stylea center'
-							src={comm.icon}
-							alt='Alt...'></img>
-						<div className='large text-center headfont'>{comm.commName}</div>
-						<h1
-							className='headfont'
-							style={{ fontWeight: 'normal', fontSize: '30px' }}>
-							{comm.agenda}
-						</h1>
-						<br />
-						<h2
-							className='generalfont2'
-							style={mainbody}>
-							{comm.commDesc}
-						</h2>
-						<div
+							src={comm.background}
+							alt='not working lmao'
 							style={{
+								position: 'absolute',
+								height: '100%',
+								zIndex: '-5',
+								opacity: '0.3',
 								margin: 'auto',
-								marginTop: '30px',
-							}}>
-							<div
-								className='btn btn-primary '
-								style={{
-									width: '200px',
-									height: '50px',
-									borderRadius: '20px',
-								}}>
-								<a>
-									<h3>Background Guide</h3>
-								</a>
+							}}
+						/>
+						<div style={{ zIndex: '100', positve: 'relative' }}>
+							<div className='eb-title'>
+								<h1>Executive Board</h1>
 							</div>
 							<div
-								className='btn btn-secondary '
-								style={{
-									width: '200px',
-									height: '50px',
-									borderRadius: '20px',
-								}}>
-								<a>
-									<h3>Country Matrix</h3>
-								</a>
+								className={`grid-${comm.directors.length} all-center directorBox`}
+								style={{ gridGap: '3rem' }}>
+								{comm.directors.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ color: 'white' }}>{director.des}</p>
+									</div>
+								))}
+							</div>
+							<div
+								className={`grid-${comm.ads.length} all-center directorBox`}
+								style={{ gridGap: '3rem' }}>
+								{comm.ads.map((ad, ind) => (
+									<div key={ind}>
+										<img
+											src={ad.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{ad.name}</h1>
+										<h3 style={{ color: 'white' }}>Assistant Director</h3>
+										<p style={{ color: 'white' }}>{ad.des}</p>
+									</div>
+								))}
 							</div>
 						</div>
 					</div>
-				</div>
-				<br />
-				<br />
 
-				<div
-					style={{ position: 'relative' }}
-					className='comm-div'>
-					<div className='overlay-comm' />
-					<img
-						src={comm.background}
-						alt='not working lmao'
-						style={{
-							position: 'absolute',
-							height: '100%',
-							zIndex: '-5',
-							opacity: '0.3',
-							margin: 'auto',
-						}}
-					/>
-					<div style={{ zIndex: '100', positve: 'relative' }}>
-						<div className='eb-title'>
-							<h1>Executive Board</h1>
-						</div>
+					<div style={p3}>
 						<div
-							className={`grid-${comm.directors.length} all-center directorBox`}
-							style={{ gridGap: '3rem' }}>
-							{comm.directors.map((director, idx) => (
-								<div key={idx}>
-									<img
-										src={director.image}
-										className='directorImage'
-									/>
-									<h1 style={{ color: 'white' }}>{director.name}</h1>
-									<h3>{director.post}</h3>
-									<p style={{ color: 'white' }}>{director.des}</p>
-								</div>
-							))}
-						</div>
-						<div
-							className={`grid-${comm.ads.length} all-center directorBox`}
-							style={{ gridGap: '3rem' }}>
-							{comm.ads.map((ad, ind) => (
-								<div key={ind}>
-									<img
-										src={ad.image}
-										className='directorImage'
-									/>
-									<h1 style={{ color: 'white' }}>{ad.name}</h1>
-									<h3 style={{ color: 'white' }}>Assistant Director</h3>
-									<p style={{ color: 'white' }}>{ad.des}</p>
-								</div>
-							))}
+							className='container text-center'
+							style={{ backgroundColor: 'white' }}>
+							<br />
+							<br />
+							<br />
+							<br />
 						</div>
 					</div>
 				</div>
-
-				<div style={p3}>
-					<div
-						className='container text-center'
-						style={{ backgroundColor: 'white' }}>
-						<br />
-						<br />
-						<br />
-						<br />
-					</div>
-				</div>
-			</div>
-			<Footer />
-		</Fragment>
-	);
+				<Footer />
+			</Fragment>
+		);
+	}
 };
 
 const p1 = {
