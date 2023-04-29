@@ -18,11 +18,7 @@ const Footer = () => {
 			<Fragment>
 				<div style={footStyle}>
 					<br />
-					<img
-						style={imgStyle}
-						src={inv}
-						alt=''
-					/>
+					
 					<div style={addressStyle}>
 						<div style={{ maxWidth: '100%' }}>
 							<p>Inventure Academy, Whitefield</p>
