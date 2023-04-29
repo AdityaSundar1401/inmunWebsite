@@ -81,36 +81,36 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		agenda: 'World War II',
 		background: wwii,
 		commDesc:
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+			'The world was on the brink of destruction. Growing tensions between the major world powers erupted into a conflict, now known as world war ii. From the battlefields of Europe to the jungles of SouthAfrica, this war engulfed the entire world. Lives were lost, cities were levelled, and the very fabric of human civilization and society was threatened. But amid the chaos arose stories of heroism and bravery. Ordinary men and women rising to the call of action and defending their lands and beliefs. Are you willing to help them, and end this war peacefully, or do you believe in honour by martyrdom? This committee will pit you against the enemy, whose movements remain a mystery until its too late. Delegates will need to push their diplomatic and strategic skills to a whole new level in order to one up the other side.',
 		directors: [
 			{
 				name: 'Aditya Sundar',
-				image: adi,
+				image: ali,
 				post: 'Director of the Allies',
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as your co-director for UNICEF. After participating in many MUNS, mainly in the Bangalore circuit, I can confidently say I have learnt many things ranging from documentation to a balance between dominance and diplomacy in unmods. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 			},
 			{
 				name: 'Johann Ulatill',
-				image: vivin,
+				image: ali,
 				post: 'Crisis Director',
-				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
+				des: "I fell in love with MUNing three years ago after my first MUN and I haven't stopped since. I love a fast-paced committee and hope that my delegates can give me one ;). Other than MUN I love other forms of debate and even have been looking to get into mooting for a while now. I'm studying to hopefully be a law student someday because I fell in love with the field. I hope to have an amazing time with you all at this committee and hope you all have a great time as delegates as I have in the past INMUN's.",
 			},
 			{
 				name: 'Vivin Anand',
-				image: vivin,
+				image: ali,
 				post: 'Director of the Axis',
-				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
+				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
 			},
 		],
 		ads: [
 			{
 				name: 'Sudyotman Sudershan',
-				image: sud,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				image: ali,
+				des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for 4 years, but always as a delegate. While this is my first time on the executive board, there is quite a lot I expect from each of you in committee. I am looking forward to seeing how you will work together to reach consensus even during situations of intense pressure and I hope to see great success in our committee. Hope to see you all in the AIPPM. Peace and cheers.',
 			},
 			{
 				name: 'Ashutosh Barman',
-				image: barman,
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
@@ -150,7 +150,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						<div
 							style={{
 								margin: 'auto',
-							        marginTop: '30px'
+								marginTop: '30px',
 							}}>
 							<div
 								className='btn btn-primary '
@@ -377,3 +377,4 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
+
