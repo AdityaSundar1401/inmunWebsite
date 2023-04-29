@@ -4,14 +4,14 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
 import abhi from './Images/abhi.jpg';
-import omu from './Images/omu.jpeg';
+import omu from '../../om.jpeg';
 import adi from './Images/adi.jpeg';
 import ullu from './Images/ullu.jpeg';
 import vivin from './Images/vivin.png';
 import aashna from './Images/aashna.jpeg';
 import narayan from './Images/narayan.jpeg';
 import tommy from './Images/tommy.jpeg';
-import samu from './Images/samu.jpeg';
+import chari from './Images/chari.jpeg';
 import arnav from './Images/arnav.webp';
 import dafoe from './Images/dafoe.webp';
 import ameya from './Images/ameya.jpeg';
@@ -211,7 +211,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Gautam Chari',
-					image: samu,
+					image: chari,
 					post: 'Prime Minister',
 					des: 'Hi delegates, I am Gautam and am a student from grade 11 AS. It is my distinct honour to serve as the director of the Rajya Sabha this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!',
 				},
@@ -334,7 +334,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							style={{ marginBottom: '50px' }}>
 							<img
 								className='usg-pic'
-								src={samu}
+								src={chari}
 								alt=''
 							/>
 							<h1>Gautam Chari</h1>
@@ -479,7 +479,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								style={{ marginBottom: '50px' }}>
 								<img
 									className='usg-pic'
-									src={samu}
+									src={chari}
 									alt=''
 								/>
 								<h1>Gautam Chari</h1>
