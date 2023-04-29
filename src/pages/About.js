@@ -415,7 +415,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<div style={{ position: 'relative', top: '1100px' }}>
+				<div style={{ position: 'relative', top: '4500px' }}>
 					<Footer />
 				</div>
 			</div>
