@@ -73,6 +73,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 									<img
 										src={om}
 										alt=''
+										style={{ width: '100%' }}
 									/>
 									<div className='overlay text-center'>
 										<h2 className='OM'>
@@ -159,7 +160,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 				</div>
 				<div
 					className='letter-secgen mobileDiv dgBG'
-					style={{ marginTop: '0px' }}>
+					style={{ marginTop: '-135px' }}>
 					<div className='container container-letter'>
 						<div className='letter-text mobile'>
 							<h1
@@ -175,6 +176,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 									target='_blank'>
 									<img
 										src={chari}
+										style={{ width: '100%' }}
 										alt=''
 									/>
 									<div className='overlay text-center'>
@@ -265,6 +267,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 				<div>
 					<Gallery />
 				</div>
+				<Footer />
 			</div>
 		);
 	} else {
@@ -372,7 +375,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 										style={{ width: '350px', marginTop: '10px' }}>
 										<img
 											src={om}
-											style={{ width: '350px' }}
+											style={{ width: '400px' }}
 											alt=''
 										/>
 										<div className='overlay text-center'>
@@ -385,7 +388,7 @@ const Home = ({ dropDown, drop, height, name }) => {
 										<hr
 											style={{
 												marginTop: '10px',
-												width: '350px',
+												width: '400px',
 												backgroundColor: 'blue',
 											}}
 										/>
@@ -474,7 +477,11 @@ const Home = ({ dropDown, drop, height, name }) => {
 									style={{ width: '350px', marginTop: '10px' }}>
 									<img
 										src={chari}
-										style={{ width: '350px' }}
+										style={{
+											width: '350px',
+											height: '290px',
+											objectFit: 'cover',
+										}}
 										alt=''
 									/>
 									<div className='overlay2 text-center'>
