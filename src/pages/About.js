@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
 import pic from './aboutUsBg.jpeg';
+import pic2 from './invcampus.jpeg';
 import { isMobile } from 'react-device-detect';
 
 const About = ({ dropDown, drop, height, name }) => {
@@ -216,7 +217,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								</p>
 							</div>
 							<img
-								src={pic}
+								src={pic2}
 								className='aboutUsImage'
 							/>
 						</div>
@@ -351,7 +352,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 					<img
-						src={pic}
+						src={pic2}
 						className='aboutUsImage2-mobile'
 					/>
 					<div className='historyINMUN-mobile container'>
