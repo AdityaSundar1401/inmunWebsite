@@ -572,7 +572,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								<div
 									className={`grid-${comm.directors.length} all-center directorBox`} style={{alignItems: 'start', margin: 'auto'}}>
 									{comm.directors.map((director, idx) => (
-										<div key={idx} >
+										<div key={idx} style={{margin: 'auto'}}>
 											<img
 												src={director.image}
 												className='directorImage'
