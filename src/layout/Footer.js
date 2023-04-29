@@ -31,15 +31,15 @@ const Footer = () => {
 							<p>Karnataka 562125</p>
 						</div>
 						<div style={{ maxWidth: '100%' }}>
-							<b>MUN Coordinators</b>
-							<p>Aparajita Bannerjee</p>
+							<b>MUN Coordinator</b>
+							<p>Aparajita Bannerjee:</p>
 							<p>aparajita@inventureacademy.com</p>
 						</div>
 						<div style={{ maxWidth: '100%' }}>
 							<b>Secretariat</b>
-							<p>Om Mehta</p>
+							<p>Om Mehta:</p>
 							<p>omrsmehta@gmail.com</p>
-							<p>Gautam Chari</p>
+							<p>Gautam Chari:</p>
 							<p>gautamchari2005@gmail.com</p>
 						</div>
 					</div>
@@ -117,14 +117,14 @@ const Footer = () => {
 					</div>
 					<div style={mobileContactStyle}>
 						<b>MUN Coordinator</b>
-						<p>Aparajita Bannerjee</p>
+						<p>Aparajita Bannerjee:</p>
 						<p>aparajita@inventureacademy.com</p>
 					</div>
 					<div style={mobileOtherStyle}>
 						<b>Secretariat</b>
-						<p>Om Mehta</p>
+						<p>Om Mehta:</p>
 						<p>omrsmehta@gmail.com</p>
-						<p>Gautam Chari</p>
+						<p>Gautam Chari:</p>
 						<p>gautamchari2005@gmail.com</p>
 					</div>
 					<ul
