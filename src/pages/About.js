@@ -86,7 +86,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						<h1
 							style={{
 								color: 'white',
-								marginTop: '50px',
+								marginTop: '100px',
 								fontSize: '40px',
 							}}>
 							What is INMUN
@@ -162,7 +162,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<div style={{ position: 'relative', top: '400px' }}>
+				<div style={{ position: 'relative', top: '500px' }}>
 					<Footer />
 				</div>
 			</div>
