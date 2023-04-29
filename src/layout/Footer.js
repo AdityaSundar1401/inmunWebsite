@@ -228,7 +228,7 @@ const imgStyle = {
 const socialsStyle = {
 	position: 'relative',
 	left: '0%',
-	top: '-129%',
+	top: '-120%',
 };
 
 const addressStyle = {
