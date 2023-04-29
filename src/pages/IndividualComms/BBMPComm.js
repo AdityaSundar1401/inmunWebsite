@@ -171,7 +171,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					<br />
 
 					<div
-						key={index}
+
 						style={{ position: 'relative' }}
 						className='comm-div'>
 						<div className='overlay-comm' />
