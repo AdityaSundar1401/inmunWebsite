@@ -774,10 +774,10 @@ table th {
 	font-family: 'Cormorant Garamond', serif;
 	background: black;
 	position: absolute;
-	width: 350px;
+	width: 400px;
 	text-align: center;
 	margin: 0px 0px;
-	top: 70%;
+	top: 65%;
 }
 
 .dropDown {
@@ -890,7 +890,7 @@ table th {
 	width: 350px;
 	text-align: center;
 	margin: 0px;
-	top: 70%;
+	top: 60%;
 }
 
 /* for gallery */
