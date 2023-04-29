@@ -104,7 +104,11 @@ const Footer = () => {
 			<Fragment>
 				<div style={mobileFootStyle}>
 					<br />
-					
+					<img
+						style={mobileImgStyle}
+						src={inv}
+						alt=''
+					/>
 					<div style={mobileAddressStyle}>
 						<p>Inventure Academy, Whitefield</p>
 						<p>SH 35, Near Dommasandra Circle,</p>
