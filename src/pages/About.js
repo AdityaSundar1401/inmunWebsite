@@ -143,19 +143,23 @@ const About = ({ dropDown, drop, height, name }) => {
 								give learners a rounded learning experience to jump headlong
 								into the real world. Inventure deems it necessary for there to
 								be an everyday focus on life skills that will give children an
-								edge in the complex world of the 21st century. While we nurture
-								the distinct identity of each child, we also foster a sense of
-								belonging where everyone learns to work and play together.
-								Inventure is guided by a set of Core Values that translate into
-								tangible and measurable school practices. Inventure’s Core
-								Purpose is to teach students how to “be socially responsible”
-								and be the drivers of positive change in society. Diligent
-								efforts in achieving this purpose has led to Inventure winning
-								the ‘Most Innovative Practice’ award by Tata Communications and
-								Parikrma Foundation for our Changemaker Program in 2018. INMUN
-								pillar’s embody the characteristics we hope to imbue in our
-								participants. “Leadership”, “Diplomacy”, “Dialogue”,
-								“Communication” and “Problem-solving”
+								edge in the complex world of the 21st century.
+							</p>
+							<br />
+
+							<p>
+								While we nurture the distinct identity of each child, we also
+								foster a sense of belonging where everyone learns to work and
+								play together. Inventure is guided by a set of Core Values that
+								translate into tangible and measurable school practices.
+								Inventure’s Core Purpose is to teach students how to “be
+								socially responsible” and be the drivers of positive change in
+								society. Diligent efforts in achieving this purpose has led to
+								Inventure winning the ‘Most Innovative Practice’ award by Tata
+								Communications and Parikrma Foundation for our Changemaker
+								Program in 2018. INMUN pillar’s embody the characteristics we
+								hope to imbue in our participants. “Leadership”, “Diplomacy”,
+								“Dialogue”, “Communication” and “Problem-solving”
 							</p>
 							<img
 								src={pic}
