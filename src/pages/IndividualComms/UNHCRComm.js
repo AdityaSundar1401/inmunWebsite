@@ -81,24 +81,24 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		icon: unhcr,
 		background: refugees,
 		commDesc:
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+			'Scattered helplessly and in disarray around the globe, millions of refugees are susceptible to discrimination, inequities in healthcare & education, and countless other threats. As one of the world’s principal humanitarian agencies, the Office of the United Nations High Commissioner for Refugees coordinates international action to provide protection and humanitarian assistance to refugees. This committee will be participating in the UNHCR Refugee Challenge, with an emphasis on refugee access to jobs & financial services. Weeks, months, years and decades have gone by. The clock is ticking- the time for action is now! As a delegate in this committee, you have the ability to put an end to the desperate circumstances that have colossally wrecked the lives of innumerable refugees! Change the future, by collaboratively creating sustainable, scalable and feasible solutions.',
 		directors: [
 			{
 				name: 'Aditya Narayan',
 				image: narayan,
 				post: 'Chairperson',
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				des: 'Greetings delegate, I’m Aditya Narayan from Grade 10 and I’ll be serving as your assistant director for the AIPPM. I only started MUNning a couple of years ago, but have made extravagant strides since. From winning at HMUN to international MUNs, I’ve experienced it all. In my free time I like to binge-watch sitcoms, play football and love to read science-fiction. I look forward to interacting with everyone soon! May the force be with you!',
 			},
 		],
 		ads: [
 			{
-				name: 'Ananya Jain',
-				image: ananya,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				name: 'Siddhanth Saravanan',
+				image: ali,
+				des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 			},
 			{
-				name: 'Tom Thomas',
-				image: tommy,
+				name: 'Coming soon...',
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
@@ -139,7 +139,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 							style={{
 								margin: 'auto',
 
-							        marginTop: '30px'
+								marginTop: '30px',
 							}}>
 							<div
 								className='btn btn-primary '
@@ -366,3 +366,4 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
+
