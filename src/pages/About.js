@@ -148,7 +148,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								edge in the complex world of the 21st century.
 							</p>
 							<br />
-							<p>
+							<p style={{ marginTop: '30px' }}>
 								While we nurture the distinct identity of each child, we also
 								foster a sense of belonging where everyone learns to work and
 								play together. Inventure is guided by a set of Core Values that
@@ -163,7 +163,9 @@ const About = ({ dropDown, drop, height, name }) => {
 								“Dialogue”, “Communication” and “Problem-solving”
 							</p>
 							<br />
-							<div className='historyINMUN2'>
+							<div
+								className='historyINMUN2'
+								style={{ marginTop: '50px' }}>
 								<p>
 									Inventure’s Core Purpose is to teach students how to “be
 									socially responsible” and be the drivers of positive change in
