@@ -82,7 +82,9 @@ const About = ({ dropDown, drop, height, name }) => {
 							/>
 						</div>
 					</div>
-					<div className='whatINMUNdiv'>
+					<div
+						className='whatINMUNdiv'
+						style={{ marginTop: '50px' }}>
 						<h1
 							style={{
 								color: 'white',
