@@ -35,21 +35,21 @@ import { isMobile } from 'react-device-detect';
 const Sec = ({ dropDown, drop, height, name }) => {
 	const usgs = [
 		{
-			post: 'Entertainement',
+			post: 'Entertainment',
 			names: ['Abhinav Vallur', 'Vivin Anand'],
-			imgs: [abhi, vivin],
+			imgs: [ali, ali],
 		},
 		{
 			post: 'Communication',
 			names: ['Aditya Sundar', 'Johann Ullatil (IHOP)'],
-			imgs: [adi, ullu],
+			imgs: [ali, ali],
 		},
 	];
 
 	const finance = {
 		post: 'Finance',
 		names: ['Aditya Narayan', 'Aashna Kumar'],
-		imgs: [narayan, aashna],
+		imgs: [narayan, ali],
 	};
 
 	const commsEb = [
@@ -62,18 +62,18 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Aditya Narayan',
 					image: narayan,
 					post: 'Chairperson',
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: 'Greetings delegate, I’m Aditya Narayan from Grade 10 and I’ll be serving as your assistant director for the AIPPM. I only started MUNning a couple of years ago, but have made extravagant strides since. From winning at HMUN to international MUNs, I’ve experienced it all. In my free time I like to binge-watch sitcoms, play football and love to read science-fiction. I look forward to interacting with everyone soon! May the force be with you!',
 				},
 			],
 			ads: [
 				{
-					name: 'Ananya Jain',
-					image: ananya,
+					name: 'Siddhanth Saravanan',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 				{
-					name: 'Tom Thomas',
-					image: tommy,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -94,12 +94,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Ananya Jain',
-					image: ananya,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					image: ali,
+					des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 				},
 				{
-					name: 'Tom Thomas',
-					image: tommy,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -111,7 +111,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Aashna Kumar',
-					image: aashna,
+					image: ali,
 					post: 'Chairperson',
 					des: 'My name Is Aashna Kumar and it is my absolute honour to be your Director for INYP’s Civil Society this year. MUNning has been a central part of my high school life. I’ve bagged placements at HMUN, DSMUN, CJCMUN etc. have even had the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INYP this year! A bit about myself: I absolutely love playing the piano, becoming friends with every dog I see, reading books, and bingeing every possible show on Netflix! I hope to see you guys in October, and I’m so excited to hear your views and ideas!',
 				},
@@ -119,12 +119,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Abhimanyu Balagopal',
-					image: abbay,
+					image: ali,
 					des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
 				},
 				{
-					name: 'Tom Thomas',
-					image: tommy,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -135,21 +135,21 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			background: bangalore,
 			directors: [
 				{
-					name: 'Prady',
-					image: ameya,
+					name: 'Coming soon...',
+					image: ali,
 					post: 'Chairperson',
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
 			ads: [
 				{
-					name: 'Lasya Verma',
-					image: lasya,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					name: 'Hari Sai Harish',
+					image: ali,
+					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
 				},
 				{
-					name: 'Tom Thomas',
-					image: tommy,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -161,7 +161,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Ameya Mundkur',
-					image: ameya,
+					image: ali,
 					post: 'Chairperson',
 					des: 'Hi delegates! I’m Ameya Mundkur. Music is one of my biggest passions, I love animals. I also enjoy talking to people. I can have the most random conversations ranging from 60’s rock bands and Harry Styles to issues around the world to how Phil from Modern Family is the wisest character. I never really enjoyed debates, but as soon as I started MUNing, my opinion on that completely changed. I’ve been MUNing for 2 years now, it’s been one of the most life changing, educational and incredibly fun experiences I’ve had. I’m super excited to see unique, divergent views lined with interesting debates to get the most inclusive, holistic and productive outcome in committee.',
 				},
@@ -169,12 +169,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Lasya Verma',
-					image: lasya,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					image: ali,
+					des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce',
 				},
 				{
-					name: 'Tom Thomas',
-					image: tommy,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -186,20 +186,20 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Abhinav Vallur',
-					image: abhi,
+					image: ali,
 					post: 'Chairperson',
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: 'Greeting delegates, this is Abhinav Vallur from 11AS and I will be serving as your co-director for UNICEF this year. I first took up MUN in 8th grade, and over the last few years my interest and involvement with MUN and debate has grown rapidly, which has fetched me awards in various reputable MUNs such as Harvard MUN and DSMUN to name a few. Along the way, I’ve picked up a myriad of skills, which have helped me in my other hobbies such as sprinting and music. When I’m not on the track or preparing for my next MUN, I will probably be rewatching Star Wars or some other iconic movie. And with that in mind, May the Force be with you.',
 				},
 			],
 			ads: [
 				{
-					name: 'Hari Sai Harish',
-					image: hari,
-					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
+					name: 'Coming soon...',
+					image: ali,
+					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 				{
-					name: 'Tom Thomas',
-					image: tommy,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -219,12 +219,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Arnav Agarwal',
-					image: arnav,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 				{
-					name: 'Willem Dafoe',
-					image: dafoe,
+					name: 'Coming soon...',
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -236,32 +236,32 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Aditya Sundar',
-					image: adi,
+					image: ali,
 					post: 'Director of the Allies',
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as your co-director for UNICEF. After participating in many MUNS, mainly in the Bangalore circuit, I can confidently say I have learnt many things ranging from documentation to a balance between dominance and diplomacy in unmods. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 				},
 				{
 					name: 'Johann Ulatill',
-					image: vivin,
+					image: ali,
 					post: 'Crisis Director',
 					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
 				},
 				{
 					name: 'Vivin Anand',
-					image: vivin,
+					image: ali,
 					post: 'Director of the Axis',
-					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
+					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
 				},
 			],
 			ads: [
 				{
 					name: 'Sudyotman Sudershan',
-					image: sud,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					image: ali,
+					des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for 4 years, but always as a delegate. While this is my first time on the executive board, there is quite a lot I expect from each of you in committee. I am looking forward to seeing how you will work together to reach consensus even during situations of intense pressure and I hope to see great success in our committee. Hope to see you all in the AIPPM. Peace and cheers.',
 				},
 				{
 					name: 'Ashutosh Barman',
-					image: barman,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
