@@ -82,43 +82,6 @@ const About = ({ dropDown, drop, height, name }) => {
 							/>
 						</div>
 					</div>
-					<h1 style={{ marginTop: '50px' }}>About Inventure Academy</h1>
-					<div className='about-body'>
-						<div
-							className='container'
-							style={{ position: 'relative' }}>
-							<p>
-								Founded in 2005, Inventure began with the hope to make every
-								child achieve their full potential and excel. The “Inventure
-								Way” is to create a nurturing environment where students can
-								push their limits, while enjoying themselves thoroughly.
-								Inventure aims to teach through an excellently designed
-								curriculum that perfectly balances academic rigour with the
-								creative arts, sports and community service. Our excellent
-								facilities for the arts, design and tech, and our Maker Space
-								give learners a rounded learning experience to jump headlong
-								into the real world. Inventure deems it necessary for there to
-								be an everyday focus on life skills that will give children an
-								edge in the complex world of the 21st century. While we nurture
-								the distinct identity of each child, we also foster a sense of
-								belonging where everyone learns to work and play together.
-								Inventure is guided by a set of Core Values that translate into
-								tangible and measurable school practices. Inventure’s Core
-								Purpose is to teach students how to “be socially responsible”
-								and be the drivers of positive change in society. Diligent
-								efforts in achieving this purpose has led to Inventure winning
-								the ‘Most Innovative Practice’ award by Tata Communications and
-								Parikrma Foundation for our Changemaker Program in 2018. INMUN
-								pillar’s embody the characteristics we hope to imbue in our
-								participants. “Leadership”, “Diplomacy”, “Dialogue”,
-								“Communication” and “Problem-solving”
-							</p>
-							<img
-								src={pic}
-								className='aboutUsImage'
-							/>
-						</div>
-					</div>
 					<div className='whatINMUNdiv'>
 						<h1
 							style={{
@@ -161,8 +124,45 @@ const About = ({ dropDown, drop, height, name }) => {
 							</p>
 						</div>
 					</div>
+					<h1 style={{ marginTop: '50px' }}>About Inventure Academy</h1>
+					<div className='about-body'>
+						<div
+							className='container'
+							style={{ position: 'relative' }}>
+							<p>
+								Founded in 2005, Inventure began with the hope to make every
+								child achieve their full potential and excel. The “Inventure
+								Way” is to create a nurturing environment where students can
+								push their limits, while enjoying themselves thoroughly.
+								Inventure aims to teach through an excellently designed
+								curriculum that perfectly balances academic rigour with the
+								creative arts, sports and community service. Our excellent
+								facilities for the arts, design and tech, and our Maker Space
+								give learners a rounded learning experience to jump headlong
+								into the real world. Inventure deems it necessary for there to
+								be an everyday focus on life skills that will give children an
+								edge in the complex world of the 21st century. While we nurture
+								the distinct identity of each child, we also foster a sense of
+								belonging where everyone learns to work and play together.
+								Inventure is guided by a set of Core Values that translate into
+								tangible and measurable school practices. Inventure’s Core
+								Purpose is to teach students how to “be socially responsible”
+								and be the drivers of positive change in society. Diligent
+								efforts in achieving this purpose has led to Inventure winning
+								the ‘Most Innovative Practice’ award by Tata Communications and
+								Parikrma Foundation for our Changemaker Program in 2018. INMUN
+								pillar’s embody the characteristics we hope to imbue in our
+								participants. “Leadership”, “Diplomacy”, “Dialogue”,
+								“Communication” and “Problem-solving”
+							</p>
+							<img
+								src={pic}
+								className='aboutUsImage'
+							/>
+						</div>
+					</div>
 				</div>
-				<div style={{ position: 'relative', top: '10px' }}>
+				<div style={{ position: 'relative', top: '400px' }}>
 					<Footer />
 				</div>
 			</div>
