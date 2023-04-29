@@ -414,7 +414,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								<div
 									className={`grid-${comm.directors.length} all-center directorBox`}>
 									{comm.directors.map((director, idx) => (
-										<div key={idx}>
+										<div key={idx} style={{position: 'relative', top: '0px'}}>
 											<img
 												src={director.image}
 												className='directorImage'
