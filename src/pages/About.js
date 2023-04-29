@@ -146,6 +146,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								edge in the complex world of the 21st century.
 							</p>
 
+                                                        <br />
 							<p>
 								While we nurture the distinct identity of each child, we also
 								foster a sense of belonging where everyone learns to work and
