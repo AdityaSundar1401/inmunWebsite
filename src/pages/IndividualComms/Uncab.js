@@ -2,12 +2,11 @@
 
 import React, { Fragment, useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
-import samu from '../Secretariat/Images/samu.jpeg';
+import samu from '../Secretariat/Images/chari.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import union from '../../icons/IUNION.png';
-
-
+import ali from '../Secretariat/Images/ali.jpeg';
 
 // background images
 
@@ -54,7 +53,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		icon: union,
 		agenda: 'Operation Bluestar',
 		commDesc:
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+			'Human Nature Pursues Strife. And this was the case in 1984, when India experienced one of its darkest periods. Operation Blue Star resulted in the death of civilians and militants and was considered a breach of the sanctity of one of the holiest places on Earth. Delegates must take on historical roles and engage in dynamic crisis simulations to address the evolving crisis by responding to changing events and challenges, and consider the implications of the operation on regional and international security. Access to the Command Centre shows you are one of the most powerful people in India, but with great power comes great responsibility. Can you handle it?',
 		background: bluestar,
 		directors: [
 			{
@@ -67,12 +66,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		ads: [
 			{
 				name: 'Arnav Agarwal',
-				image: arnav,
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 			{
-				name: 'Willem Dafoe',
-				image: dafoe,
+				name: 'Coming soon...',
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
@@ -112,7 +111,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						<div
 							style={{
 								margin: 'auto',
-							        marginTop: '30px'
+								marginTop: '30px',
 							}}>
 							<div
 								className='btn btn-primary '
@@ -339,3 +338,4 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
+
