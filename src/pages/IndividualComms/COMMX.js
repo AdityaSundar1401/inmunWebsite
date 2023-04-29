@@ -77,33 +77,33 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-			commName: 'Committee X',
-			icon: x,
-			agenda: 'The Vietnam War',
-			commDesc:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			background: vietnam,
-			directors: [
-				{
-					name: 'Abhinav Vallur',
-					image: abhi,
-					post: 'Chairperson',
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-				},
-			],
-			ads: [
-				{
-					name: 'Hari Sai Harish',
-					image: hari,
-					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
-				},
-				{
-					name: 'Tom Thomas',
-					image: tommy,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-				},
-			],
-		};
+		commName: 'Committee X',
+		icon: x,
+		agenda: 'The Vietnam War',
+		commDesc:
+			'1955 to 1975. A time when the blaze of carpet bombs and chemical agents disfigured Vietnam to hell on earth. A time when gunfire drowned the wails of children, and the waters ran red with the blood of 2 million. However, behind the facade of brutal guerilla warfare and grotesque traps at every step of the jungle, Vietnam was no more than a savage game of chess between the Cold war superpowers. As delegates of this committee, will you be the saviours of this nation, or the harbingers of death? The future of Vietnam would be instrumental in the power balance between the 2 sides of the iron curtain. Your actions will change not one nation, but every nation',
+		background: vietnam,
+		directors: [
+			{
+				name: 'Abhinav Vallur',
+				image: ali,
+				post: 'Chairperson',
+				des: 'Greeting delegates, this is Abhinav Vallur from 11AS and I will be serving as your co-director for UNICEF this year. I first took up MUN in 8th grade, and over the last few years my interest and involvement with MUN and debate has grown rapidly, which has fetched me awards in various reputable MUNs such as Harvard MUN and DSMUN to name a few. Along the way, I’ve picked up a myriad of skills, which have helped me in my other hobbies such as sprinting and music. When I’m not on the track or preparing for my next MUN, I will probably be rewatching Star Wars or some other iconic movie. And with that in mind, May the Force be with you.',
+			},
+		],
+		ads: [
+			{
+				name: 'Coming soon...',
+				image: ali,
+				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+			},
+			{
+				name: 'Coming soon...',
+				image: ali,
+				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+			},
+		],
+	};
 
 	return (
 		<Fragment>
@@ -139,7 +139,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						<div
 							style={{
 								margin: 'auto',
-							        marginTop: '30px'
+								marginTop: '30px',
 							}}>
 							<div
 								className='btn btn-primary '
@@ -366,3 +366,4 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
+
