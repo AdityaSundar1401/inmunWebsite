@@ -90,6 +90,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								color: 'white',
 								marginTop: '100px',
 								fontSize: '40px',
+								paddingBottom: '15px',
 							}}>
 							What is INMUN
 						</h1>
@@ -205,7 +206,7 @@ const About = ({ dropDown, drop, height, name }) => {
 									academics and beyond academics. We aim to catalyse students
 									into becoming critical thinkers, self-directed learners and
 									believers in the pursuit of excellence in their chosen
-									ﬁeld(s), anywhere in the world.
+									ﬁeld/fields, anywhere in the world.
 								</p>
 								<br />
 								<p>
@@ -221,7 +222,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<div style={{ position: 'relative', top: '1100px' }}>
+				<div style={{ position: 'relative', top: '700px' }}>
 					<Footer />
 				</div>
 			</div>
