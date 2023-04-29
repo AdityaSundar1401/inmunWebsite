@@ -1,16 +1,44 @@
 /** @format */
 
 import React, { Fragment, useEffect, useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import samu from '../Secretariat/Images/chari.jpeg';
+import abhi from '../Secretariat/Images/abhi.jpg';
+import omu from '../Secretariat/Images/omu.jpeg';
+import adi from '../Secretariat/Images/adi.jpeg';
+import ullu from '../Secretariat/Images/ullu.jpeg';
+import vivin from '../Secretariat/Images/vivin.png';
+import aashna from '../Secretariat/Images/aashna.jpeg';
+import narayan from '../Secretariat/Images/narayan.jpeg';
+import tommy from '../Secretariat/Images/tommy.jpeg';
+import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
-import union from '../../icons/IUNION.png';
+import ameya from '../Secretariat/Images/ameya.jpeg';
+import lasya from '../Secretariat/Images/lasya.jpeg';
+import abbay from '../Secretariat/Images/abbay.jpeg';
+import barman from '../Secretariat/Images/barman.jpeg';
+import hari from '../Secretariat/Images/hari.jpeg';
+import sud from '../Secretariat/Images/sud.webp';
+import ananya from '../Secretariat/Images/ananya.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
+import bbmp from '../../icons/IBBMP.png';
+import lok from '../../icons/ILOK.png';
+import rajya from '../../icons/IRAJYA.png';
+import unep from '../../icons/IUNEP.png';
+import unhcr from '../../icons/IUNHCR.png';
+import union from '../../icons/IUNION.png';
+import jcc from '../../icons/IJCC.png';
+import x from '../../icons/IX.png';
 
 // background images
-
+import vietnam from '../Secretariat/Images/vietnam.png';
 import bluestar from '../Secretariat/Images/bluestar.jpeg';
+import wwii from '../Secretariat/Images/heil_hitler.jpeg';
+import bangalore from '../Secretariat/Images/bengaluru.jpeg';
+import health from '../Secretariat/Images/health.jpeg';
+import refugees from '../Secretariat/Images/refugees.jpeg';
+import env from '../Secretariat/Images/unep.jpeg';
 import Footer from '../../layout/Footer';
 
 const DetComm = ({ match, dropDown, drop, height, name }) => {
@@ -77,136 +105,271 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		],
 	};
 
-	return (
-		<Fragment>
-			<Navbar
-				dropDown={Down}
-				drop={drop}
-				height={heightfunc}
-				name={namefunc}
-				classname='navbarpage'
-				show={show}
-			/>{' '}
-			<div style={{ position: 'relative', top: '120px' }}>
-				<div style={{ backgroundColor: 'white' }}>
+	if (isMobile) {
+		return (
+			<Fragment>
+				<Navbar
+					dropDown={Down}
+					drop={drop}
+					height={heightfunc}
+					name={namefunc}
+					classname='navbarpage'
+					show={show}
+				/>{' '}
+				<div style={{ position: 'relative', top: '120px' }}>
+					<div style={{ backgroundColor: 'white' }}>
+						<div
+							className='container text-center '
+							style={p1}>
+							<img
+								className='img round-img stylea center'
+								src={comm.icon}
+								alt='Alt...'></img>
+							<div className='large text-center headfont'>{comm.commName}</div>
+							<h1
+								className='headfont'
+								style={{ fontWeight: 'normal', fontSize: '30px' }}>
+								{comm.agenda}
+							</h1>
+							<br />
+							<h2
+								className='generalfont2'
+								style={mainbody}>
+								{comm.commDesc}
+							</h2>
+							<div
+								style={{
+									margin: 'auto',
+									marginTop: '30px',
+								}}>
+								<div
+									className='btn btn-primary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Background Guide</h3>
+									</a>
+								</div>
+								<div
+									className='btn btn-secondary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Country Matrix</h3>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+
 					<div
-						className='container text-center '
-						style={p1}>
+						style={{ position: 'relative' }}
+						className='comm-div'>
+						<div className='overlay-comm' />
 						<img
-							className='img round-img stylea center'
-							src={comm.icon}
-							alt='Alt...'></img>
-						<div className='large text-center headfont'>{comm.commName}</div>
-						<h1
-							className='headfont'
-							style={{ fontWeight: 'normal', fontSize: '30px' }}>
-							{comm.agenda}
-						</h1>
-						<br />
-						<h2
-							className='generalfont2'
-							style={mainbody}>
-							{comm.commDesc}
-						</h2>
-						<div
+							src={comm.background}
+							alt='not working lmao'
 							style={{
-								margin: 'auto',
-								marginTop: '30px',
-							}}>
-							<div
-								className='btn btn-primary '
-								style={{
-									width: '200px',
-									height: '50px',
-									borderRadius: '20px',
-								}}>
-								<a>
-									<h3>Background Guide</h3>
-								</a>
+								position: 'absolute',
+								height: '100%',
+								zIndex: '-5',
+								opacity: '0.3',
+								objectFit: 'cover',
+							}}
+						/>
+						<div style={{ zIndex: '100', positve: 'relative' }}>
+							<div className='eb-title ebMobile'>
+								<h1>{comm.commName} </h1>
+								<h6>Agenda: {comm.agenda}</h6>
 							</div>
 							<div
-								className='btn btn-secondary '
-								style={{
-									width: '200px',
-									height: '50px',
-									borderRadius: '20px',
-								}}>
-								<a>
-									<h3>Country Matrix</h3>
-								</a>
+								className={`grid-${comm.directors.length} all-center directorBox`}>
+								{comm.directors.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ maxWidth: '90%', color: 'white' }}>
+											{director.des}
+										</p>
+									</div>
+								))}
+							</div>
+							<div className={`grid-${comm.ads.length} all-center directorBox`}>
+								{comm.ads.map((ad, ind) => (
+									<div key={ind}>
+										<img
+											src={ad.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{ad.name}</h1>
+										<h3 style={{ color: 'white' }}>Assistant Director</h3>
+										<p style={{ maxWidth: '90%', color: 'white' }}>{ad.des}</p>
+									</div>
+								))}
 							</div>
 						</div>
 					</div>
-				</div>
-				<br />
-				<br />
 
-				<div
-					style={{ position: 'relative' }}
-					className='comm-div'>
-					<div className='overlay-comm' />
-					<img
-						src={comm.background}
-						alt='not working lmao'
-						style={{
-							position: 'absolute',
-							height: '100%',
-							zIndex: '-5',
-							opacity: '0.3',
-							margin: 'auto',
-						}}
-					/>
-					<div style={{ zIndex: '100', positve: 'relative' }}>
-						<div className='eb-title'>
-							<h1>Executive Board</h1>
-						</div>
+					<div style={p3}>
 						<div
-							className={`grid-${comm.directors.length} all-center directorBox`}
-							style={{ gridGap: '3rem' }}>
-							{comm.directors.map((director, idx) => (
-								<div key={idx}>
-									<img
-										src={director.image}
-										className='directorImage'
-									/>
-									<h1 style={{ color: 'white' }}>{director.name}</h1>
-									<h3>{director.post}</h3>
-									<p style={{ color: 'white' }}>{director.des}</p>
-								</div>
-							))}
-						</div>
-						<div
-							className={`grid-${comm.ads.length} all-center directorBox`}
-							style={{ gridGap: '3rem' }}>
-							{comm.ads.map((ad, ind) => (
-								<div key={ind}>
-									<img
-										src={ad.image}
-										className='directorImage'
-									/>
-									<h1 style={{ color: 'white' }}>{ad.name}</h1>
-									<h3 style={{ color: 'white' }}>Assistant Director</h3>
-									<p style={{ color: 'white' }}>{ad.des}</p>
-								</div>
-							))}
+							className='container text-center'
+							style={{ backgroundColor: 'white' }}>
+							<br />
+							<br />
+							<br />
+							<br />
 						</div>
 					</div>
 				</div>
+				<div style={{ marginTop: '100px' }}>
+					<Footer />
+				</div>
+			</Fragment>
+		);
+	} else {
+		return (
+			<Fragment>
+				<Navbar
+					dropDown={Down}
+					drop={drop}
+					height={heightfunc}
+					name={namefunc}
+					classname='navbarpage'
+					show={show}
+				/>{' '}
+				<div style={{ position: 'relative', top: '120px' }}>
+					<div style={{ backgroundColor: 'white' }}>
+						<div
+							className='container text-center '
+							style={p1}>
+							<img
+								className='img round-img stylea center'
+								src={comm.icon}
+								alt='Alt...'></img>
+							<div className='large text-center headfont'>{comm.commName}</div>
+							<h1
+								className='headfont'
+								style={{ fontWeight: 'normal', fontSize: '30px' }}>
+								{comm.agenda}
+							</h1>
+							<br />
+							<h2
+								className='generalfont2'
+								style={mainbody}>
+								{comm.commDesc}
+							</h2>
+							<div
+								style={{
+									margin: 'auto',
+									marginTop: '30px',
+								}}>
+								<div
+									className='btn btn-primary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Background Guide</h3>
+									</a>
+								</div>
+								<div
+									className='btn btn-secondary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Country Matrix</h3>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
 
-				<div style={p3}>
 					<div
-						className='container text-center'
-						style={{ backgroundColor: 'white' }}>
-						<br />
-						<br />
-						<br />
-						<br />
+						style={{ position: 'relative' }}
+						className='comm-div'>
+						<div className='overlay-comm' />
+						<img
+							src={comm.background}
+							alt='not working lmao'
+							style={{
+								position: 'absolute',
+								height: '100%',
+								zIndex: '-5',
+								opacity: '0.3',
+								margin: 'auto',
+							}}
+						/>
+						<div style={{ zIndex: '100', positve: 'relative' }}>
+							<div className='eb-title'>
+								<h1>Executive Board</h1>
+							</div>
+							<div
+								className={`grid-${comm.directors.length} all-center directorBox`}
+								style={{ gridGap: '3rem' }}>
+								{comm.directors.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ color: 'white' }}>{director.des}</p>
+									</div>
+								))}
+							</div>
+							<div
+								className={`grid-${comm.ads.length} all-center directorBox`}
+								style={{ gridGap: '3rem' }}>
+								{comm.ads.map((ad, ind) => (
+									<div key={ind}>
+										<img
+											src={ad.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{ad.name}</h1>
+										<h3 style={{ color: 'white' }}>Assistant Director</h3>
+										<p style={{ color: 'white' }}>{ad.des}</p>
+									</div>
+								))}
+							</div>
+						</div>
+					</div>
+
+					<div style={p3}>
+						<div
+							className='container text-center'
+							style={{ backgroundColor: 'white' }}>
+							<br />
+							<br />
+							<br />
+							<br />
+						</div>
 					</div>
 				</div>
-			</div>
-			<Footer />
-		</Fragment>
-	);
+				<Footer />
+			</Fragment>
+		);
+	}
 };
 
 const p1 = {
@@ -338,4 +501,3 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
-
