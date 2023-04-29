@@ -325,9 +325,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 							</div>
 							<div
 								className={`grid-${comm.directors.length} all-center directorBox`}
-								style={{ gridGap: '3rem' }}>
+								style={{ gridGap: '3rem', alignItems: 'start' }}>
 								{comm.directors.map((director, idx) => (
-									<div key={idx}>
+									<div key={idx} style={{margin: '0px auto'}}>
 										<img
 											src={director.image}
 											className='directorImage'
@@ -340,9 +340,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 							</div>
 							<div
 								className={`grid-${comm.ads.length} all-center directorBox`}
-								style={{ gridGap: '3rem' }}>
+								style={{ gridGap: '3rem', alignItems: 'start' }}>
 								{comm.ads.map((ad, ind) => (
-									<div key={ind}>
+									<div key={ind} style={{margin: '0px auto'}}>
 										<img
 											src={ad.image}
 											className='directorImage'
