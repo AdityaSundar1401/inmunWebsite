@@ -79,13 +79,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		commName: 'Lok Sabha',
 		icon: lok,
 		agenda: 'Achieving the 2030 goal of universal health coverage in India',
-		commDesc:
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+		commDesc: 'Coming soon...',
 		background: health,
 		directors: [
 			{
 				name: 'Aashna Kumar',
-				image: aashna,
+				image: ali,
 				post: 'Chairperson',
 				des: 'My name Is Aashna Kumar and it is my absolute honour to be your Director for INYP’s Civil Society this year. MUNning has been a central part of my high school life. I’ve bagged placements at HMUN, DSMUN, CJCMUN etc. have even had the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INYP this year! A bit about myself: I absolutely love playing the piano, becoming friends with every dog I see, reading books, and bingeing every possible show on Netflix! I hope to see you guys in October, and I’m so excited to hear your views and ideas!',
 			},
@@ -97,8 +96,8 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
 			},
 			{
-				name: 'Tom Thomas',
-				image: tommy,
+				name: 'Coming soon...',
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
@@ -138,7 +137,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						<div
 							style={{
 								margin: 'auto',
-							        marginTop: '30px'
+								marginTop: '30px',
 							}}>
 							<div
 								className='btn btn-primary '
@@ -365,3 +364,4 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
+
