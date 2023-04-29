@@ -127,7 +127,9 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 					<h1 style={{ marginTop: '50px' }}>About Inventure Academy</h1>
-					<div className='about-body' style={{height: '1200px'}}>
+					<div
+						className='about-body'
+						style={{ height: 'auto' }}>
 						<div
 							className='container'
 							style={{ position: 'relative' }}>
@@ -145,8 +147,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								be an everyday focus on life skills that will give children an
 								edge in the complex world of the 21st century.
 							</p>
-
-                                                        <br />
+							<br />
 							<p>
 								While we nurture the distinct identity of each child, we also
 								foster a sense of belonging where everyone learns to work and
@@ -161,6 +162,56 @@ const About = ({ dropDown, drop, height, name }) => {
 								hope to imbue in our participants. “Leadership”, “Diplomacy”,
 								“Dialogue”, “Communication” and “Problem-solving”
 							</p>
+							<br />
+							<div className='historyINMUN2'>
+								<p>
+									Inventure’s Core Purpose is to teach students how to “be
+									socially responsible” and be the drivers of positive change in
+									society. Diligent efforts in achieving this purpose has led to
+									Inventure winning the ‘Most Innovative Practice’ award by Tata
+									Communications and Parikrma Foundation for our Changemaker
+									Program in 2018. INMUN pillar’s embody the characteristics we
+									hope to imbue in our participants. “Leadership”, “Diplomacy”,
+									“Dialogue”, “Communication” and “Problem-solving”.
+								</p>
+								<br />
+								<p>
+									Imagine a world where every child can excel. Where they are
+									free to express themselves and discover their innate potential
+									and inventiveness. Where confidence, happiness and compassion
+									are part of the timetable.
+								</p>
+								<br />
+								<p>
+									This is the world of Inventure Academy. An enabling and
+									nurturing environment with world-class infrastructure and
+									facilities that places our learners at the centre of
+									everything we do. Through constant reflection and review, we
+									determine how and what we teach based on these defining
+									questions: Is it relevant to the lives of our learners? Will
+									it help them thrive in an interdependent, globalised and
+									rapidly changing world? Will it help them make it a better
+									world?
+								</p>
+								<br />
+								<p>
+									Inventure’s education philosophy believes in empowering
+									children to be positive changemakers in the world they have
+									inherited. Our nurturing environment and experiential learning
+									strives at providing opportunities that encourage Inventurers
+									to discover and realize their individual potential, in both
+									academics and beyond academics. We aim to catalyse students
+									into becoming critical thinkers, self-directed learners and
+									believers in the pursuit of excellence in their chosen
+									ﬁeld(s), anywhere in the world.
+								</p>
+								<br />
+								<p>
+									Inventure is today recognised as a thought leader in the
+									education sector. We are looking to increase our impact and
+									move closer to our dream of 100,000 change makers.
+								</p>
+							</div>
 							<img
 								src={pic}
 								className='aboutUsImage'
