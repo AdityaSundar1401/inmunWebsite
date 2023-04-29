@@ -82,7 +82,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			'Addressing the problems that arise from land degradation and deforestation',
 		background: env,
 		commDesc:
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+			"The Earth is a ticking time bomb and humanity's actions are only hastening the end. The continued deforestation taking place to satisfy 8 billion people’s greed results in flooding, disease and malnutrition. It is quite obvious work needs to be done, the question is how? The UNEP will push delegates to design innovative, long term solutions. Intense debate will require delegates to have in-depth knowledge at the tip of their fingers and a keen presence of mind. All this while trying to reach a compromise that satisfies everyone, especially Greta Thunberg.",
 		directors: [
 			{
 				name: 'Ali Oez',
@@ -95,11 +95,11 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			{
 				name: 'Ananya Jain',
 				image: ananya,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 			},
 			{
-				name: 'Tom Thomas',
-				image: tommy,
+				name: 'Coming soon...',
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
@@ -139,7 +139,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						<div
 							style={{
 								margin: 'auto',
-							        marginTop: '30px'
+								marginTop: '30px',
 							}}>
 							<div
 								className='btn btn-primary '
@@ -366,3 +366,4 @@ export default DetComm;
 // 						<br />
 // 					</div>
 // 				</div>
+
