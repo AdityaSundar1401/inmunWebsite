@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { Fragment, useEffect, useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
 import abhi from '../Secretariat/Images/abhi.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
@@ -80,12 +81,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		icon: bbmp,
 		agenda: 'The impact of unplanned urbanisation in the whitefield area ',
 		commDesc:
-			'As the city of Bangalore grows, so does its list of problems. 30 years ago the Whitefield area was a part of the Indian countryside; today it forms the core of the city and the country’s tech hub. The exponential rates of expansion in the city have left it in dire straits. From the depletion of 80% of our lakes the increase of garbage surrounding our streets, environmental and social issues are seen everywhere. In an attempt to return the garden city to its former glory, the BBMP hosts a conclave with its policy-makers.',
+			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 		background: bangalore,
 		directors: [
 			{
 				name: 'Ameya Mundkur',
-				image: ali,
+				image: ameya,
 				post: 'Chairperson',
 				des: 'Hi delegates! I’m Ameya Mundkur. Music is one of my biggest passions, I love animals. I also enjoy talking to people. I can have the most random conversations ranging from 60’s rock bands and Harry Styles to issues around the world to how Phil from Modern Family is the wisest character. I never really enjoyed debates, but as soon as I started MUNing, my opinion on that completely changed. I’ve been MUNing for 2 years now, it’s been one of the most life changing, educational and incredibly fun experiences I’ve had. I’m super excited to see unique, divergent views lined with interesting debates to get the most inclusive, holistic and productive outcome in committee.',
 			},
@@ -94,16 +95,147 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			{
 				name: 'Lasya Verma',
 				image: lasya,
-				des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!',
+				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 			{
-				name: 'Coming soon...',
-				image: ali,
+				name: 'Tom Thomas',
+				image: tommy,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
 	};
 
+	if (isMobile) {
+		return (
+			<Fragment>
+				<Navbar
+					dropDown={Down}
+					drop={drop}
+					height={heightfunc}
+					name={namefunc}
+					classname='navbarpage'
+					show={show}
+				/>{' '}
+				<div style={{ position: 'relative', top: '120px' }}>
+					<div style={{ backgroundColor: 'white' }}>
+						<div
+							className='container text-center '
+							style={p1}>
+							<img
+								className='img round-img stylea center'
+								src={comm.icon}
+								alt='Alt...'></img>
+							<div className='large text-center headfont'>{comm.commName}</div>
+							<h1
+								className='headfont'
+								style={{ fontWeight: 'normal', fontSize: '30px' }}>
+								{comm.agenda}
+							</h1>
+							<br />
+							<h2
+								className='generalfont2'
+								style={mainbody}>
+								{comm.commDesc}
+							</h2>
+							<div
+								style={{
+									margin: 'auto',
+									marginTop: '30px',
+								}}>
+								<div
+									className='btn btn-primary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Background Guide</h3>
+									</a>
+								</div>
+								<div
+									className='btn btn-secondary '
+									style={{
+										width: '200px',
+										height: '50px',
+										borderRadius: '20px',
+									}}>
+									<a>
+										<h3>Country Matrix</h3>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+
+					<div
+						key={index}
+						style={{ position: 'relative' }}
+						className='comm-div'>
+						<div className='overlay-comm' />
+						<img
+							src={comm.background}
+							alt='not working lmao'
+							style={{
+								position: 'absolute',
+								height: '100%',
+								zIndex: '-5',
+								opacity: '0.3',
+								objectFit: 'cover',
+							}}
+						/>
+						<div style={{ zIndex: '100', positve: 'relative' }}>
+							<div className='eb-title ebMobile'>
+								<h1>{comm.commName} </h1>
+								<h6>Agenda: {comm.agenda}</h6>
+							</div>
+							<div
+								className={`grid-${comm.directors.length} all-center directorBox`}>
+								{comm.directors.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ maxWidth: '90%' }}>{director.des}</p>
+									</div>
+								))}
+							</div>
+							<div className={`grid-${comm.ads.length} all-center directorBox`}>
+								{comm.ads.map((ad, ind) => (
+									<div key={ind}>
+										<img
+											src={ad.image}
+											className='directorImage'
+										/>
+										<h1>{ad.name}</h1>
+										<h3 style={{ color: 'white' }}>Assistant Director</h3>
+										<p style={{ maxWidth: '90%' }}>{ad.des}</p>
+									</div>
+								))}
+							</div>
+						</div>
+					</div>
+
+					<div style={p3}>
+						<div
+							className='container text-center'
+							style={{ backgroundColor: 'white' }}>
+							<br />
+							<br />
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+				<Footer />
+			</Fragment>
+		);
+	}
 	return (
 		<Fragment>
 			<Navbar
