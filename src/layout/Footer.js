@@ -8,7 +8,7 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
-import { faGooglePlusG } from '@fortawesome/free-brands-svg-icons/faGooglePlusG';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import '../App.css';
 
 const Footer = () => {
@@ -34,15 +34,13 @@ const Footer = () => {
 							<b>MUN Coordinators</b>
 							<p>Aparajita Bannerjee</p>
 							<p>aparajita@inventureacademy.com</p>
-							<p>Om's teacher chick</p>
-							<p>teacher@inventureacademy.com</p>
 						</div>
 						<div style={{ maxWidth: '100%' }}>
 							<b>Secretariat</b>
 							<p>Om Mehta</p>
 							<p>omrsmehta@gmail.com</p>
-							<p>Hot man</p>
-							<p>writetovivin@gmail.com</p>
+							<p>Gautam Chari</p>
+							<p>gautamchari2005@gmail.com</p>
 						</div>
 					</div>
 					<ul
@@ -50,7 +48,7 @@ const Footer = () => {
 						style={socialsStyle}>
 						<li>
 							<a
-								href='https://facebook.com'
+								href='https://www.facebook.com/InventureAcademy/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faFacebookF} />
@@ -58,7 +56,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://twitter.com'
+								href='https://twitter.com/InventureK12'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faTwitter} />
@@ -66,7 +64,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://youtube.com'
+								href='https://www.youtube.com/@InventureAcademy1'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faYoutube} />
@@ -74,7 +72,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://linkedin.com'
+								href='https://www.linkedin.com/school/inventure-academy/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faLinkedin} />
@@ -82,10 +80,10 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://google.com'
+								href='https://www.instagram.com/inventureacademy/'
 								target='_blank'
 								rel='noopener noreferrer'>
-								<FontAwesomeIcon icon={faGooglePlusG} />
+								<FontAwesomeIcon icon={faInstagram} />
 							</a>
 						</li>
 					</ul>
@@ -126,15 +124,15 @@ const Footer = () => {
 						<b>Secretariat</b>
 						<p>Om Mehta</p>
 						<p>omrsmehta@gmail.com</p>
-						<p>Hot man</p>
-						<p>writetovivin@gmail.com</p>
+						<p>Gautam Chari</p>
+						<p>gautamchari2005@gmail.com</p>
 					</div>
 					<ul
 						className='socials'
 						style={mobileSocialsStyle}>
 						<li>
 							<a
-								href='https://facebook.com'
+								href='https://www.facebook.com/InventureAcademy/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faFacebookF} />
@@ -142,7 +140,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://twitter.com'
+								href='https://twitter.com/InventureK12'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faTwitter} />
@@ -150,7 +148,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://youtube.com'
+								href='https://www.youtube.com/@InventureAcademy1'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faYoutube} />
@@ -158,7 +156,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://linkedin.com'
+								href='https://www.linkedin.com/school/inventure-academy/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FontAwesomeIcon icon={faLinkedin} />
@@ -166,10 +164,10 @@ const Footer = () => {
 						</li>
 						<li>
 							<a
-								href='https://google.com'
+								href='https://www.instagram.com/inventureacademy/'
 								target='_blank'
 								rel='noopener noreferrer'>
-								<FontAwesomeIcon icon={faGooglePlusG} />
+								<FontAwesomeIcon icon={faInstagram} />
 							</a>
 						</li>
 					</ul>
