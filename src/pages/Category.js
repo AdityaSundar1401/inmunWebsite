@@ -126,7 +126,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			agenda: 'WWII',
 			background: wwii,
 			directors: ['Aditya Sundar', 'Vivin Anand'],
-			path: 'join-crisis-committee',
+			path: 'joint-crisis-committee',
 		},
 	];
 
