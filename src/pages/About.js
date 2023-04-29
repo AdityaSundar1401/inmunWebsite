@@ -145,7 +145,6 @@ const About = ({ dropDown, drop, height, name }) => {
 								be an everyday focus on life skills that will give children an
 								edge in the complex world of the 21st century.
 							</p>
-							<br />
 
 							<p>
 								While we nurture the distinct identity of each child, we also
@@ -168,7 +167,7 @@ const About = ({ dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<div style={{ position: 'relative', top: '600px' }}>
+				<div style={{ position: 'relative', top: '650px' }}>
 					<Footer />
 				</div>
 			</div>
