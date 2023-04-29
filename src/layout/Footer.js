@@ -24,20 +24,20 @@ const Footer = () => {
 						alt=''
 					/>
 					<div style={addressStyle}>
-						<div style={{ maxWidth: '300px' }}>
+						<div style={{ maxWidth: '100%' }}>
 							<p>Inventure Academy, Whitefield</p>
 							<p>SH 35, Near Dommasandra Circle,</p>
 							<p>Kachamaranahalli, Bengaluru,</p>
 							<p>Karnataka 562125</p>
 						</div>
-						<div style={{ maxWidth: '300px' }}>
+						<div style={{ maxWidth: '100%' }}>
 							<b>MUN Coordinators</b>
 							<p>Aparajita Bannerjee</p>
 							<p>aparajita@inventureacademy.com</p>
 							<p>Om's teacher chick</p>
 							<p>teacher@inventureacademy.com</p>
 						</div>
-						<div style={{ maxWidth: '300px' }}>
+						<div style={{ maxWidth: '100%' }}>
 							<b>Secretariat</b>
 							<p>Om Mehta</p>
 							<p>omrsmehta@gmail.com</p>
@@ -193,12 +193,15 @@ const footStyle = {
 	height: '180px',
 	position: 'relative',
 	top: '100%',
+	width: '100%',
+	maxWidth: '100%',
 };
 
 const footerBottom = {
-	paddingTop: '4px',
+	// 4, 3, 14
+	paddingTop: '28.5%',
 	position: 'relative',
-	top: '3px',
+	top: '9%',
 	fontSize: '14px',
 	color: 'white',
 	fontFamily: 'Arial, Helvetica, sans-serif',
@@ -209,10 +212,13 @@ const footStyle2 = {
 	paddingTop: '12px',
 	paddingLeft: '20px',
 	height: '60px',
+	width: '100%',
+	maxWidth: '100%',
 };
 
 const imgStyle = {
-	height: '250px',
+	//250, -70, 510
+	height: '140%',
 	objectFit: 'contain',
 	position: 'relative',
 	top: '-70px',
@@ -228,9 +234,9 @@ const socialsStyle = {
 const addressStyle = {
 	color: 'white',
 	position: 'relative',
-	top: '-250px',
+	top: '-140%',
 	display: 'grid',
-	left: '30%',
+	left: '31%',
 	gridTemplateColumns: 'repeat(3, 1fr)',
 	maxWidth: '70%',
 };
@@ -239,19 +245,20 @@ const mobileFootStyle = {
 	backgroundColor: '#101010',
 	height: '260px',
 	width: '100%',
+	maxWidth: '100%',
 };
 
 const mobileImgStyle = {
-	height: '135px',
+	height: '55%',
 	objectFit: 'contain',
 	position: 'relative',
-	bottom: '45px',
-	right: '105px',
+	bottom: '40px',
+	right: '30%',
 };
 
 const mobileAddressStyle = {
 	position: 'relative',
-	left: '7%',
+	left: '4%',
 	bottom: '21%',
 	color: 'white',
 	fontSize: '11px',
@@ -259,7 +266,7 @@ const mobileAddressStyle = {
 
 const mobileContactStyle = {
 	position: 'relative',
-	right: '-54%',
+	left: '52%',
 	bottom: '80%',
 	color: 'white',
 	fontSize: '11px',
@@ -267,7 +274,7 @@ const mobileContactStyle = {
 
 const mobileOtherStyle = {
 	position: 'relative',
-	left: '54%',
+	left: '52%',
 	bottom: '71%',
 	color: 'white',
 	fontSize: '11px',
@@ -275,15 +282,17 @@ const mobileOtherStyle = {
 
 const mobileSocialsStyle = {
 	position: 'relative',
-	left: '0%',
+	left: '-1.5%',
 	bottom: '68.5%',
 };
 
 const mobileFootStyle2 = {
 	backgroundColor: '#000000',
-	paddingTop: '12px',
-	paddingLeft: '20px',
+	paddingTop: '3%',
+	paddingLeft: '5%',
 	height: '50px',
+	width: '100%',
+	maxWidth: '100%',
 };
 
 const mobileFooterBottom = {
@@ -295,3 +304,4 @@ const mobileFooterBottom = {
 };
 
 export default Footer;
+
