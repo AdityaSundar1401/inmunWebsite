@@ -108,7 +108,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								margin: '0px auto',
 							}}
 							className='text-center'>
-							Conference Handbook
+							Conference Policy
 						</h2>
 					</div>
 					<div
@@ -131,7 +131,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								margin: '0px 2px',
 							}}
 							className='text-center'>
-							Conference Handbook
+							Rules of Procedure
 						</h2>
 					</div>
 					<div
@@ -154,7 +154,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								margin: '0px 2px',
 							}}
 							className='text-center'>
-							Conference Handbook
+							Adi forgot lmao dead
 						</h2>
 					</div>
 				</div>
