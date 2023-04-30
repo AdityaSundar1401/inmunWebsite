@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
 import pic from './aboutUsBg.jpeg';
-import pic2 from './inmunpic.png';
+import pic2 from './invcampus.jpeg';
 import { isMobile } from 'react-device-detect';
 
 const About = ({ dropDown, drop, height, name }) => {
@@ -91,7 +91,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								color: 'white',
 								marginTop: '100px',
 								fontSize: '40px',
-								paddingBottom: '15px',
+								paddingBottom: '5px',
 							}}>
 							What is INMUN
 						</h1>
@@ -207,7 +207,7 @@ const About = ({ dropDown, drop, height, name }) => {
 									academics and beyond academics. We aim to catalyse students
 									into becoming critical thinkers, self-directed learners and
 									believers in the pursuit of excellence in their chosen
-									ﬁeld/fields, anywhere in the world.
+									field(s), anywhere in the world.
 								</p>
 								<br />
 								<p>
@@ -287,6 +287,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								color: 'white',
 								marginTop: '40px',
 								fontSize: '40px',
+								paddingBottom: '5px',
 							}}>
 							What is INMUN
 						</h1>
