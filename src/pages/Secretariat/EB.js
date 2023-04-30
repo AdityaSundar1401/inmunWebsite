@@ -443,7 +443,6 @@ const Sec = ({ dropDown, drop, height, name }) => {
 						</div>
 					))}
 				</div>
-				<Footer />
 			</div>
 		);
 	} else {
