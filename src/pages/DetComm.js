@@ -465,7 +465,6 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</Fragment>;
 	}
 	return (
