@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
 import pic from './aboutUsBg.jpeg';
-import pic2 from './inmunpic.jpeg';
+import pic2 from './inmunpic.png';
 import { isMobile } from 'react-device-detect';
 
 const About = ({ dropDown, drop, height, name }) => {
