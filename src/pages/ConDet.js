@@ -212,7 +212,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 					</div>
 				</div>
 			</div>
-			{isMobile && 
+			{!isMobile && 
 			<div>
 				<Footer />
 			</div>
