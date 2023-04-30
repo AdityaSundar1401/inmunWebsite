@@ -234,9 +234,6 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 						</div>
 					</div>
 				</div>
-				<div style={{ marginTop: '100px' }}>
-					<Footer />
-				</div>
 			</Fragment>
 		);
 	} else {
