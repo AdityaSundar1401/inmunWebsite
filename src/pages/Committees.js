@@ -55,104 +55,202 @@ const Committees = ({ commStuff, dropDown, drop, height, name }) => {
 		};
 	}, [lastScrollY]);
 
-	return (
-		<div>
-			<Navbar
-				dropDown={Down}
-				drop={drop}
-				height={heightfunc}
-				name={namefunc}
-				classname='navbarpage'
-				show={show}
-			/>
-			<div
-				style={{
-					backgroundColor: 'white',
-					color: '#ff8500',
-					position: 'relative',
-					top: '120px',
-				}}>
-				<div className={isMobile ? 'mobileCommittees' : 'container'}>
-					<div
-						className='x-large headfont general-assesmbly'
-						style={{
-							paddingBottom: '0px',
-							paddingTop: '50px',
-							textAlign: 'center',
-							color: '#ff8500',
-						}}>
-						GENERAL ASSEMBLIES
+	if (isMobile) {
+		return (
+			<div>
+				<Navbar
+					dropDown={Down}
+					drop={drop}
+					height={heightfunc}
+					name={namefunc}
+					classname='navbarpage'
+					show={show}
+				/>
+				<div
+					style={{
+						backgroundColor: 'white',
+						color: '#ff8500',
+						position: 'relative',
+						top: '120px',
+					}}>
+					<div className={isMobile ? 'mobileCommittees' : 'container'}>
+						<div
+							className='x-large headfont general-assesmbly'
+							style={{
+								paddingBottom: '0px',
+								paddingTop: '50px',
+								textAlign: 'center',
+								color: '#ff8500',
+							}}>
+							GENERAL ASSEMBLIES
+						</div>
+						<div
+							style={userStyle2}
+							className='commMap'>
+							{gas.map((ga) => (
+								<div className={isMobile && 'committeeDivMobile'}>
+									<Committee
+										commDetail={ga}
+										key={ga.commName}
+									/>
+								</div>
+							))}
+						</div>
+						<br />
+						<br />
+						<hr style={stylehr} />
+						<br />
+						<div
+							className='x-large headfont'
+							style={{
+								paddingBottom: '0px',
+								paddingTop: '0px',
+								textAlign: 'center',
+							}}>
+							REGIONAL BODIES
+						</div>
+						<div
+							style={userStyle3}
+							className='commMap'>
+							{regs.map((reg) => (
+								<div className={isMobile && 'committeeDivMobile'}>
+									<Committee
+										commDetail={reg}
+										key={reg.commName}
+									/>
+								</div>
+							))}
+						</div>
+						<br />
+						<br />
+						<hr style={stylehr} />
+						<br />
+						<div
+							className='x-large headfont'
+							style={{
+								paddingBottom: '0px',
+								paddingTop: '0px',
+								textAlign: 'center',
+							}}>
+							CRISIS
+						</div>
+						<div
+							style={userStyle3B}
+							className='commMap'>
+							{cris.map((cri) => (
+								<div className={isMobile && 'committeeDivMobile'}>
+									<Committee
+										commDetail={cri}
+										key={cri.commName}
+									/>
+								</div>
+							))}
+						</div>
+						<br />
 					</div>
-					<div
-						style={userStyle2}
-						className='commMap'>
-						{gas.map((ga) => (
-							<div className={isMobile && 'committeeDivMobile'}>
-								<Committee
-									commDetail={ga}
-									key={ga.commName}
-								/>
-							</div>
-						))}
-					</div>
-					<br />
-					<br />
-					<hr style={stylehr} />
-					<br />
-					<div
-						className='x-large headfont'
-						style={{
-							paddingBottom: '0px',
-							paddingTop: '0px',
-							textAlign: 'center',
-						}}>
-						REGIONAL BODIES
-					</div>
-					<div
-						style={userStyle3}
-						className='commMap'>
-						{regs.map((reg) => (
-							<div className={isMobile && 'committeeDivMobile'}>
-								<Committee
-									commDetail={reg}
-									key={reg.commName}
-								/>
-							</div>
-						))}
-					</div>
-					<br />
-					<br />
-					<hr style={stylehr} />
-					<br />
-					<div
-						className='x-large headfont'
-						style={{
-							paddingBottom: '0px',
-							paddingTop: '0px',
-							textAlign: 'center',
-						}}>
-						CRISIS
-					</div>
-					<div
-						style={userStyle3B}
-						className='commMap'>
-						{cris.map((cri) => (
-							<div className={isMobile && 'committeeDivMobile'}>
-								<Committee
-									commDetail={cri}
-									key={cri.commName}
-								/>
-							</div>
-						))}
-					</div>
-					<br />
 				</div>
 			</div>
-			<div style={{ position: 'relative', top: '50px' }}>
-				<Footer />
+		);
+	} else {
+		return (
+			<div>
+				<Navbar
+					dropDown={Down}
+					drop={drop}
+					height={heightfunc}
+					name={namefunc}
+					classname='navbarpage'
+					show={show}
+				/>
+				<div
+					style={{
+						backgroundColor: 'white',
+						color: '#ff8500',
+						position: 'relative',
+						top: '120px',
+					}}>
+					<div className={isMobile ? 'mobileCommittees' : 'container'}>
+						<div
+							className='x-large headfont general-assesmbly'
+							style={{
+								paddingBottom: '0px',
+								paddingTop: '50px',
+								textAlign: 'center',
+								color: '#ff8500',
+							}}>
+							GENERAL ASSEMBLIES
+						</div>
+						<div
+							style={userStyle2}
+							className='commMap'>
+							{gas.map((ga) => (
+								<div className={isMobile && 'committeeDivMobile'}>
+									<Committee
+										commDetail={ga}
+										key={ga.commName}
+									/>
+								</div>
+							))}
+						</div>
+						<br />
+						<br />
+						<hr style={stylehr} />
+						<br />
+						<div
+							className='x-large headfont'
+							style={{
+								paddingBottom: '0px',
+								paddingTop: '0px',
+								textAlign: 'center',
+							}}>
+							REGIONAL BODIES
+						</div>
+						<div
+							style={userStyle3}
+							className='commMap'>
+							{regs.map((reg) => (
+								<div className={isMobile && 'committeeDivMobile'}>
+									<Committee
+										commDetail={reg}
+										key={reg.commName}
+									/>
+								</div>
+							))}
+						</div>
+						<br />
+						<br />
+						<hr style={stylehr} />
+						<br />
+						<div
+							className='x-large headfont'
+							style={{
+								paddingBottom: '0px',
+								paddingTop: '0px',
+								textAlign: 'center',
+							}}>
+							CRISIS
+						</div>
+						<div
+							style={userStyle3B}
+							className='commMap'>
+							{cris.map((cri) => (
+								<div className={isMobile && 'committeeDivMobile'}>
+									<Committee
+										commDetail={cri}
+										key={cri.commName}
+									/>
+								</div>
+							))}
+						</div>
+						<br />
+					</div>
+				</div>
+				<div style={{ position: 'relative', top: '50px' }}>
+					<Footer />
+				</div>
 			</div>
-		</div>
-	);
+		);
+	}
 };
 
 const userStyle2 = {
@@ -192,3 +290,4 @@ Committees.propTypes = {
 };
 
 export default Committees;
+
