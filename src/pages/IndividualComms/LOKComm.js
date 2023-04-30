@@ -80,7 +80,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		commName: 'Lok Sabha',
 		icon: lok,
 		agenda: 'Achieving the 2030 goal of universal health coverage in India',
-		commDesc: 'Coming soon...',
+		commDesc: "Welcome delegates to the Lok Sabha, where the fate of the health of the world's largest democracy rests in your hands. The year is 2023, and the clock is ticking. The world is watching as the Lok Sabha debates one of the most pressing issues of our time: achieving universal health coverage for all Indians. You will be tasked with crafting policies that will shape the future of healthcare in India. With each passing moment, the stakes grow higher. Lives depend on your decisions, and the fate of the nation hangs in the balance. This is the Lok Sabha, the epicentre of Indian politics, where passion and patriotism run high. You will find yourself immersed in a world of intense debate, fiery speeches, and heated exchanges as each delegate fights for their vision of healthcare in India. Get ready to experience the Lok Sabha at INMUN this year, where every decision counts and every moment is unforgettable.",
 		background: health,
 		directors: [
 			{
