@@ -267,7 +267,6 @@ const Home = ({ dropDown, drop, height, name }) => {
 				<div>
 					<Gallery />
 				</div>
-				<Footer />
 			</div>
 		);
 	} else {
