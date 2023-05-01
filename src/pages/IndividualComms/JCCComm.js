@@ -107,7 +107,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			{
 				name: 'Sudyotman Sudershan',
 				image: ali,
-				des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for 4 years, but always as a delegate. While this is my first time on the executive board, there is quite a lot I expect from each of you in committee. I am looking forward to seeing how you will work together to reach consensus even during situations of intense pressure and I hope to see great success in our committee. Hope to see you all in the AIPPM. Peace and cheers.',
+				des: "Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room",
 			},
 			{
 				name: 'Ashutosh Barman',
