@@ -88,7 +88,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				name: 'Aditya Sundar',
 				image: ali,
 				post: 'Director of the Allies',
-				des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as your co-director for UNICEF. After participating in many MUNS, mainly in the Bangalore circuit, I can confidently say I have learnt many things ranging from documentation to a balance between dominance and diplomacy in unmods. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
+				des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 			},
 			{
 				name: 'Johann Ulatill',
