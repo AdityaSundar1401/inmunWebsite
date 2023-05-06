@@ -73,11 +73,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						}}>
 						<a
 							style={{
-								position: 'absolute',
 								width: '100%',
 								height: '209px',
-								top: '0%',
-								left: '0%',
 							}}
 							href='https://www.google.com'
 							target='_blank'>
