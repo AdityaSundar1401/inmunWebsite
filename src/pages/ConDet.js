@@ -71,20 +71,29 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<a
-							style={{ position: 'absolute', width: '100%', height: '209px', top: '0%', left: '0%' }}
-							href='https://www.google.com' target='_blank'>
-							<div className='overlayDet' />
-							<img
-								src={handbook}
-								className='detImages'
+						<div style={{ position: 'relative' }}>
+							<a
 								style={{
-									border: 'solid',
-									borderColor: 'black',
-									borderWidth: 'auto',
+									position: 'absolute',
+									width: '100%',
+									height: '209px',
+									top: '0%',
+									left: '0%',
 								}}
-							/>
-						</a>
+								href='https://www.google.com'
+								target='_blank'>
+								<div className='overlayDet' />
+								<img
+									src={handbook}
+									className='detImages'
+									style={{
+										border: 'solid',
+										borderColor: 'black',
+										borderWidth: 'auto',
+									}}
+								/>
+							</a>
+						</div>
 						<h2
 							style={{
 								maxWidth: '150px',
