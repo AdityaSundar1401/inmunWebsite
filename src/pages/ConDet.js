@@ -76,11 +76,12 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								width: '100%',
 								height: '209px',
 							}}
+							className='detImages'
 							href='https://www.google.com'
 							target='_blank'>
 							<img
 								src={handbook}
-								className='detImages'
+								
 								style={{
 									border: 'solid',
 									borderColor: 'black',
