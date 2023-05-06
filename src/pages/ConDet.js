@@ -93,14 +93,18 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img
-							src={handbook}
-							style={{
-								border: 'solid',
-								borderColor: 'black',
-								borderWidth: 'auto',
-							}}
-						/>
+						<div style={{ backgroundColor: 'grey', height: '210.49px' }}>
+							<h2
+								style={{
+									position: 'absolute',
+									top: '50%',
+									right: '0%',
+									left: '0%',
+									margin: 'auto',
+								}}>
+								Coming Soon!
+							</h2>
+						</div>
 						<h2
 							style={{
 								maxWidth: '150px',
@@ -212,11 +216,11 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 					</div>
 				</div>
 			</div>
-			{!isMobile && 
-			<div>
-				<Footer />
-			</div>
-			}
+			{!isMobile && (
+				<div>
+					<Footer />
+				</div>
+			)}
 		</div>
 	);
 };
