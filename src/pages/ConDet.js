@@ -72,7 +72,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							height: 'auto',
 						}}>
 						<a
-							style={{ position: 'relative' }}
+							style={{ position: 'relative', width: '100%', height: '210.08' }}
 							href='https://www.google.com'>
 							<div className='overlayDet' />
 							<img
