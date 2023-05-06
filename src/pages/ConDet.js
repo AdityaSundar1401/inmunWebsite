@@ -71,14 +71,20 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img
-							src={handbook}
-							style={{
-								border: 'solid',
-								borderColor: 'black',
-								borderWidth: 'auto',
-							}}
-						/>
+						<a
+							style={{ position: 'relative' }}
+							href='https://www.google.com'>
+							<div className='overlayDet' />
+							<img
+								src={handbook}
+								className='detImages'
+								style={{
+									border: 'solid',
+									borderColor: 'black',
+									borderWidth: 'auto',
+								}}
+							/>
+						</a>
 						<h2
 							style={{
 								maxWidth: '150px',
@@ -98,7 +104,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							src={comingSoon}
 							style={{
 								border: 'solid',
-								borderColor: 'black',
+								borderColor: '#ff8500',
 								borderWidth: 'auto',
 								height: '210.08px',
 								width: '150px',
@@ -121,11 +127,14 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							height: 'auto',
 						}}>
 						<img
-							src={handbook}
+							src={comingSoon}
 							style={{
 								border: 'solid',
-								borderColor: 'black',
-								borderWidth: '2px',
+								borderColor: '#ff8500',
+								borderWidth: 'auto',
+								height: '210.08px',
+								width: '150px',
+								objectFit: 'cover',
 							}}
 						/>
 						<h2
@@ -144,11 +153,14 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							height: 'auto',
 						}}>
 						<img
-							src={handbook}
+							src={comingSoon}
 							style={{
 								border: 'solid',
-								borderColor: 'black',
-								borderWidth: '2px',
+								borderColor: '#ff8500',
+								borderWidth: 'auto',
+								height: '210.08px',
+								width: '150px',
+								objectFit: 'cover',
 							}}
 						/>
 						<h2
@@ -158,7 +170,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								margin: '0px 2px',
 							}}
 							className='text-center'>
-							Adi forgot lmao dead
+							Conference Schedule
 						</h2>
 					</div>
 				</div>
