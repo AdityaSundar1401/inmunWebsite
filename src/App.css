@@ -1370,24 +1370,9 @@ h2 {
 	top: 70px;
 }
 
-.overlayDet {
+.detImages:hover {
+	backgroundColor: rgb(0, 11, 58, 0.7);
 	transition: 0.5s ease;
-	background-color: #000b3a;
-	opacity: 0.3;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0%;
-	left: 0%;
-	z-index: 100;
-}
-
-.detImages:hover .overlayDet {
-	opacity: 0.7;
-}
-
-.overlayDet:hover {
-	opacity: 0.7;
 }
 
 /* About Us */
