@@ -1370,11 +1370,6 @@ h2 {
 	top: 70px;
 }
 
-.detImages:hover {
-	backgroundColor: rgb(0, 11, 58, 0.7);
-	transition: 0.5s ease;
-}
-
 /* About Us */
 
 .about-us {
