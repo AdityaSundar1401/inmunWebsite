@@ -5,6 +5,7 @@ import { isMobile } from 'react-device-detect';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
 import handbook from './confHandbook.jpeg';
+import comingSoon from './comingSoon.jpeg';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
 	// Drop Down Functions
@@ -93,23 +94,17 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<div
+						<img
+							src={comingSoon}
 							style={{
-								backgroundColor: 'grey',
-								height: '210.49px',
-								position: 'absolute',
-							}}>
-							<h2
-								style={{
-									position: 'absolute',
-									top: '50%',
-									right: '0%',
-									left: '0%',
-									margin: 'auto',
-								}}>
-								Coming Soon!
-							</h2>
-						</div>
+								border: 'solid',
+								borderColor: 'black',
+								borderWidth: 'auto',
+								height: '210.08px',
+								width: '150px',
+								objectFit: 'cover',
+							}}
+						/>
 						<h2
 							style={{
 								maxWidth: '150px',
