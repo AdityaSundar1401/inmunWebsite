@@ -93,7 +93,12 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<div style={{ backgroundColor: 'grey', height: '210.49px' }}>
+						<div
+							style={{
+								backgroundColor: 'grey',
+								height: '210.49px',
+								position: 'absolute',
+							}}>
 							<h2
 								style={{
 									position: 'absolute',
