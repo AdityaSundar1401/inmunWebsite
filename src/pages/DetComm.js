@@ -3,22 +3,24 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../layout/Navbar';
-import abhi from './Secretariat/Images/abhi.jpg';
-import adi from './Secretariat/Images/adi.jpeg';
-import vivin from './Secretariat/Images/vivin.png';
-import aashna from './Secretariat/Images/aashna.jpeg';
-import narayan from './Secretariat/Images/narayan.jpeg';
+import abhi from './Secretariat/Images/abhi1.jpg';
+import adi from './Secretariat/Images/adi1.jpeg';
+import vivin from './Secretariat/Images/vivin1.png';
+import aashna from './Secretariat/Images/aashna1.jpeg';
+import narayan from './Secretariat/Images/narayan1.jpeg';
+import johann from './Secretariat/Images/johann1.jpg';
 import tommy from './Secretariat/Images/tommy.jpeg';
 import samu from './Secretariat/Images/samu.jpeg';
 import arnav from './Secretariat/Images/arnav.webp';
 import dafoe from './Secretariat/Images/dafoe.webp';
-import ameya from './Secretariat/Images/ameya.jpeg';
-import lasya from './Secretariat/Images/lasya.jpeg';
-import abbay from './Secretariat/Images/abbay.jpeg';
-import barman from './Secretariat/Images/barman.jpeg';
-import hari from './Secretariat/Images/hari.jpeg';
+import ameya from './Secretariat/Images/ameya1.jpeg';
+import lasya from './Secretariat/Images/lasya1.jpeg';
+import chari from './Secretariat/Images/chari1.jpg';
+import abhimanyu from './Secretariat/Images/abhimanyu1.jpeg';
+import ashutosh from './Secretariat/Images/ashutosh1.jpeg';
+import hari from './Secretariat/Images/hari1.jpeg';
 import sud from './Secretariat/Images/sud.webp';
-import ananya from './Secretariat/Images/ananya.jpeg';
+import ananya from './Secretariat/Images/ananya1.jpeg';
 import ali from './Secretariat/Images/ali.jpeg';
 
 // background images
@@ -55,7 +57,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Tom Thomas',
-					image: tommy,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -83,7 +85,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Tom Thomas',
-					image: tommy,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -105,12 +107,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Abhimanyu Balagopal',
-					image: abbay,
+					image: abhimanyu,
 					des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
 				},
 				{
 					name: 'Tom Thomas',
-					image: tommy,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -124,7 +126,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Prady',
-					image: ameya,
+					image: ali,
 					post: 'Chairperson',
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
@@ -137,7 +139,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Tom Thomas',
-					image: tommy,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -164,7 +166,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Tom Thomas',
-					image: tommy,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -191,7 +193,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Tom Thomas',
-					image: tommy,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -205,7 +207,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Gautam Chari',
-					image: samu,
+					image: chari,
 					post: 'Prime Minister',
 					des: 'Hi delegates, I am Gautam and am a student from grade 11 AS. It is my distinct honour to serve as the director of the Rajya Sabha this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!',
 				},
@@ -213,12 +215,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Arnav Agarwal',
-					image: arnav,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 				{
 					name: 'Willem Dafoe',
-					image: dafoe,
+					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
@@ -238,7 +240,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Johann Ulatill',
-					image: vivin,
+					image: johann,
 					post: 'Crisis Director',
 					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
 				},
@@ -257,7 +259,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Ashutosh Barman',
-					image: barman,
+					image: ashutosh,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 			],
