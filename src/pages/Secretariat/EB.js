@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
 import abhi from './Images/abhi2.jpg';
-import om from './Images/om1.jpg';
+import omu from '../om.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johann1.jpg';
 import vivin from './Images/vivin1.jpeg';
@@ -323,7 +323,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							style={{ marginBottom: '50px' }}>
 							<img
 								className='usg-pic'
-								src={om}
+								src={omu}
 								alt=''
 							/>
 							<h1>Om Mehta</h1>
@@ -467,7 +467,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								style={{ marginBottom: '50px' }}>
 								<img
 									className='usg-pic'
-									src={om}
+									src={omu}
 									alt=''
 								/>
 								<h1>Om Mehta</h1>
