@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
 import abhi from './Images/abhi2.jpg';
-import omu from '../om.jpeg';
+import omu from '../../om.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johann1.jpg';
 import vivin from './Images/vivin1.jpeg';
@@ -12,6 +12,7 @@ import aashna from './Images/aashna1.jpg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
 import chari from './Images/chari1.jpg';
+import chari2 from './Images/chari.jpg';
 import arnav from './Images/arnav.webp';
 import dafoe from './Images/dafoe.webp';
 import ameya from './Images/ameya1.jpg';
@@ -334,7 +335,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							style={{ marginBottom: '50px' }}>
 							<img
 								className='usg-pic'
-								src={chari}
+								src={chari2}
 								alt=''
 							/>
 							<h1>Gautam Chari</h1>
@@ -478,7 +479,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								style={{ marginBottom: '50px' }}>
 								<img
 									className='usg-pic'
-									src={chari}
+									src={chari2}
 									alt=''
 								/>
 								<h1>Gautam Chari</h1>
