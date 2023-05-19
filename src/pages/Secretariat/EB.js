@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
-import abhi from './Images/abhi1.jpg';
+import abhi from './Images/abhi2.jpg';
 import om from './Images/om1.jpg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johann1.jpg';
