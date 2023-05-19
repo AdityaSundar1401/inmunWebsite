@@ -3,24 +3,24 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
-import abhi from './Images/abhi.jpg';
-import omu from '../../om.jpeg';
-import adi from './Images/adi.jpeg';
-import ullu from './Images/ullu.jpeg';
-import vivin from './Images/vivin.png';
-import aashna from './Images/aashna.jpeg';
-import narayan from './Images/narayan.jpeg';
+import abhi from './Images/abhi1.jpg';
+import om from '../../om1.jpeg';
+import adi from './Images/adi1.jpeg';
+import johann from './Images/johann1.jpeg';
+import vivin from './Images/vivin1.png';
+import aashna from './Images/aashna1.jpeg';
+import narayan from './Images/narayan1.jpeg';
 import tommy from './Images/tommy.jpeg';
-import chari from './Images/chari.jpeg';
+import chari from './Images/chari1.jpeg';
 import arnav from './Images/arnav.webp';
 import dafoe from './Images/dafoe.webp';
-import ameya from './Images/ameya.jpeg';
-import lasya from './Images/lasya.jpeg';
-import abbay from './Images/abbay.jpeg';
-import barman from './Images/barman.jpeg';
-import hari from './Images/hari.jpeg';
+import ameya from './Images/ameya1.jpeg';
+import lasya from './Images/lasya1.jpeg';
+import abhimanyu from './Images/abhimanyu1.jpeg';
+import ashutosh from './Images/ashutosh1.jpeg';
+import hari from './Images/hari1.jpeg';
 import sud from './Images/sud.webp';
-import ananya from './Images/ananya.jpeg';
+import ananya from './Images/ananya1.jpeg';
 import ali from './Images/ali.jpeg';
 // background images
 import vietnam from './Images/vietnam.png';
@@ -37,19 +37,19 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		{
 			post: 'Entertainment',
 			names: ['Abhinav Vallur', 'Vivin Anand'],
-			imgs: [ali, ali],
+			imgs: [abhi, vivin],
 		},
 		{
 			post: 'Communication',
 			names: ['Aditya Sundar', 'Johann Ullatil (IHOP)'],
-			imgs: [ali, ali],
+			imgs: [adi, johann],
 		},
 	];
 
 	const finance = {
 		post: 'Finance',
 		names: ['Aditya Narayan', 'Aashna Kumar'],
-		imgs: [narayan, ali],
+		imgs: [narayan, aashna],
 	};
 
 	const commsEb = [
@@ -94,7 +94,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Ananya Jain',
-					image: ali,
+					image: ananya,
 					des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 				},
 				{
@@ -111,7 +111,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Aashna Kumar',
-					image: ali,
+					image: aashna,
 					post: 'Chairperson',
 					des: 'My name Is Aashna Kumar and it is my absolute honour to be your Director for INYP’s Civil Society this year. MUNning has been a central part of my high school life. I’ve bagged placements at HMUN, DSMUN, CJCMUN etc. have even had the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INYP this year! A bit about myself: I absolutely love playing the piano, becoming friends with every dog I see, reading books, and bingeing every possible show on Netflix! I hope to see you guys in October, and I’m so excited to hear your views and ideas!',
 				},
@@ -119,7 +119,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Abhimanyu Balagopal',
-					image: ali,
+					image: abhimanyu,
 					des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
 				},
 				{
@@ -144,7 +144,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Hari Sai Harish',
-					image: ali,
+					image: hari,
 					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
 				},
 				{
@@ -161,7 +161,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Ameya Mundkur',
-					image: ali,
+					image: ameya,
 					post: 'Chairperson',
 					des: 'Hi delegates! I’m Ameya Mundkur. Music is one of my biggest passions, I love animals. I also enjoy talking to people. I can have the most random conversations ranging from 60’s rock bands and Harry Styles to issues around the world to how Phil from Modern Family is the wisest character. I never really enjoyed debates, but as soon as I started MUNing, my opinion on that completely changed. I’ve been MUNing for 2 years now, it’s been one of the most life changing, educational and incredibly fun experiences I’ve had. I’m super excited to see unique, divergent views lined with interesting debates to get the most inclusive, holistic and productive outcome in committee.',
 				},
@@ -169,7 +169,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Lasya Verma',
-					image: ali,
+					image: lasya,
 					des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce',
 				},
 				{
@@ -186,7 +186,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Abhinav Vallur',
-					image: ali,
+					image: abhi,
 					post: 'Chairperson',
 					des: 'Greeting delegates, this is Abhinav Vallur from 11AS and I will be serving as your co-director for UNICEF this year. I first took up MUN in 8th grade, and over the last few years my interest and involvement with MUN and debate has grown rapidly, which has fetched me awards in various reputable MUNs such as Harvard MUN and DSMUN to name a few. Along the way, I’ve picked up a myriad of skills, which have helped me in my other hobbies such as sprinting and music. When I’m not on the track or preparing for my next MUN, I will probably be rewatching Star Wars or some other iconic movie. And with that in mind, May the Force be with you.',
 				},
@@ -236,19 +236,19 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Aditya Sundar',
-					image: ali,
+					image: adi,
 					post: 'Director of the Allies',
 					des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 				},
 				{
 					name: 'Johann Ulatill',
-					image: ali,
+					image: johann,
 					post: 'Crisis Director',
 					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
 				},
 				{
 					name: 'Vivin Anand',
-					image: ali,
+					image: vivin,
 					post: 'Director of the Axis',
 					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
 				},
@@ -261,7 +261,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Ashutosh Barman',
-					image: ali,
+					image: ashutosh,
 					des: 'I’ve always enjoyed a good debate, and am known to everyone close to me as the guy who argues too much - but it comes from a place of love. I’m passionate about sports, music, and anything to do with physics, and have been cursed by being a Ferrari fan. I love movies and games and really any sort of entertainment. Although I’ve been told otherwise, I firmly believe I have a good sense of humour. So if I make a “bad” joke - just laugh for my sanity. I am really looking forward to being on the board for this JCC, and if it lives up to my expectations, I promise it will be an unforgettable experience.',
 				},
 			],
