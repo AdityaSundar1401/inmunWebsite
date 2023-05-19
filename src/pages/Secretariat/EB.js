@@ -12,7 +12,7 @@ import aashna from './Images/aashna1.jpg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
 import chari from './Images/chari1.jpg';
-import chari2 from './Images/chari.jpg';
+import chari2 from './Images/chari.jpeg';
 import arnav from './Images/arnav.webp';
 import dafoe from './Images/dafoe.webp';
 import ameya from './Images/ameya1.jpg';
