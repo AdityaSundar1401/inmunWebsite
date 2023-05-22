@@ -7,7 +7,7 @@ import '../App.css';
 import vietnam from './Secretariat/Images/vietnam.png';
 import bluestar from './Secretariat/Images/bluestar.jpeg';
 import wwii from './Secretariat/Images/heil_hitler.jpeg';
-import bangalore from './Secretariat/Images/bengaluru.jpeg';
+import diversity from './Secretariat/Images/rajyasabhabg.jpeg';
 import health from './Secretariat/Images/health.jpeg';
 import refugees from './Secretariat/Images/refugees.jpeg';
 import unep from './Secretariat/Images/unep.jpeg';
@@ -94,7 +94,7 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 		{
 			commName: 'Rajya Sabha',
 			agenda: 'Deliberation over the reservation system in India',
-			background: bangalore,
+			background: diversity,
 			directors: ['Ali Oez'],
 			path: 'rajya-sabha',
 		},
