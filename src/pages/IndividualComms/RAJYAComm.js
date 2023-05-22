@@ -84,7 +84,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		agenda: 'Deliberation over the reservation system in India',
 		commDesc:
 			'Reservation has been one of India’s most sensitive topics, with policy changes often leading to violent riots and protests. It is often claimed that Reservation has become a catalyst for what it once seeked to destroy, caste-based discrimination. As delegates navigate through one of the most complex discussions one could have as an MP, they will be forced to pull out their thinking hats. How does one reach consensus in a committee that consists of people with such differing views? If you want to succeed in this committee, keep your wits about you and be prepared for the most intense debates ever.',
-		background: bangalore,
+		background: rajyabg,
 		directors: [
 			{
 				name: 'Coming soon...',
