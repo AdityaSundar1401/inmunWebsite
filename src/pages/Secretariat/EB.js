@@ -73,9 +73,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
 				{
-					name: 'Coming soon...',
+					name: 'Ayush Nair',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: 'Currently doing his 2nd PUC  at St. Joseph’s Pre-university college, you will find this delegate making powerful speeches to get the entire committee on his side. He has placements at conferences like CJCMUN, DWMUN, GEARMUN etc. He is a marketing geek who is often found running google ad campaigns for companies, and is also an SEO specialist. He engages in multiple community service activities. He enjoys movies, football and fiction.',
 				},
 			],
 		},
@@ -99,9 +99,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 				},
 				{
-					name: 'Coming soon...',
+					name: 'Yash Iyer',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.",
 				},
 			],
 		},
@@ -124,9 +124,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
 				},
 				{
-					name: 'Coming soon...',
+					name: 'Muhammed Hafesjee',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: "With a bit of a rough start in the Bangalore circuit, this youth is now building a reputation across the city for his old-fashioned lobbying skills and inventive speeches. If you're in a committee with him, committee will never be boring.Apart from MUNning, he loves to explore the city on his cycle (often getting into accidents), plays the guitar, is currently working on a startup company, has given a Ted Talk and plans to write CLAT. His accolades include placements at DeMUN, ECMRMUN and AJMUN, He has also chaired the UNSC Committee at GearMUN and is the Head Delegate for the NPS ITPL MUN Delegation",
 				},
 			],
 		},
@@ -136,7 +136,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			background: bangalore,
 			directors: [
 				{
-					name: 'Coming soon...',
+					name: 'Vivek MK',
 					image: ali,
 					post: 'Chairperson',
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
@@ -149,9 +149,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
 				},
 				{
-					name: 'Coming soon...',
+					name: 'Abhinav Athrey',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: "'When diplomacy ends, War begins' - Hi, I'm Abhinav, and I'm passionate about chess and MUNs. I love debating and putting forward my opinion on global issues which I feel is quite necessary with other individuals.I love press conferences.",
 				},
 			],
 		},
@@ -174,9 +174,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!',
 				},
 				{
-					name: 'Coming soon...',
+					name: 'Krisha Reddy',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: "'Diplomacy is the velvet glove that cloaks the fist of power.' - This Executive Board member is no stranger to MUNs. With a placement at every conference she’s attended and even a BD in her first ever committee, she’s been through all munning has to offer. Whether it be arguing for climate rights or against China’s hold on economies, she is confident, well researched and knows how to build her bloc. Her achievements speak for her, and her ability to speak and argue points prove her caliber. Presenting the Assistant Director of the Bruhat Bengaluru Mahanagara Palike, Krisha Reddy.",
 				},
 			],
 		},
@@ -194,7 +194,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			],
 			ads: [
 				{
-					name: 'Coming soon...',
+					name: 'BS Chetan Swaroop Reddy',
 					image: ali,
 					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 				},
