@@ -20,7 +20,7 @@ import lasya from './Images/lasya1.jpg';
 import abhimanyu from './Images/abhimanyu1.jpeg';
 import ashutosh from './Images/ashutosh1.jpg';
 import hari from './Images/hari1.jpg';
-import sud from './Images/sud.webp';
+import sud from './Images/sud.jpeg';
 import ananya from './Images/ananya1.jpeg';
 import ali from './Images/ali.jpeg';
 // background images
