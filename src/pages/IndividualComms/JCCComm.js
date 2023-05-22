@@ -20,7 +20,7 @@ import chari from '../Secretariat/Images/chari1.jpg';
 import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
 import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
 import hari from '../Secretariat/Images/hari1.jpg';
-import sud from '../Secretariat/Images/sud.webp';
+import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
 import bbmp from '../../icons/IBBMP.png';
@@ -107,7 +107,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		ads: [
 			{
 				name: 'Sudyotman Sudershan',
-				image: ali,
+				image: sud,
 				des: "Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room",
 			},
 			{
