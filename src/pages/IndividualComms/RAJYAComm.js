@@ -38,6 +38,7 @@ import bluestar from '../Secretariat/Images/bluestar.jpeg';
 import wwii from '../Secretariat/Images/heil_hitler.jpeg';
 import bangalore from '../Secretariat/Images/bengaluru.jpeg';
 import health from '../Secretariat/Images/health.jpeg';
+import rajyabg from '../Secretariat/Images/rajyasabhabg.jpeg';
 import refugees from '../Secretariat/Images/refugees.jpeg';
 import env from '../Secretariat/Images/unep.jpeg';
 import Footer from '../../layout/Footer';
