@@ -28,6 +28,7 @@ import vietnam from './Images/vietnam.png';
 import bluestar from './Images/bluestar.jpeg';
 import wwii from './Images/heil_hitler.jpeg';
 import bangalore from './Images/bengaluru.jpeg';
+import rajyabg from './Images/rajyasabhabg.jpeg';
 import health from './Images/health.jpeg';
 import refugees from './Images/refugees.jpeg';
 import unep from './Images/unep.jpeg';
@@ -133,7 +134,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		{
 			commName: 'Rajya Sabha',
 			agenda: 'Deliberation over the reservation system in India',
-			background: bangalore,
+			background: rajyabg,
 			directors: [
 				{
 					name: 'Vivek MK',
