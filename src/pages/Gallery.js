@@ -6,7 +6,7 @@ import amber from '../galleryImages/amber.JPG';
 import alba from '../galleryImages/alba.jpeg';
 import portman from '../galleryImages/portman.jpeg';
 import maddie from '../galleryImages/maddie.jpeg';
-import emma from '../galleryImages/emma.jpeg';
+import emma from '../galleryImages/emma.JPG';
 
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
