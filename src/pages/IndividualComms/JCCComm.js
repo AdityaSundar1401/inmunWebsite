@@ -3,24 +3,25 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import abhi from '../Secretariat/Images/abhi.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import adi from '../Secretariat/Images/adi.jpeg';
-import ullu from '../Secretariat/Images/ullu.jpeg';
-import vivin from '../Secretariat/Images/vivin.png';
-import aashna from '../Secretariat/Images/aashna.jpeg';
-import narayan from '../Secretariat/Images/narayan.jpeg';
+import abhi from '../Secretariat/Images/abhi1.jpg';
+import adi from '../Secretariat/Images/adi1.jpg';
+import vivin from '../Secretariat/Images/vivin1.jpeg';
+import aashna from '../Secretariat/Images/aashna1.jpg';
+import narayan from '../Secretariat/Images/narayan1.jpg';
+import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
-import ameya from '../Secretariat/Images/ameya.jpeg';
-import lasya from '../Secretariat/Images/lasya.jpeg';
-import abbay from '../Secretariat/Images/abbay.jpeg';
-import barman from '../Secretariat/Images/barman.jpeg';
-import hari from '../Secretariat/Images/hari.jpeg';
+import ameya from '../Secretariat/Images/ameya1.jpg';
+import lasya from '../Secretariat/Images/lasya1.jpg';
+import chari from '../Secretariat/Images/chari1.jpg';
+import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
+import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
+import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.webp';
-import ananya from '../Secretariat/Images/ananya.jpeg';
+import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
@@ -86,19 +87,19 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		directors: [
 			{
 				name: 'Aditya Sundar',
-				image: ali,
+				image: adi,
 				post: 'Director of the Allies',
 				des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 			},
 			{
 				name: 'Johann Ulatill',
-				image: ali,
+				image: johann,
 				post: 'Crisis Director',
 				des: "I fell in love with MUNing three years ago after my first MUN and I haven't stopped since. I love a fast-paced committee and hope that my delegates can give me one ;). Other than MUN I love other forms of debate and even have been looking to get into mooting for a while now. I'm studying to hopefully be a law student someday because I fell in love with the field. I hope to have an amazing time with you all at this committee and hope you all have a great time as delegates as I have in the past INMUN's.",
 			},
 			{
 				name: 'Vivin Anand',
-				image: ali,
+				image: vivin,
 				post: 'Director of the Axis',
 				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
 			},
@@ -106,12 +107,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		ads: [
 			{
 				name: 'Sudyotman Sudershan',
-				image: ali,
+				image: sud,
 				des: "Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room",
 			},
 			{
 				name: 'Ashutosh Barman',
-				image: ali,
+				image: ashutosh,
 				des: "I’ve always enjoyed a good debate, and am known to everyone close to me as the guy who argues too much - but it comes from a place of love. I’m passionate about sports, music, and anything to do with physics, and have been cursed by being a Ferrari fan. I love movies and games and really any sort of entertainment. Although I’ve been told otherwise, I firmly believe I have a good sense of humour. So if I make a “bad” joke - just laugh for my sanity. I'm really looking forward to being on the board for this JCC, and if it lives up to my expectations, I promise it will be an unforgettable experience.",
 			},
 		],
