@@ -5,6 +5,7 @@ import { isMobile } from 'react-device-detect';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
 import handbook from './confHandbook.jpeg';
+import pdfhandbook from './pdfhandbook.pdf';
 import comingSoon from './comingSoon.jpeg';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
@@ -77,7 +78,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								height: '209px',
 							}}
 							className='detImages'
-							href='https://www.google.com'
+							href={pdfhandbook}
 							target='_blank'>
 							<img
 								src={handbook}
