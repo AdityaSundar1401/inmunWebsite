@@ -97,6 +97,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				name: 'Lasya Verma',
 				image: lasya,
 				des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!'
+			},
 			{
 				name: 'Coming soon...',
 				image: ali,
