@@ -3,24 +3,25 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import abhi from '../Secretariat/Images/abhi.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import adi from '../Secretariat/Images/adi.jpeg';
-import ullu from '../Secretariat/Images/ullu.jpeg';
-import vivin from '../Secretariat/Images/vivin.png';
-import aashna from '../Secretariat/Images/aashna.jpeg';
-import narayan from '../Secretariat/Images/narayan.jpeg';
+import abhi from '../Secretariat/Images/abhi1.jpg';
+import adi from '../Secretariat/Images/adi1.jpg';
+import vivin from '../Secretariat/Images/vivin1.jpeg';
+import aashna from '../Secretariat/Images/aashna1.jpg';
+import narayan from '../Secretariat/Images/narayan1.jpg';
+import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
-import ameya from '../Secretariat/Images/ameya.jpeg';
-import lasya from '../Secretariat/Images/lasya.jpeg';
-import abbay from '../Secretariat/Images/abbay.jpeg';
-import barman from '../Secretariat/Images/barman.jpeg';
-import hari from '../Secretariat/Images/hari.jpeg';
+import ameya from '../Secretariat/Images/ameya1.jpg';
+import lasya from '../Secretariat/Images/lasya1.jpg';
+import chari from '../Secretariat/Images/chari1.jpg';
+import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
+import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
+import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.webp';
-import ananya from '../Secretariat/Images/ananya.jpeg';
+import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
@@ -85,7 +86,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		directors: [
 			{
 				name: 'Aashna Kumar',
-				image: ali,
+				image: aashna,
 				post: 'Chairperson',
 				des: 'My name Is Aashna Kumar and it is my absolute honour to be your Director for INYP’s Civil Society this year. MUNning has been a central part of my high school life. I’ve bagged placements at HMUN, DSMUN, CJCMUN etc. have even had the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INYP this year! A bit about myself: I absolutely love playing the piano, becoming friends with every dog I see, reading books, and bingeing every possible show on Netflix! I hope to see you guys in October, and I’m so excited to hear your views and ideas!',
 			},
@@ -93,7 +94,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		ads: [
 			{
 				name: 'Abhimanyu Balagopal',
-				image: abbay,
+				image: abhimanyu,
 				des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
 			},
 			{
