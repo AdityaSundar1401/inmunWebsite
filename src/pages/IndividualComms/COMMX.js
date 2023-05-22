@@ -3,24 +3,25 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import abhi from '../Secretariat/Images/abhi.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import adi from '../Secretariat/Images/adi.jpeg';
-import ullu from '../Secretariat/Images/ullu.jpeg';
-import vivin from '../Secretariat/Images/vivin.png';
-import aashna from '../Secretariat/Images/aashna.jpeg';
-import narayan from '../Secretariat/Images/narayan.jpeg';
+import abhi from '../Secretariat/Images/abhi1.jpg';
+import adi from '../Secretariat/Images/adi1.jpg';
+import vivin from '../Secretariat/Images/vivin1.jpeg';
+import aashna from '../Secretariat/Images/aashna1.jpg';
+import narayan from '../Secretariat/Images/narayan1.jpg';
+import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
-import ameya from '../Secretariat/Images/ameya.jpeg';
-import lasya from '../Secretariat/Images/lasya.jpeg';
-import abbay from '../Secretariat/Images/abbay.jpeg';
-import barman from '../Secretariat/Images/barman.jpeg';
-import hari from '../Secretariat/Images/hari.jpeg';
+import ameya from '../Secretariat/Images/ameya1.jpg';
+import lasya from '../Secretariat/Images/lasya1.jpg';
+import chari from '../Secretariat/Images/chari1.jpg';
+import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
+import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
+import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.webp';
-import ananya from '../Secretariat/Images/ananya.jpeg';
+import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
@@ -86,7 +87,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		directors: [
 			{
 				name: 'Abhinav Vallur',
-				image: ali,
+				image: abhi,
 				post: 'Chairperson',
 				des: 'Greeting delegates, this is Abhinav Vallur from 11AS and I will be serving as your co-director for UNICEF this year. I first took up MUN in 8th grade, and over the last few years my interest and involvement with MUN and debate has grown rapidly, which has fetched me awards in various reputable MUNs such as Harvard MUN and DSMUN to name a few. Along the way, I’ve picked up a myriad of skills, which have helped me in my other hobbies such as sprinting and music. When I’m not on the track or preparing for my next MUN, I will probably be rewatching Star Wars or some other iconic movie. And with that in mind, May the Force be with you.',
 			},
