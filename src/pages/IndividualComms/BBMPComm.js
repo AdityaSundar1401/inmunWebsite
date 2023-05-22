@@ -3,25 +3,26 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import abhi from '../Secretariat/Images/abhi.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import adi from '../Secretariat/Images/adi.jpeg';
-import ullu from '../Secretariat/Images/ullu.jpeg';
-import vivin from '../Secretariat/Images/vivin.png';
-import aashna from '../Secretariat/Images/aashna.jpeg';
-import narayan from '../Secretariat/Images/narayan.jpeg';
-import tommy from '../Secretariat/Images/tommy.jpeg';
-import samu from '../Secretariat/Images/samu.jpeg';
-import arnav from '../Secretariat/Images/arnav.webp';
-import dafoe from '../Secretariat/Images/dafoe.webp';
-import ameya from '../Secretariat/Images/ameya.jpeg';
-import lasya from '../Secretariat/Images/lasya.jpeg';
-import abbay from '../Secretariat/Images/abbay.jpeg';
-import barman from '../Secretariat/Images/barman.jpeg';
-import hari from '../Secretariat/Images/hari.jpeg';
-import sud from '../Secretariat/Images/sud.webp';
-import ananya from '../Secretariat/Images/ananya.jpeg';
-import ali from '../Secretariat/Images/ali.jpeg';
+import abhi from './Secretariat/Images/abhi1.jpg';
+import adi from './Secretariat/Images/adi1.jpg';
+import vivin from './Secretariat/Images/vivin1.jpeg';
+import aashna from './Secretariat/Images/aashna1.jpg';
+import narayan from './Secretariat/Images/narayan1.jpg';
+import johann from './Secretariat/Images/johann1.jpg';
+import tommy from './Secretariat/Images/tommy.jpeg';
+import samu from './Secretariat/Images/samu.jpeg';
+import arnav from './Secretariat/Images/arnav.webp';
+import dafoe from './Secretariat/Images/dafoe.webp';
+import ameya from './Secretariat/Images/ameya1.jpg';
+import lasya from './Secretariat/Images/lasya1.jpg';
+import chari from './Secretariat/Images/chari1.jpg';
+import abhimanyu from './Secretariat/Images/abhimanyu1.jpeg';
+import ashutosh from './Secretariat/Images/ashutosh1.jpg';
+import hari from './Secretariat/Images/hari1.jpg';
+import sud from './Secretariat/Images/sud.webp';
+import ananya from './Secretariat/Images/ananya1.jpeg';
+import ali from './Secretariat/Images/ali.jpeg';
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -95,11 +96,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			{
 				name: 'Lasya Verma',
 				image: lasya,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			},
+				des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!'
 			{
-				name: 'Tom Thomas',
-				image: tommy,
+				name: 'Coming soon...',
+				image: ali,
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
 			},
 		],
