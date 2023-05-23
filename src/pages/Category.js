@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../layout/Navbar';
 import '../App.css';
 import vietnam from './Secretariat/Images/vietnam.png';
-import bluestar from './Secretariat/Images/bluestar.jpeg';
+import bluestar from './Secretariat/Images/bluestar.webp';
 import wwii from './Secretariat/Images/heil_hitler.jpeg';
 import bangalore from './Secretariat/Images/bengaluru.jpeg';
 import diversity from './Secretariat/Images/rajyasabhabg.jpeg';
