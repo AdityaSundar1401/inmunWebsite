@@ -4,8 +4,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { isMobile } from 'react-device-detect';
 import amber from '../galleryImages/amber.JPG';
 import alba from '../galleryImages/alba.jpeg';
-import portman from '../galleryImages/portman.jpeg';
-import maddie from '../galleryImages/maddie.jpeg';
+import portman from '../galleryImages/madison.JPG';
+import maddie from '../galleryImages/maddie.jpg';
 import emma from '../galleryImages/emma.JPG';
 
 const Gallery = () => {
