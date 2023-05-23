@@ -3,26 +3,32 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
+import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import abhi from '../Secretariat/Images/abhi1.jpg';
 import adi from '../Secretariat/Images/adi1.jpg';
+import johann from '../Secretariat/Images/johannnew.cr2';
 import vivin from '../Secretariat/Images/vivin1.jpeg';
 import aashna from '../Secretariat/Images/aashna1.jpg';
 import narayan from '../Secretariat/Images/narayan1.jpg';
-import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
-import samu from '../Secretariat/Images/samu.jpeg';
+import chari from '../Secretariat/Images/chari1.jpg';
+import chari2 from '../Secretariat/Images/chari.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
-import chari from '../Secretariat/Images/chari1.jpg';
 import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
 import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
 import hari from '../Secretariat/Images/hari1.jpg';
-import sud from '../Secretariat/Images/sud.webp';
+import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
+import yash from '../Secretariat/Images/yashiyer1.jpeg';
+import krisha from '../Secretariat/Images/krishareddy1.jpeg';
+import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
+import abhinavathrey from '../Secretariat/Images/abhinavathrey1.jpeg';
+import arav from '../Secretariat/Images/aravb1.jpeg';
+import ayush from '../Secretariat/Images/ayushnair1.jpeg'
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -100,9 +106,11 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 			},
 			{
-				name: 'Coming soon...',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				name: 'Yash Iyer',
+				image: yash,
+				des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.
+
+"
 			},
 		],
 	};
