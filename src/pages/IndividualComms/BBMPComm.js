@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
-import Footer from '../../layout/Footer';
 import abhi from './Images/abhi2.jpg';
 import omu from '../../om.jpeg';
 import adi from './Images/adi1.jpg';
