@@ -24,7 +24,7 @@ import koi from '../galleryImages/koi.JPG';
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
 
-	const images = [kavita, alba, sophie, amber, portman, maddie, emma, zoe, carly, shreya, kundavi, madhavi, randhavi, bhaidavi];
+	const images = [kavita, alba, sophie, amber, koi, portman, maddie, boi, emma, zoe, carly, loi, shreya, kundavi, madhavi, doi, randhavi, bhaidavi];
 	const timeoutRef = useRef(null);
 
 	const resetTimeout = () => {
