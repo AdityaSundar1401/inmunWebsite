@@ -7,11 +7,14 @@ import alba from '../galleryImages/alba.jpeg';
 import portman from '../galleryImages/madison.JPG';
 import maddie from '../galleryImages/maddie.jpg';
 import emma from '../galleryImages/emma.JPG';
+import sophie from '../galleryImages/sophie.JPG';
+import carly from '../galleryImages/carly.JPG';
+import zoe from '../galleryImages/zoe.JPG';
 
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
 
-	const images = [amber, alba, portman, maddie, emma];
+	const images = [amber, alba, portman, maddie, emma, zoe, carly, sophie];
 	const timeoutRef = useRef(null);
 
 	const resetTimeout = () => {
