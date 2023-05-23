@@ -9,7 +9,7 @@ import adi from '../Secretariat/Images/adi1.jpg';
 import vivin from '../Secretariat/Images/vivin1.jpeg';
 import aashna from '../Secretariat/Images/aashna1.jpg';
 import narayan from '../Secretariat/Images/narayan1.jpg';
-import johann from '../Secretariat/Images/johann1.jpg';
+import johann from '../Secretariat/Images/johannnew.cr2';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
