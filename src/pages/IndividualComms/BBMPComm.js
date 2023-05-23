@@ -1,28 +1,34 @@
 /** @format */
 
-import React, { Fragment, useEffect, useState } from 'react';
-import { isMobile } from 'react-device-detect';
+import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
-import omu from '../Secretariat/Images/omu.jpeg';
-import abhi from '../Secretariat/Images/abhi1.jpg';
-import adi from '../Secretariat/Images/adi1.jpg';
-import vivin from '../Secretariat/Images/vivin1.jpeg';
-import aashna from '../Secretariat/Images/aashna1.jpg';
-import narayan from '../Secretariat/Images/narayan1.jpg';
-import johann from '../Secretariat/Images/johann1.jpg';
-import tommy from '../Secretariat/Images/tommy.jpeg';
-import samu from '../Secretariat/Images/samu.jpeg';
-import arnav from '../Secretariat/Images/arnav.webp';
-import dafoe from '../Secretariat/Images/dafoe.webp';
-import ameya from '../Secretariat/Images/ameya1.jpg';
-import lasya from '../Secretariat/Images/lasya1.jpg';
-import chari from '../Secretariat/Images/chari1.jpg';
-import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
-import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
-import hari from '../Secretariat/Images/hari1.jpg';
-import sud from '../Secretariat/Images/sud.webp';
-import ananya from '../Secretariat/Images/ananya1.jpeg';
-import ali from '../Secretariat/Images/ali.jpeg';
+import Footer from '../../layout/Footer';
+import abhi from './Images/abhi2.jpg';
+import omu from '../../om.jpeg';
+import adi from './Images/adi1.jpg';
+import johann from './Images/johannnew.cr2';
+import vivin from './Images/vivin1.jpeg';
+import aashna from './Images/aashna1.jpg';
+import narayan from './Images/narayan1.jpg';
+import tommy from './Images/tommy.jpeg';
+import chari from './Images/chari1.jpg';
+import chari2 from './Images/chari.jpeg';
+import arnav from './Images/arnav.webp';
+import dafoe from './Images/dafoe.webp';
+import ameya from './Images/ameya1.jpg';
+import lasya from './Images/lasya1.jpg';
+import abhimanyu from './Images/abhimanyu1.jpeg';
+import ashutosh from './Images/ashutosh1.jpg';
+import hari from './Images/hari1.jpg';
+import sud from './Images/sud.jpeg';
+import ananya from './Images/ananya1.jpeg';
+import ali from './Images/ali.jpeg';
+import yash from './Images/yashiyer1.jpeg';
+import krisha from './Images/krishareddy1.jpeg';
+import muhammad from './Images/muhammadhafesjee1.jpeg';
+import abhinavathrey from './Images/abhinavathrey1.jpeg';
+import arav from './Images/aravb1.jpeg';
+import ayush from './Images/ayushnair1.jpeg'
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -99,9 +105,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!'
 			},
 			{
-				name: 'Coming soon...',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				name: 'Krisha Reddy',
+				image: krisha,
+				des: "'Diplomacy is the velvet glove that cloaks the fist of power.' - This Executive Board member is no stranger to MUNs. With a placement at every conference she’s attended and even a BD in her first ever committee, she’s been through all munning has to offer. Whether it be arguing for climate rights or against China’s hold on economies, she is confident, well researched and knows how to build her bloc. Her achievements speak for her, and her ability to speak and argue points prove her caliber. Presenting the Assistant Director of the Bruhat Bengaluru Mahanagara Palike, Krisha Reddy.",
 			},
 		],
 	};
