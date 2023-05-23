@@ -12,12 +12,15 @@ import carly from '../galleryImages/carly.JPG';
 import zoe from '../galleryImages/zoe.JPG';
 import shreya from '../galleryImages/shreya.JPG';
 import kavita from '../galleryImages/kavita.JPG';
-
+import madhavi from '../galleryImages/madhavi.JPG';
+import randhavi from '../galleryImages/randhavi.JPG';
+import bhaidavi from '../galleryImages/bhaidavi.JPG';
+import kundavi from '../galleryImages/kundavi.JPG';
 
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
 
-	const images = [alba, sophie, amber, portman, maddie, emma, zoe, carly, kavita, shreya];
+	const images = [kavita, alba, sophie, amber, portman, maddie, emma, zoe, carly, shreya, kundavi, madhavi, radhavi, bhaidavi];
 	const timeoutRef = useRef(null);
 
 	const resetTimeout = () => {
