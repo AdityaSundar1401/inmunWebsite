@@ -3,26 +3,32 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
+import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import abhi from '../Secretariat/Images/abhi1.jpg';
 import adi from '../Secretariat/Images/adi1.jpg';
+import johann from '../Secretariat/Images/johannnew.cr2';
 import vivin from '../Secretariat/Images/vivin1.jpeg';
 import aashna from '../Secretariat/Images/aashna1.jpg';
 import narayan from '../Secretariat/Images/narayan1.jpg';
-import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
-import samu from '../Secretariat/Images/samu.jpeg';
+import chari from '../Secretariat/Images/chari1.jpg';
+import chari2 from '../Secretariat/Images/chari.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
-import chari from '../Secretariat/Images/chari1.jpg';
 import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
 import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
 import hari from '../Secretariat/Images/hari1.jpg';
-import sud from '../Secretariat/Images/sud.webp';
+import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
+import yash from '../Secretariat/Images/yashiyer1.jpeg';
+import krisha from '../Secretariat/Images/krishareddy1.jpeg';
+import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
+import abhinavathrey from '../Secretariat/Images/abhinavathrey1.jpeg';
+import arav from '../Secretariat/Images/aravb1.jpeg';
+import ayush from '../Secretariat/Images/ayushnair1.jpeg'
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -99,9 +105,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
 			},
 			{
-				name: 'Coming soon...',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				name: 'Ayush Nair',
+				image: ayush,
+				des: "Currently doing his 2nd PUC at St. Joseph’s Pre-university college, you will find this delegate making powerful speeches to get the entire committee on his side. He has placements at conferences like CJCMUN, DWMUN, GEARMUN etc. He is a marketing geek who is often found running google ad campaigns for companies, and is also an SEO specialist. He engages in multiple community service activities. He enjoys movies, football and fiction."
 			},
 		],
 	};
