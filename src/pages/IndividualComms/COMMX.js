@@ -4,7 +4,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
 import abhi from '../Secretariat/Images/abhi2.jpg';
-import omu from '../../om.jpeg';
+import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
 import johann from '../Secretariat/Images/johannnew.cr2';
 import vivin from '../Secretariat/Images/vivin1.jpeg';
