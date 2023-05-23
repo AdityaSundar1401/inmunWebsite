@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
 import abhi from './Images/abhi2.jpg';
 import omu from '../../om.jpeg';
