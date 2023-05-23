@@ -3,26 +3,32 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
+import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
-import abhi from '../Secretariat/Images/abhi1.jpg';
 import adi from '../Secretariat/Images/adi1.jpg';
+import johann from '../Secretariat/Images/johannnew.cr2';
 import vivin from '../Secretariat/Images/vivin1.jpeg';
 import aashna from '../Secretariat/Images/aashna1.jpg';
 import narayan from '../Secretariat/Images/narayan1.jpg';
-import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
-import samu from '../Secretariat/Images/samu.jpeg';
+import chari from '../Secretariat/Images/chari1.jpg';
+import chari2 from '../Secretariat/Images/chari.jpeg';
 import arnav from '../Secretariat/Images/arnav.webp';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
-import chari from '../Secretariat/Images/chari1.jpg';
 import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
 import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
 import hari from '../Secretariat/Images/hari1.jpg';
-import sud from '../Secretariat/Images/sud.webp';
+import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
+import yash from '../Secretariat/Images/yashiyer1.jpeg';
+import krisha from '../Secretariat/Images/krishareddy1.jpeg';
+import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
+import abhinavathrey from '../Secretariat/Images/abhinavathrey1.jpeg';
+import arav from '../Secretariat/Images/aravb1.jpeg';
+import ayush from '../Secretariat/Images/ayushnair1.jpeg'
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -87,7 +93,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		background: rajyabg,
 		directors: [
 			{
-				name: 'Coming soon...',
+				name: 'Vivek MK',
 				image: ali,
 				post: 'Chairperson',
 				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
@@ -100,9 +106,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
 			},
 			{
-				name: 'Coming soon...',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				name: 'Abhinav Athrey',
+				image: abhinavathrey,
+				des: "'When diplomacy ends, War begins' - Hi, I'm Abhinav, and I'm passionate about chess and MUNs. I love debating and putting forward my opinion on global issues which I feel is quite necessary with other individuals.I love press conferences."
 			},
 		],
 	};
