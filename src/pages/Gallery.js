@@ -20,7 +20,7 @@ import kundavi from '../galleryImages/kundavi.JPG';
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
 
-	const images = [kavita, alba, sophie, amber, portman, maddie, emma, zoe, carly, shreya, kundavi, madhavi, radhavi, bhaidavi];
+	const images = [kavita, alba, sophie, amber, portman, maddie, emma, zoe, carly, shreya, kundavi, madhavi, randhavi, bhaidavi];
 	const timeoutRef = useRef(null);
 
 	const resetTimeout = () => {
