@@ -16,6 +16,10 @@ import madhavi from '../galleryImages/madhavi.JPG';
 import randhavi from '../galleryImages/randhavi.JPG';
 import bhaidavi from '../galleryImages/bhaidavi.JPG';
 import kundavi from '../galleryImages/kundavi.JPG';
+import boi from '../galleryImages/boi.JPG';
+import loi from '../galleryImages/loi.JPG';
+import doi from '../galleryImages/doi.JPG';
+import koi from '../galleryImages/koi.JPG';
 
 const Gallery = () => {
 	const [index, setIndex] = useState(0);
