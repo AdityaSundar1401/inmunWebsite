@@ -78,33 +78,30 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'Union Cabinet',
-		icon: union,
-		agenda: 'Operation Bluestar',
-		commDesc:
-			'Human Nature Pursues Strife. And this was the case in 1984, when India experienced one of its darkest periods. Operation Blue Star resulted in the death of civilians and militants and was considered a breach of the sanctity of one of the holiest places on Earth. Delegates must take on historical roles and engage in dynamic crisis simulations to address the evolving crisis by responding to changing events and challenges, and consider the implications of the operation on regional and international security. Access to the Command Centre shows you are one of the most powerful people in India, but with great power comes great responsibility. Can you handle it?',
-		background: bluestar,
-		directors: [
-			{
-				name: 'Gautam Chari',
-				image: chari,
-				post: 'Prime Minister',
-				des: 'Hi delegates, I am Gautam and am a student from grade 11 AS. It is my distinct honour to serve as the director of the Rajya Sabha this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!',
-			},
-		],
-		ads: [
-			{
-				name: 'Arnav Agarwal',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			},
-			{
-				name: 'BS Chetan Swaroop Reddy',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			},
-		],
-	};
+			commName: 'Union Cabinet',
+			agenda: 'Operation Bluestar',
+			background: bluestar,
+			directors: [
+				{
+					name: 'Gautam Chari',
+					image: chari,
+					post: 'Prime Minister',
+					des: 'Hi delegates, I am Gautam and am a student from grade 12. It is my distinct honour to serve as the Prime Minister of the Union Cabinet this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!',
+				},
+			],
+			ads: [
+				{
+					name: 'Arnav Agarwal',
+					image: ali,
+					des: '',
+				},
+				{
+					name: 'BS Chetan Swaroop Reddy',
+					image: ali,
+					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+				},
+			],
+		};
 
 	if (isMobile) {
 		return (
