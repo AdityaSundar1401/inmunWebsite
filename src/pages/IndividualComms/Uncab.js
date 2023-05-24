@@ -81,6 +81,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Union Cabinet',
 			agenda: 'Operation Bluestar',
 			background: bluestar,
+		        icon: union,
 			directors: [
 				{
 					name: 'Gautam Chari',
