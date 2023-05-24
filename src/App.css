@@ -1205,8 +1205,7 @@ h1 {
 }
 
 .comm-div {
-	border-bottom: var(--primary-color);
-	border-width: 10px;
+	margin-bottom: 10px;
 }
 
 .comm-div:hover .overlay-comm {
