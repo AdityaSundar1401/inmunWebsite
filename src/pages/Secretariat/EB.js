@@ -70,14 +70,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Aditya Narayan',
 					image: narayan,
 					post: 'Chairperson',
-					des: 'Greetings delegate, I’m Aditya Narayan from Grade 10 and I’ll be serving as your assistant director for the AIPPM. I only started MUNning a couple of years ago, but have made extravagant strides since. From winning at HMUN to international MUNs, I’ve experienced it all. In my free time I like to binge-watch sitcoms, play football and love to read science-fiction. I look forward to interacting with everyone soon! May the force be with you!',
+					des: 'Greetings delegates, I’m Aditya Narayan, a student from Grade 11 and it is my honor to serve as the director for UNHCR this year. I have always loved the realm of debate and public speaking, and chose Model UN as a means of communicating passionately and ardently about the critical issues in modern society. This has allowed me to succeed at several MUNs, including Harvard MUN, SISMUNand EHMUN to name a few. Through the years Model UN has given me the opportunity to engage in constructive dialogue, and productive discourse as well as the ability to think freely and have the confidence to voice out my opinions. I hope to create an atmosphere that allows for a high level of debate, dialogue and diplomacy. I look forward to interacting with everyone soon! May the force be with you!',
 				},
 			],
 			ads: [
 				{
 					name: 'Siddhanth Saravanan',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: 'Hey there delegates! My name is Siddhanth Saravanan from the 11th Grade and I will be your assistant director for the UNHCR. My interest in MUN conferences has grown rapidly, as I’ve attended and gained experience through different events. These events have allowed me to gain exposure to settings that involve passionate and spirited debate, yet the diplomacy that is present has always made it an incredibly complex and invigorating environment that I truly find fascinating. With that being said, I am honoured to be a part of your chair for INMUN 2023. Apart from the MUN gatherings, some of my interests lie in playing football and listening to music. I hope that as your Assistant Director, I get to see everyone give it their all to make committee as fun as it can be, while remaining as productive to reach rational and thought provoking solutions to our agenda at hand.',
 				},
 				{
 					name: 'Ayush Nair',
@@ -96,14 +96,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Ali Oez',
 					image: ali,
 					post: 'Chairperson',
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: '',
 				},
 			],
 			ads: [
 				{
 					name: 'Ananya Jain',
 					image: ananya,
-					des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
+					des: "",
 				},
 				{
 					name: 'Yash Iyer',
@@ -121,14 +121,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Aashna Kumar',
 					image: aashna,
 					post: 'Chairperson',
-					des: 'My name Is Aashna Kumar and it is my absolute honour to be your Director for INYP’s Civil Society this year. MUNning has been a central part of my high school life. I’ve bagged placements at HMUN, DSMUN, CJCMUN etc. have even had the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INYP this year! A bit about myself: I absolutely love playing the piano, becoming friends with every dog I see, reading books, and bingeing every possible show on Netflix! I hope to see you guys in October, and I’m so excited to hear your views and ideas!',
+					des: "Heyy delegates! I am Aashna, and am honoured to be the director of Lok Sabha this year. I have an immense passion for music, economics, and social change. When I'm not immersed in economics books or playing the piano, I'm actively involved in initiatives promoting social justice and equity. I equally spend my time praying for the W14 to perform and binge-watching every sitcom on Netflix! MUNning has always been a central part of my high school life, I’ve bagged placements at conferences such as HMUN, and CJCMUN while also having the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INMUN this year! As your director, I want you to push yourselves beyond your comfort zones and be comfortable voicing out your ideas and opinions. I am incredibly excited to meet you all and have an amazing committee, see you soon!!",
 				},
 			],
 			ads: [
 				{
 					name: 'Abhimanyu Balagopal',
 					image: abhimanyu,
-					des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
+					des: "",
 				},
 				{
 					name: 'Muhammed Hafesjee',
@@ -146,7 +146,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Vivek MK',
 					image: ali,
 					post: 'Chairperson',
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: '',
 				},
 			],
 			ads: [
@@ -176,7 +176,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			],
 			ads: [
 				{
-					name: 'Lasya Verma',
+					name: 'Lasya Varma',
 					image: lasya,
 					des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!',
 				},
@@ -196,14 +196,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Abhinav Vallur',
 					image: abhi,
 					post: 'Chairperson',
-					des: 'Greeting delegates, this is Abhinav Vallur from 11AS and I will be serving as your co-director for UNICEF this year. I first took up MUN in 8th grade, and over the last few years my interest and involvement with MUN and debate has grown rapidly, which has fetched me awards in various reputable MUNs such as Harvard MUN and DSMUN to name a few. Along the way, I’ve picked up a myriad of skills, which have helped me in my other hobbies such as sprinting and music. When I’m not on the track or preparing for my next MUN, I will probably be rewatching Star Wars or some other iconic movie. And with that in mind, May the Force be with you.',
+					des: '',
 				},
 			],
 			ads: [
 				{
 					name: 'Pradyumn Mohan',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: '',
 				},
 				{
 					name: 'Arav Bhojashettar',
@@ -221,14 +221,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Gautam Chari',
 					image: chari,
 					post: 'Prime Minister',
-					des: 'Hi delegates, I am Gautam and am a student from grade 11 AS. It is my distinct honour to serve as the director of the Rajya Sabha this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!',
+					des: "Hi delegates, I am Gautam and am a student from grade 12. It is my distinct honour to serve as the Prime Minister of the Union Cabinet this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!",
 				},
 			],
 			ads: [
 				{
 					name: 'Arnav Agarwal',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: '',
 				},
 				{
 					name: 'BS Chetan Swaroop Reddy',
@@ -246,13 +246,13 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Aditya Sundar',
 					image: adi,
 					post: 'Director of the Allies',
-					des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
+					des: 'Greetings delegates, this is Aditya Sundar from 12A and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 				},
 				{
 					name: 'Johann Ulatill',
 					image: johann,
 					post: 'Crisis Director',
-					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. While I have MUNned for years, participating in many conferences across India, Youth Parliament - as it is for many of you - is completely new for me, as well! I am looking forward to seeing how every delegate uniquely attempts to solve the the challenges facing Indian education. Outside of MUN, I am a huge sports fan, especially Cricket and MMA. I am also a massive metalhead. See you in committee!",
+					des: "",
 				},
 				{
 					name: 'Vivin Anand',
