@@ -98,7 +98,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				{
 					name: 'BS Chetan Swaroop Reddy',
 					image: ali,
-					des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
+					des: '',
 				},
 			],
 		};
