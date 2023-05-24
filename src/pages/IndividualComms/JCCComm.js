@@ -92,7 +92,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					name: 'Johann Ulatill',
 					image: johann,
 					post: 'Crisis Director',
-					des: '',
+					des: "I am thrilled to introduce myself as the Crisis Director for INMUN 2023 and the International Head of Press. With over 4 years of exceptional MUN experience, I have accomplished significant milestones both within and outside the MUN community. As the founder of MUNwala, a successful soft skills training company, I have empowered individuals to enhance their personal and professional growth. With this wealth of experience, I am committed to creating a competitive and enriching environment at INMUN 2023. Get ready for an unforgettable journey!
+
+",
 				},
 				{
 					name: 'Vivin Anand',
