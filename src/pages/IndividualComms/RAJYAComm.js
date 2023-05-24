@@ -85,33 +85,30 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'Rajya Sabha',
-		icon: rajya,
-		agenda: 'Deliberation over the reservation system in India',
-		commDesc:
-			'Reservation has been one of India’s most sensitive topics, with policy changes often leading to violent riots and protests. It is often claimed that Reservation has become a catalyst for what it once seeked to destroy, caste-based discrimination. As delegates navigate through one of the most complex discussions one could have as an MP, they will be forced to pull out their thinking hats. How does one reach consensus in a committee that consists of people with such differing views? If you want to succeed in this committee, keep your wits about you and be prepared for the most intense debates ever.',
-		background: rajyabg,
-		directors: [
-			{
-				name: 'Vivek MK',
-				image: ali,
-				post: 'Chairperson',
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			},
-		],
-		ads: [
-			{
-				name: 'Hari Sai Harish',
-				image: hari,
-				des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
-			},
-			{
-				name: 'Abhinav Athrey',
-				image: abhinavathrey,
-				des: "'When diplomacy ends, War begins' - Hi, I'm Abhinav, and I'm passionate about chess and MUNs. I love debating and putting forward my opinion on global issues which I feel is quite necessary with other individuals.I love press conferences."
-			},
-		],
-	};
+			commName: 'Rajya Sabha',
+			agenda: 'Deliberation over the reservation system in India',
+			background: rajyabg,
+			directors: [
+				{
+					name: 'Vivek MK',
+					image: ali,
+					post: 'Chairperson',
+					des: '',
+				},
+			],
+			ads: [
+				{
+					name: 'Hari Sai Harish',
+					image: hari,
+					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
+				},
+				{
+					name: 'Abhinav Athrey',
+					image: abhinavathrey,
+					des: "'When diplomacy ends, War begins' - Hi, I'm Abhinav, and I'm passionate about chess and MUNs. I love debating and putting forward my opinion on global issues which I feel is quite necessary with other individuals.I love press conferences.",
+				},
+			],
+		},
 
 	if (isMobile) {
 		return (
