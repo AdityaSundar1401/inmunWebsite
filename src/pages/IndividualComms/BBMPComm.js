@@ -87,6 +87,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'BBMP',
 			agenda: 'The impact of unplanned urbanisation in the whitefield area ',
 			background: bangalore,
+		        icon: bbmp,
 			directors: [
 				{
 					name: 'Ameya Mundkur',
