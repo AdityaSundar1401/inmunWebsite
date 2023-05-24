@@ -153,7 +153,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Ananya Jain',
-					image: ananya,
+					image: ananya1,
 					des: "",
 				},
 				{
