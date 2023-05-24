@@ -84,33 +84,30 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'UNHCR',
-		agenda: 'Access to jobs and financial services',
-		icon: unhcr,
-		background: refugees,
-		commDesc:
-			'Scattered helplessly and in disarray around the globe, millions of refugees are susceptible to discrimination, inequities in healthcare & education, and countless other threats. As one of the world’s principal humanitarian agencies, the Office of the United Nations High Commissioner for Refugees coordinates international action to provide protection and humanitarian assistance to refugees. This committee will be participating in the UNHCR Refugee Challenge, with an emphasis on refugee access to jobs & financial services. Weeks, months, years and decades have gone by. The clock is ticking- the time for action is now! As a delegate in this committee, you have the ability to put an end to the desperate circumstances that have colossally wrecked the lives of innumerable refugees! Change the future, by collaboratively creating sustainable, scalable and feasible solutions.',
-		directors: [
-			{
-				name: 'Aditya Narayan',
-				image: narayan,
-				post: 'Chairperson',
-				des: 'Greetings delegate, I’m Aditya Narayan from Grade 10 and I’ll be serving as your assistant director for the AIPPM. I only started MUNning a couple of years ago, but have made extravagant strides since. From winning at HMUN to international MUNs, I’ve experienced it all. In my free time I like to binge-watch sitcoms, play football and love to read science-fiction. I look forward to interacting with everyone soon! May the force be with you!',
-			},
-		],
-		ads: [
-			{
-				name: 'Siddhanth Saravanan',
-				image: ali,
-				des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
-			},
-			{
-				name: 'Ayush Nair',
-				image: ayush,
-				des: "Currently doing his 2nd PUC at St. Joseph’s Pre-university college, you will find this delegate making powerful speeches to get the entire committee on his side. He has placements at conferences like CJCMUN, DWMUN, GEARMUN etc. He is a marketing geek who is often found running google ad campaigns for companies, and is also an SEO specialist. He engages in multiple community service activities. He enjoys movies, football and fiction."
-			},
-		],
-	};
+			commName: 'UNHCR',
+			agenda: 'Access to jobs and financial services',
+			background: refugees,
+			directors: [
+				{
+					name: 'Aditya Narayan',
+					image: narayan,
+					post: 'Chairperson',
+					des: 'Greetings delegates, I’m Aditya Narayan, a student from Grade 11 and it is my honor to serve as the director for UNHCR this year. I have always loved the realm of debate and public speaking, and chose Model UN as a means of communicating passionately and ardently about the critical issues in modern society. This has allowed me to succeed at several MUNs, including Harvard MUN, SISMUNand EHMUN to name a few. Through the years Model UN has given me the opportunity to engage in constructive dialogue, and productive discourse as well as the ability to think freely and have the confidence to voice out my opinions. I hope to create an atmosphere that allows for a high level of debate, dialogue and diplomacy. I look forward to interacting with everyone soon! May the force be with you!',
+				},
+			],
+			ads: [
+				{
+					name: 'Siddhanth Saravanan',
+					image: ali,
+					des: 'Hey there delegates! My name is Siddhanth Saravanan from the 11th Grade and I will be your assistant director for the UNHCR. My interest in MUN conferences has grown rapidly, as I’ve attended and gained experience through different events. These events have allowed me to gain exposure to settings that involve passionate and spirited debate, yet the diplomacy that is present has always made it an incredibly complex and invigorating environment that I truly find fascinating. With that being said, I am honoured to be a part of your chair for INMUN 2023. Apart from the MUN gatherings, some of my interests lie in playing football and listening to music. I hope that as your Assistant Director, I get to see everyone give it their all to make committee as fun as it can be, while remaining as productive to reach rational and thought provoking solutions to our agenda at hand.',
+				},
+				{
+					name: 'Ayush Nair',
+					image: ayush,
+					des: 'Currently doing his 2nd PUC  at St. Joseph’s Pre-university college, you will find this delegate making powerful speeches to get the entire committee on his side. He has placements at conferences like CJCMUN, DWMUN, GEARMUN etc. He is a marketing geek who is often found running google ad campaigns for companies, and is also an SEO specialist. He engages in multiple community service activities. He enjoys movies, football and fiction.',
+				},
+			],
+		};
 
 	if (isMobile) {
 		return (
