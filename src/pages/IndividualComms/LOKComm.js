@@ -84,32 +84,30 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'Lok Sabha',
-		icon: lok,
-		agenda: 'Achieving the 2030 goal of universal health coverage in India',
-		commDesc: "Welcome delegates to the Lok Sabha, where the fate of the health of the world's largest democracy rests in your hands. The year is 2023, and the clock is ticking. The world is watching as the Lok Sabha debates one of the most pressing issues of our time: achieving universal health coverage for all Indians. You will be tasked with crafting policies that will shape the future of healthcare in India. With each passing moment, the stakes grow higher. Lives depend on your decisions, and the fate of the nation hangs in the balance. This is the Lok Sabha, the epicentre of Indian politics, where passion and patriotism run high. You will find yourself immersed in a world of intense debate, fiery speeches, and heated exchanges as each delegate fights for their vision of healthcare in India. Get ready to experience the Lok Sabha at INMUN this year, where every decision counts and every moment is unforgettable.",
-		background: health,
-		directors: [
-			{
-				name: 'Aashna Kumar',
-				image: aashna,
-				post: 'Chairperson',
-				des: 'My name Is Aashna Kumar and it is my absolute honour to be your Director for INYP’s Civil Society this year. MUNning has been a central part of my high school life. I’ve bagged placements at HMUN, DSMUN, CJCMUN etc. have even had the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INYP this year! A bit about myself: I absolutely love playing the piano, becoming friends with every dog I see, reading books, and bingeing every possible show on Netflix! I hope to see you guys in October, and I’m so excited to hear your views and ideas!',
-			},
-		],
-		ads: [
-			{
-				name: 'Abhimanyu Balagopal',
-				image: abhimanyu,
-				des: "Hi, I am Abhimanyu Balagopal from grade 11 and I will be your assistant director for the Rajya Sabha. I have been participating in MUNs for the past 4 years, this is my 7th MUN and first time as a part of the EB. I have had the opportunity to participate in conferences in the Middle East and at the United Nations in New York. I look forward to seeing a lot of enlightening conversations and productive discourse during committee and of course some fun outside of committee. I truly believe that this year's Youth Parliament format will open every delegate's eyes to the problems we face as a country and as a world, and how they can be solved democratically.",
-			},
-			{
-				name: 'Muhammad Hafesjee',
-				image: muhammad,
-				des: "With a bit of a rough start in the Bangalore circuit, this youth is now building a reputation across the city for his old-fashioned lobbying skills and inventive speeches. If you're in a committee with him, committee will never be boring.Apart from MUNning, he loves to explore the city on his cycle (often getting into accidents), plays the guitar, is currently working on a startup company, has given a Ted Talk and plans to write CLAT. His accolades include placements at DeMUN, ECMRMUN and AJMUN, He has also chaired the UNSC Committee at GearMUN and is the Head Delegate for the NPS ITPL MUN Delegation."
-			},
-		],
-	};
+			commName: 'Lok Sabha',
+			agenda: 'Achieving the 2030 goal of universal health coverage in India',
+			background: health,
+			directors: [
+				{
+					name: 'Aashna Kumar',
+					image: aashna,
+					post: 'Chairperson',
+					des: "Heyy delegates! I am Aashna, and am honoured to be the director of Lok Sabha this year. I have an immense passion for music, economics, and social change. When I'm not immersed in economics books or playing the piano, I'm actively involved in initiatives promoting social justice and equity. I equally spend my time praying for the W14 to perform and binge-watching every sitcom on Netflix! MUNning has always been a central part of my high school life, I’ve bagged placements at conferences such as HMUN, and CJCMUN while also having the honour of being part of the EB at HMUN so I’m looking forward to bringing my experience to INMUN this year! As your director, I want you to push yourselves beyond your comfort zones and be comfortable voicing out your ideas and opinions. I am incredibly excited to meet you all and have an amazing committee, see you soon!!",
+				},
+			],
+			ads: [
+				{
+					name: 'Abhimanyu Balagopal',
+					image: abhimanyu,
+					des: '',
+				},
+				{
+					name: 'Muhammed Hafesjee',
+					image: muhammad,
+					des: "With a bit of a rough start in the Bangalore circuit, this youth is now building a reputation across the city for his old-fashioned lobbying skills and inventive speeches. If you're in a committee with him, committee will never be boring.Apart from MUNning, he loves to explore the city on his cycle (often getting into accidents), plays the guitar, is currently working on a startup company, has given a Ted Talk and plans to write CLAT. His accolades include placements at DeMUN, ECMRMUN and AJMUN, He has also chaired the UNSC Committee at GearMUN and is the Head Delegate for the NPS ITPL MUN Delegation.",
+				},
+			],
+		},
 
 	if (isMobile) {
 		return (
