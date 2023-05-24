@@ -84,33 +84,30 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'Committee X',
-		icon: x,
-		agenda: 'The Vietnam War',
-		commDesc:
-			'1955 to 1975. A time when the blaze of carpet bombs and chemical agents disfigured Vietnam to hell on earth. A time when gunfire drowned the wails of children, and the waters ran red with the blood of 2 million. However, behind the facade of brutal guerilla warfare and grotesque traps at every step of the jungle, Vietnam was no more than a savage game of chess between the Cold war superpowers. As delegates of this committee, will you be the saviours of this nation, or the harbingers of death? The future of Vietnam would be instrumental in the power balance between the 2 sides of the iron curtain. Your actions will change not one nation, but every nation',
-		background: vietnam,
-		directors: [
-			{
-				name: 'Abhinav Vallur',
-				image: abhi,
-				post: 'Chairperson',
-				des: 'Greeting delegates, this is Abhinav Vallur from 11AS and I will be serving as your co-director for UNICEF this year. I first took up MUN in 8th grade, and over the last few years my interest and involvement with MUN and debate has grown rapidly, which has fetched me awards in various reputable MUNs such as Harvard MUN and DSMUN to name a few. Along the way, I’ve picked up a myriad of skills, which have helped me in my other hobbies such as sprinting and music. When I’m not on the track or preparing for my next MUN, I will probably be rewatching Star Wars or some other iconic movie. And with that in mind, May the Force be with you.',
-			},
-		],
-		ads: [
-			{
-				name: 'Pradyumn Mohan',
-				image: ali,
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			},
-			{
-				name: 'Arav Bhojashettar',
-				image: arav,
-				des: "'It's been said politics is the second oldest profession and I've come to realize over the last few years, it bears a great similarity to the first.' - Ronald Reagan; Arav is known for being cocky and humorous. He highly values communication skills and logic. Arav tends to slip out of tricky situation just as simply as he creates chaos around himself. He bring high quality of debate and environment of unpredictablity into every committee."
-			},
-		],
-	};
+			commName: 'Committee X',
+			agenda: 'The Vietnam War',
+			background: vietnam,
+			directors: [
+				{
+					name: 'Abhinav Vallur',
+					image: abhi,
+					post: 'Chairperson',
+					des: '',
+				},
+			],
+			ads: [
+				{
+					name: 'Pradyumn Mohan',
+					image: prady,
+					des: '',
+				},
+				{
+					name: 'Arav Bhojashettar',
+					image: arav,
+					des: "'It's been said politics is the second oldest profession and I've come to realize over the last few years, it bears a great similarity to the first.' - Ronald Reagan; Arav is known for being cocky and humorous. He highly values communication skills and logic. Arav tends to slip out of tricky situation just as simply as he creates chaos around himself. He bring high quality of debate and environment of unpredictablity into every committee.",
+				},
+			],
+		},
 
 	if (isMobile) {
 		return (
