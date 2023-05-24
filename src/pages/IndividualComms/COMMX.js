@@ -21,6 +21,7 @@ import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
 import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
 import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.jpeg';
+import prady from '../Secretariat/Images/prady.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
 import yash from '../Secretariat/Images/yashiyer1.jpeg';
