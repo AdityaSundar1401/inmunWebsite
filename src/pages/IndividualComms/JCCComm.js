@@ -78,45 +78,42 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'Joint Crisis Committee',
-		icon: jcc,
-		agenda: 'World War II',
-		background: wwii,
-		commDesc:
-			'The world was on the brink of destruction. Growing tensions between the major world powers erupted into a conflict, now known as world war ii. From the battlefields of Europe to the jungles of SouthAfrica, this war engulfed the entire world. Lives were lost, cities were levelled, and the very fabric of human civilization and society was threatened. But amid the chaos arose stories of heroism and bravery. Ordinary men and women rising to the call of action and defending their lands and beliefs. Are you willing to help them, and end this war peacefully, or do you believe in honour by martyrdom? This committee will pit you against the enemy, whose movements remain a mystery until its too late. Delegates will need to push their diplomatic and strategic skills to a whole new level in order to one up the other side.',
-		directors: [
-			{
-				name: 'Aditya Sundar',
-				image: adi,
-				post: 'Director of the Allies',
-				des: 'Greetings delegates, this is Aditya Sundar from 11AS and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
-			},
-			{
-				name: 'Johann Ulatill',
-				image: johann,
-				post: 'Crisis Director',
-				des: "I fell in love with MUNing three years ago after my first MUN and I haven't stopped since. I love a fast-paced committee and hope that my delegates can give me one ;). Other than MUN I love other forms of debate and even have been looking to get into mooting for a while now. I'm studying to hopefully be a law student someday because I fell in love with the field. I hope to have an amazing time with you all at this committee and hope you all have a great time as delegates as I have in the past INMUN's.",
-			},
-			{
-				name: 'Vivin Anand',
-				image: vivin,
-				post: 'Director of the Axis',
-				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
-			},
-		],
-		ads: [
-			{
-				name: 'Sudyotman Sudershan',
-				image: sud,
-				des: "Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room",
-			},
-			{
-				name: 'Ashutosh Barman',
-				image: ashutosh,
-				des: "I’ve always enjoyed a good debate, and am known to everyone close to me as the guy who argues too much - but it comes from a place of love. I’m passionate about sports, music, and anything to do with physics, and have been cursed by being a Ferrari fan. I love movies and games and really any sort of entertainment. Although I’ve been told otherwise, I firmly believe I have a good sense of humour. So if I make a “bad” joke - just laugh for my sanity. I'm really looking forward to being on the board for this JCC, and if it lives up to my expectations, I promise it will be an unforgettable experience.",
-			},
-		],
-	};
+			commName: 'Joint Crisis Committee',
+			agenda: 'World War II',
+			background: wwii,
+			directors: [
+				{
+					name: 'Aditya Sundar',
+					image: adi,
+					post: 'Director of the Allies',
+					des: 'Greetings delegates, this is Aditya Sundar from 12A and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
+				},
+				{
+					name: 'Johann Ulatill',
+					image: johann,
+					post: 'Crisis Director',
+					des: '',
+				},
+				{
+					name: 'Vivin Anand',
+					image: vivin,
+					post: 'Director of the Axis',
+					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
+				},
+			],
+			ads: [
+				{
+					name: 'Sudyotman Sudershan',
+					image: sud,
+					des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room',
+				},
+				{
+					name: 'Ashutosh Barman',
+					image: ashutosh,
+					des: 'I’ve always enjoyed a good debate, and am known to everyone close to me as the guy who argues too much - but it comes from a place of love. I’m passionate about sports, music, and anything to do with physics, and have been cursed by being a Ferrari fan. I love movies and games and really any sort of entertainment. Although I’ve been told otherwise, I firmly believe I have a good sense of humour. So if I make a “bad” joke - just laugh for my sanity. I am really looking forward to being on the board for this JCC, and if it lives up to my expectations, I promise it will be an unforgettable experience.',
+				},
+			],
+		},
 
 	if (isMobile) {
 		return (
