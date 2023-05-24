@@ -18,6 +18,7 @@ import dafoe from './Images/dafoe.webp';
 import ameya from './Images/ameya1.jpg';
 import lasya from './Images/lasya1.jpg';
 import abhimanyu from './Images/abhimanyu1.jpeg';
+import prady from './Images/prady.jpeg';
 import ashutosh from './Images/ashutosh1.jpg';
 import hari from './Images/hari1.jpg';
 import sud from './Images/sud.jpeg';
@@ -202,7 +203,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Pradyumn Mohan',
-					image: ali,
+					image: prady,
 					des: '',
 				},
 				{
