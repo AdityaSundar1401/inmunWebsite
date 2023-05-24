@@ -1204,6 +1204,11 @@ h1 {
 	left: 0%;
 }
 
+.comm-div {
+	border-bottom: var(--primary-color);
+	border-width: 10px;
+}
+
 .comm-div:hover .overlay-comm {
 	opacity: 0.7;
 }
