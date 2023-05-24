@@ -108,7 +108,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					des: "'When diplomacy ends, War begins' - Hi, I'm Abhinav, and I'm passionate about chess and MUNs. I love debating and putting forward my opinion on global issues which I feel is quite necessary with other individuals.I love press conferences.",
 				},
 			],
-		},
+		};
 
 	if (isMobile) {
 		return (
