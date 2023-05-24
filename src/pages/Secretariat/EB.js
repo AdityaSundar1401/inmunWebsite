@@ -7,7 +7,7 @@ import abhi from './Images/abhi2.jpg';
 import omu from '../../om.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johannnew.cr2';
-import vivin from './Images/vivin1.jpeg';
+import vivin from './Images/vivin.jpeg';
 import aashna from './Images/aashna1.jpg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
