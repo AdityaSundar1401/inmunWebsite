@@ -88,6 +88,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Rajya Sabha',
 			agenda: 'Deliberation over the reservation system in India',
 			background: rajyabg,
+		        icon: rajya,
 			directors: [
 				{
 					name: 'Vivek MK',
