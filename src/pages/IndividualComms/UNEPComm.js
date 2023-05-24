@@ -87,7 +87,8 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'UNEP',
 			agenda:
 				'Addressing the problems that arise from land degradation and deforestation',
-			background: unep,
+			background: env,
+		        icon: unep,
 			directors: [
 				{
 					name: 'Ali Oez',
