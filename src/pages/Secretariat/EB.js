@@ -22,7 +22,7 @@ import prady from './Images/prady.jpeg';
 import ashutosh from './Images/ashutosh1.jpg';
 import hari from './Images/hari1.jpg';
 import sud from './Images/sud.jpeg';
-import ananya from './Images/ananya1.jpeg';
+import from './Images/ananya1.jpeg';
 import ali from './Images/ali.jpeg';
 import yash from './Images/yashiyer1.jpeg';
 import krisha from './Images/krishareddy1.jpeg';
@@ -102,9 +102,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			],
 			ads: [
 				{
-					name: 'Ananya Jain',
-					image: ananya,
-					des: "",
+					name: 'Hari Sai Harish',
+					image: hari,
+					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
 				},
 				{
 					name: 'Yash Iyer',
@@ -152,9 +152,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			],
 			ads: [
 				{
-					name: 'Hari Sai Harish',
-					image: hari,
-					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
+					name: 'Ananya Jain',
+					image: ananya,
+					des: "",
 				},
 				{
 					name: 'Abhinav Athrey',
@@ -253,7 +253,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Johann Ulatill',
 					image: johann,
 					post: 'Crisis Director',
-					des: "",
+					des: "I am thrilled to introduce myself as the Crisis Director for INMUN 2023 and the International Head of Press. With over 4 years of exceptional MUN experience, I have accomplished significant milestones both within and outside the MUN community. As the founder of MUNwala, a successful soft skills training company, I have empowered individuals to enhance their personal and professional growth. With this wealth of experience, I am committed to creating a competitive and enriching environment at INMUN 2023. Get ready for an unforgettable journey!",
 				},
 				{
 					name: 'Vivin Anand',
