@@ -22,7 +22,7 @@ import prady from './Images/prady.jpeg';
 import ashutosh from './Images/ashutosh1.jpg';
 import hari from './Images/hari1.jpg';
 import sud from './Images/sud.jpeg';
-import from './Images/ananya1.jpeg';
+import ananya1 from './Images/ananya1.jpeg';
 import ali from './Images/ali.jpeg';
 import yash from './Images/yashiyer1.jpeg';
 import krisha from './Images/krishareddy1.jpeg';
