@@ -81,6 +81,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Joint Crisis Committee',
 			agenda: 'World War II',
 			background: wwii,
+		        icon: jcc,
 			directors: [
 				{
 					name: 'Aditya Sundar',
