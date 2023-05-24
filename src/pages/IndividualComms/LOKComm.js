@@ -87,6 +87,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Lok Sabha',
 			agenda: 'Achieving the 2030 goal of universal health coverage in India',
 			background: health,
+		        icon: lok,
 			directors: [
 				{
 					name: 'Aashna Kumar',
