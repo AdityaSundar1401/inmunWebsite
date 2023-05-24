@@ -88,6 +88,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Committee X',
 			agenda: 'The Vietnam War',
 			background: vietnam,
+		        icon: x,
 			directors: [
 				{
 					name: 'Abhinav Vallur',
