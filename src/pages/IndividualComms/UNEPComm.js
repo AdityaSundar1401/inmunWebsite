@@ -84,34 +84,31 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-		commName: 'UNEP',
-		icon: unep,
-		agenda:
-			'Addressing the problems that arise from land degradation and deforestation',
-		background: env,
-		commDesc:
-			"The Earth is a ticking time bomb and humanity's actions are only hastening the end. The continued deforestation taking place to satisfy 8 billion people’s greed results in flooding, disease and malnutrition. It is quite obvious work needs to be done, the question is how? The UNEP will push delegates to design innovative, long term solutions. Intense debate will require delegates to have in-depth knowledge at the tip of their fingers and a keen presence of mind. All this while trying to reach a compromise that satisfies everyone, especially Greta Thunberg.",
-		directors: [
-			{
-				name: 'Ali Oez',
-				image: ali,
-				post: 'Chairperson',
-				des: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem esse at maiores fugit dicta saepe, et blanditiis nobis nisi dolore odit odio itaque beatae tempore suscipit dolorum fuga? Veniam quis magni, voluptates totam repellat voluptate harum consequuntur expedita blanditiis quod error corporis ipsa neque quisquam dolorum veritatis quaerat earum.',
-			},
-		],
-		ads: [
-			{
-				name: 'Ananya Jain',
-				image: ananya,
-				des: "Hello delegates, I'm Ananya Jain and I'm going to be the assistant director (AD) for UNICEF this year. I thoroughly enjoy the debate that goes on during committee and am excited to be on the executive board for the very first time. Our agenda has immense importance especially right now, so I’m looking forward to good debate so that we as a committee come up with a comprehensive resolution to help better the lives of the children around the world.",
-			},
-			{
-				name: 'Yash Iyer',
-				image: yash,
-				des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons."
-			},
-		],
-	};
+			commName: 'UNEP',
+			agenda:
+				'Addressing the problems that arise from land degradation and deforestation',
+			background: unep,
+			directors: [
+				{
+					name: 'Ali Oez',
+					image: ali,
+					post: 'Chairperson',
+					des: '',
+				},
+			],
+			ads: [
+				{
+					name: 'Ananya Jain',
+					image: ananya,
+					des: '',
+				},
+				{
+					name: 'Yash Iyer',
+					image: yash,
+					des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.",
+				},
+			],
+		};
 
 	if (isMobile) {
 		return (
