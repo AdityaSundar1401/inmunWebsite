@@ -87,6 +87,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'UNHCR',
 			agenda: 'Access to jobs and financial services',
 			background: refugees,
+		        icon: unhcr,
 			directors: [
 				{
 					name: 'Aditya Narayan',
