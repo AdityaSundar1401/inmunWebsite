@@ -12,7 +12,7 @@ import narayan from '../Secretariat/Images/narayan1.jpg';
 import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
-import arnav from '../Secretariat/Images/arnav.jpeg';
+import arnav from '../Secretariat/Images/arnav1.jpeg';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
