@@ -104,7 +104,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Hari Sai Harish',
 					image: hari,
-					des: 'My name is Hari, and I am an 11th grader at Inventure. My hobbies range from sports to public speaking to coding and I do my work very passionately. In pre-covid times I was an active MUNer and I’m looking forward to getting back into MUN. I have attended 4 MUNs physically, across various committees and have won Best Delegate in two of them, and Honourable Mentions in the others. I have never been part of the Executive Board before, and being an Assistant Director will give me the opportunity I have always craved for. It will be a new experience and I am greatly looking forward to make the most of it. I hope to help with hosting an eventful, disciplined, successful committee and for it to arrive at a favorable end resolution which we can proudly present later on.',
+					des: "Hey delegates! I'm Hari and I'm very honored to help chair the UNEP committee this year. I enjoy playing and following a variety of sports and am also very passionate about the fields of coding and public speaking. The MUNs I have taken part in have helped with my confidence and my communication and my experience chairing them has helped me better understand people too. I wish you all the best of luck and hope you cherish your time on this committee!"
 				},
 				{
 					name: 'Yash Iyer',
@@ -172,14 +172,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Ameya Mundkur',
 					image: ameya,
 					post: 'Chairperson',
-					des: 'Hi delegates! I’m Ameya Mundkur. Music is one of my biggest passions, I love animals. I also enjoy talking to people. I can have the most random conversations ranging from 60’s rock bands and Harry Styles to issues around the world to how Phil from Modern Family is the wisest character. I never really enjoyed debates, but as soon as I started MUNing, my opinion on that completely changed. I’ve been MUNing for 2 years now, it’s been one of the most life changing, educational and incredibly fun experiences I’ve had. I’m super excited to see unique, divergent views lined with interesting debates to get the most inclusive, holistic and productive outcome in committee.',
+					des: "Hi, delegates! I'm Ameya, your Chairperson for BBMP. I've been actively participating in MUNs for a few years now, my best memories from MUN are when committees spew into complete chaos and still come up with impactful ideas, and  hope to see that in committee. My interests include Public policy and International Relations, and in my free time, you might find me playing instruments, listening to music, watching shows, or having random, useless debates with my friends. Feel free to ask me any questions. Excited to meet you all!"
 				},
 			],
 			ads: [
 				{
 					name: 'Lasya Varma',
 					image: lasya,
-					des: 'Hello delegates! I am Lasya M Varma from grade 9. As a freshman, I haven’t had many MUN experiences. As a student of theatre and an inquisitive individual, I found Model United Nations to be a window into the wider political world and a great way to hone my speaking skills. Throughout middle school, I had a keen interest in MUN and signed up for MUN clubs led by my seniors, that came my way, which drove me a lot closer to the group of avid MUNners at my school. I am absolutely thrilled to be part of Inventure Youth Parliament this year, although I never imagined myself being on the opposite side of the table. I hope this excitement extends to delegates and I’m looking forward to fierce debate!',
+					des: "Hello delegates! I'm Lasya Mohan Varma, a 10th grader, and I am honored to be part of the Bruhat Bengaluru Mahanagara Palike. I love literature and movies, and I'm a huge fan of theater. I started MUNning less than two years ago but it has been a magical and enriching experience. I have been able to engage in some of my favorite activities through MUN: public speaking, debate, writing, and analyzing pertinent social issues. I am eager to participate in several more MUNs, and broaden my debate horizons. I hope to see some fierce debate in committee ultimately leading to constructive solutions we can implement not only in Whitefield but throughout the city.",
 				},
 				{
 					name: 'Krisha Reddy',
