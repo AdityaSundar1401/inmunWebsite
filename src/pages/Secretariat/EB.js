@@ -132,7 +132,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Abhimanyu Balagopal',
 					image: abhimanyu,
-					des: "",
+					des: "I'm Abhimanyu from Grade 12 at Inventure and I will be one of your Assistant Directors for the Lok Sabha at INMUN 2023.Model United Nations to me is a great opportunity to understand how decisions are made, may that be, at any committee simulating the United Nations, the Parliament or the Lok Sabha. By taking part in this crucial decision-making process as delegates, you have the opportunity to learn about different perspectives on certain issues while of course using diplomacy to make sure the decision you want is taken. I hope that every delegate can learn and take away knowledge that you can use not just at your next MUN conference, but even in the real world.I look forward to seeing a lot of enlightening conversations during our committee sessions and of course a lot of fun outside of the committee.",
 				},
 				{
 					name: 'Muhammed Hafesjee',
