@@ -93,18 +93,14 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					name: 'Ameya Mundkur',
 					image: ameya,
 					post: 'Chairperson',
-					des: "Hi, delegates! I'm Ameya, your Chairperson for BBMP. I've been actively participating in MUNs for a few years now, my best memories from MUN are when committees spew into complete chaos and still come up with impactful ideas, and hope to see that in committee. My interests include Public policy and International Relations, and in my free time, you might find me playing instruments, listening to music, watching shows, or having random, useless debates with my friends. Feel free to ask me any questions. Excited to meet you all!
-
-"
+					des: "Hi, delegates! I'm Ameya, your Chairperson for BBMP. I've been actively participating in MUNs for a few years now, my best memories from MUN are when committees spew into complete chaos and still come up with impactful ideas, and hope to see that in committee. My interests include Public policy and International Relations, and in my free time, you might find me playing instruments, listening to music, watching shows, or having random, useless debates with my friends. Feel free to ask me any questions. Excited to meet you all!"
 				},
 			],
 			ads: [
 				{
 					name: 'Lasya Varma',
 					image: lasya,
-					des: "Hello delegates! I'm Lasya Mohan Varma, a 10th grader, and I am honored to be part of the Bruhat Bengaluru Mahanagara Palike. I love literature and movies, and I'm a huge fan of theater. I started MUNning less than two years ago but it has been a magical and enriching experience. I have been able to engage in some of my favorite activities through MUN: public speaking, debate, writing, and analyzing pertinent social issues. I am eager to participate in several more MUNs, and broaden my debate horizons. I hope to see some fierce debate in committee ultimately leading to constructive solutions we can implement not only in Whitefield but throughout the city.
-
-"
+					des: "Hello delegates! I'm Lasya Mohan Varma, a 10th grader, and I am honored to be part of the Bruhat Bengaluru Mahanagara Palike. I love literature and movies, and I'm a huge fan of theater. I started MUNning less than two years ago but it has been a magical and enriching experience. I have been able to engage in some of my favorite activities through MUN: public speaking, debate, writing, and analyzing pertinent social issues. I am eager to participate in several more MUNs, and broaden my debate horizons. I hope to see some fierce debate in committee ultimately leading to constructive solutions we can implement not only in Whitefield but throughout the city."
 				},
 				{
 					name: 'Krisha Reddy',
