@@ -97,10 +97,10 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			background: unep,
 			directors: [
 				{
-					name: 'Ali Oez',
+					name: 'Syed Ali',
 					image: ali,
 					post: 'Chairperson',
-					des: '',
+					des: "'Young people - they care. They know that this is the world that they're going to grow up in, that they're going to spend the rest of their lives in. But, I think it's more idealistic than that. They actually believe that humanity, human species, has no right to destroy and despoil regardless.'  - Sir David Attenborough; This EB member is no stranger to the circuit with over 5 years of experience as a munner he’s bagged accolades and served on the executive board of various noteworthy conferences across the city but it’s his versatility that stands out as he possesses a award from each different type of a committee a Mun has to offer, the jack of all trades, presenting to you the Chairperson of the UNEP, Syed Ali.",
 				},
 			],
 			ads: [
