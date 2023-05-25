@@ -8,7 +8,7 @@ import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
 import johann from '../Secretariat/Images/johannnew.cr2';
 import vivin from '../Secretariat/Images/vivin1.jpeg';
-import aashna from '../Secretariat/Images/aashna1.jpg';
+import aashna from '../Secretariat/Images/aashna2.jpeg';
 import narayan from '../Secretariat/Images/narayan1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import chari from '../Secretariat/Images/chari1.jpg';
