@@ -12,7 +12,7 @@ import narayan from '../Secretariat/Images/narayan1.jpg';
 import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
-import arnav from '../Secretariat/Images/arnav.webp';
+import arnav from '../Secretariat/Images/arnav.jpeg';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
@@ -23,6 +23,7 @@ import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.webp';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali.jpeg';
+import bs from '../Secretariat/Images/bs.jpeg';
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -93,12 +94,12 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Arnav Agarwal',
-					image: ali,
+					image: arnav,
 					des: '',
 				},
 				{
 					name: 'BS Chetan Swaroop Reddy',
-					image: ali,
+					image: bs,
 					des: '',
 				},
 			],
