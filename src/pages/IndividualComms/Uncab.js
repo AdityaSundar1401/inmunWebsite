@@ -95,7 +95,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				{
 					name: 'Arnav Agarwal',
 					image: arnav,
-					des: '',
+					des: "Hello Delegates! My name is Arnav Raj Aggarwal and I am ecstatic to serve on the executive board for this committee. The opportunity to participate in MUN has served as a bridge between my love for public speaking and debate along with my interest in regional and international affairs, awarding me a placement in every conference thus far. Participating in spirited debate has allowed me to connect with like-minded individuals, and I sincerely hope this committee provides you the same. Outside the realm of MUN, my interests lie in the fields of medicine and research, whilst I am simultaneously invested entrepreneurship and the general logos behind STEM. During my spare time, I enjoy playing sports competitively and am also an active pursuer of the performing arts, specifically speech and drama.",
 				},
 				{
 					name: 'BS Chetan Swaroop Reddy',
