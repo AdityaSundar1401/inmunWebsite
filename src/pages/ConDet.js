@@ -5,7 +5,7 @@ import { isMobile } from 'react-device-detect';
 import Footer from '../layout/Footer';
 import Navbar from '../layout/Navbar';
 import handbook from './confHandbook.jpeg';
-import pdfhandbook from './pdfhandbook.pdf';
+import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
