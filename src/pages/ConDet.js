@@ -190,7 +190,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							<div className='date right'>
 								<div className='content'>
 									<h2>30th April</h2>
-									<p>Registratins open</p>
+									<p>Registrations open</p>
 								</div>
 							</div>
 							<div className='date left'>
