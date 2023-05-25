@@ -30,6 +30,9 @@ import muhammad from './Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from './Images/abhinavathrey1.jpeg';
 import arav from './Images/aravb1.jpeg';
 import ayush from './Images/ayushnair1.jpeg'
+import arnav from './Images/arnav.jpeg'
+import from './Images/saravanan.jpeg'
+import bs from './Images/bs.jpeg'
 // background images
 import vietnam from './Images/vietnam.png';
 import bluestar from './Images/bluestar.jpeg';
@@ -77,7 +80,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Siddhanth Saravanan',
-					image: ali,
+					image: saravanan,
 					des: 'Hey there delegates! My name is Siddhanth Saravanan from the 11th Grade and I will be your assistant director for the UNHCR. My interest in MUN conferences has grown rapidly, as I’ve attended and gained experience through different events. These events have allowed me to gain exposure to settings that involve passionate and spirited debate, yet the diplomacy that is present has always made it an incredibly complex and invigorating environment that I truly find fascinating. With that being said, I am honoured to be a part of your chair for INMUN 2023. Apart from the MUN gatherings, some of my interests lie in playing football and listening to music. I hope that as your Assistant Director, I get to see everyone give it their all to make committee as fun as it can be, while remaining as productive to reach rational and thought provoking solutions to our agenda at hand.',
 				},
 				{
@@ -228,12 +231,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Arnav Agarwal',
-					image: ali,
-					des: '',
+					image: arnav,
+					des: 'Hello Delegates! My name is Arnav Raj Aggarwal and I am ecstatic to serve on the executive board for this committee. The opportunity to participate in MUN has served as a bridge between my love for public speaking and debate along with my interest in regional and international affairs, awarding me a placement in every conference thus far. Participating in spirited debate has allowed me to connect with like-minded individuals, and I sincerely hope this committee provides you the same. Outside the realm of MUN, my interests lie in the fields of medicine and research, whilst I am simultaneously invested entrepreneurship and the general logos behind STEM. During my spare time, I enjoy playing sports competitively and am also an active pursuer of the performing arts, specifically speech and drama.',
 				},
 				{
 					name: 'BS Chetan Swaroop Reddy',
-					image: ali,
+					image: bs,
 					des: '',
 				},
 			],
