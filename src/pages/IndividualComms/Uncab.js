@@ -100,7 +100,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				{
 					name: 'BS Chetan Swaroop Reddy',
 					image: bs,
-					des: '',
+					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
 				},
 			],
 		};
