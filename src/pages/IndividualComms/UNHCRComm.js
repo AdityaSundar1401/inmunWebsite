@@ -29,6 +29,7 @@ import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from '../Secretariat/Images/abhinavathrey1.jpeg';
 import arav from '../Secretariat/Images/aravb1.jpeg';
 import ayush from '../Secretariat/Images/ayushnair1.jpeg'
+import saravanan from '../Secretariat/Images/saravanan.jpeg'
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -99,7 +100,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			ads: [
 				{
 					name: 'Siddhanth Saravanan',
-					image: ali,
+					image: saravanan,
 					des: 'Hey there delegates! My name is Siddhanth Saravanan from the 11th Grade and I will be your assistant director for the UNHCR. My interest in MUN conferences has grown rapidly, as I’ve attended and gained experience through different events. These events have allowed me to gain exposure to settings that involve passionate and spirited debate, yet the diplomacy that is present has always made it an incredibly complex and invigorating environment that I truly find fascinating. With that being said, I am honoured to be a part of your chair for INMUN 2023. Apart from the MUN gatherings, some of my interests lie in playing football and listening to music. I hope that as your Assistant Director, I get to see everyone give it their all to make committee as fun as it can be, while remaining as productive to reach rational and thought provoking solutions to our agenda at hand.',
 				},
 				{
