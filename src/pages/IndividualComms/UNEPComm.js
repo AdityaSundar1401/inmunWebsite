@@ -22,7 +22,7 @@ import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
 import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
-import ali from '../Secretariat/Images/ali.jpeg';
+import ali from '../Secretariat/Images/ali1.jpeg';
 import yash from '../Secretariat/Images/yashiyer1.jpeg';
 import krisha from '../Secretariat/Images/krishareddy1.jpeg';
 import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
