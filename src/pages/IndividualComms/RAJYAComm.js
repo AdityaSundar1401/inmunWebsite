@@ -29,6 +29,7 @@ import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from '../Secretariat/Images/abhinavathrey1.jpeg';
 import arav from '../Secretariat/Images/aravb1.jpeg';
 import ayush from '../Secretariat/Images/ayushnair1.jpeg'
+import vivek from '../Secretariat/Images/vivek1.jpeg';
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
@@ -92,9 +93,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Vivek MK',
-					image: ali,
+					image: vivek,
 					post: 'Chairperson',
-					des: '',
+					des: 'This lad is famous for his aggressive style of munning and no committee is boring when vivek is around. From placing from the very first mun of his life, vivek has been placed around 12 times in muns which includes AJMUN, GearMun being the latest. Apart from munning, Vivek is a die-hard fan of Liverpool and Max Verstappen.',
 				},
 			],
 			ads: [
