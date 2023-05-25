@@ -13,7 +13,7 @@ import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
 import chari from './Images/chari1.jpg';
 import chari2 from './Images/chari.jpeg';
-
+import vivek from './Images/vivek1.jpeg';
 import dafoe from './Images/dafoe.webp';
 import ameya from './Images/ameya1.jpg';
 import lasya from './Images/lasya1.jpg';
@@ -148,9 +148,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			directors: [
 				{
 					name: 'Vivek MK',
-					image: ali,
+					image: vivek,
 					post: 'Chairperson',
-					des: '',
+					des: "This lad is famous for his aggressive style of munning and no committee is boring when vivek is around. From placing from the very first mun of his life, vivek has been placed around 12 times in muns which includes AJMUN, GearMun being the latest. Apart from munning, Vivek is a die-hard fan of Liverpool and Max Verstappen.",
 				},
 			],
 			ads: [
@@ -237,7 +237,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'BS Chetan Swaroop Reddy',
 					image: bs,
-					des: '',
+					des: "BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.",
 				},
 			],
 		},
