@@ -18,7 +18,7 @@ import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
 import chari from '../Secretariat/Images/chari1.jpg';
 import abhimanyu from '../Secretariat/Images/abhimanyu1.jpeg';
-import ashutosh from '../Secretariat/Images/ashutosh1.jpg';
+import ashutosh from '../Secretariat/Images/ashutosh2.jpeg';
 import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
