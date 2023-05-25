@@ -103,7 +103,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				{
 					name: 'Ananya Jain',
 					image: ananya,
-					des: '',
+					des: "Hello delegates, I am really looking forward to the conference and meeting all of you. A little bit about me, I have done 5 MUN's, and on the Executive board for the second time. I love the band The Script and play the piano and guitar. I also love to play basketball, football, tennis and frisbee, and can't wait to meet all of you.",
 				},
 				{
 					name: 'Abhinav Athrey',
