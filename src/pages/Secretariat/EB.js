@@ -30,7 +30,7 @@ import muhammad from './Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from './Images/abhinavathrey1.jpeg';
 import arav from './Images/aravb1.jpeg';
 import ayush from './Images/ayushnair1.jpeg'
-import arnav from './Images/arnav.jpeg'
+import arnav from './Images/arnav1.jpeg'
 import saravanan from './Images/saravanan.jpeg'
 import bs from './Images/bs.jpeg'
 // background images
