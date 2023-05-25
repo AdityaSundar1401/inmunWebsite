@@ -13,7 +13,7 @@ import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
 import chari from './Images/chari1.jpg';
 import chari2 from './Images/chari.jpeg';
-import arnav from './Images/arnav.webp';
+
 import dafoe from './Images/dafoe.webp';
 import ameya from './Images/ameya1.jpg';
 import lasya from './Images/lasya1.jpg';
