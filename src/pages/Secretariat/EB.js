@@ -200,7 +200,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Abhinav Vallur',
 					image: abhi,
 					post: 'Chairperson',
-					des: '',
+					des: "“Wake up to reality” - Madara Uchiha. With a keen eye for detail and an ability to foster meaningful discussions, Abhinav always found MUN to be a platform where he could fervently debate topics that impacted the world’s immediate reality. This zeal for debate coupled with his adaptability has earned him a range of accolades from prestigious conferences such as Harvard MUN and DSMUN, across various committee types. He is also an adept athlete who enjoys multiple sports, and is actively involved in the field of cancer research. In his free time you will most likely find him at the gym listening to metal, or binging Naruto (again). While he certainly enjoys all facets of MUN, he is innately biased toward fast paced, thrilling crisis committees that demand unparalleled versatility from delegates. To that end, he hopes to create a similar committee experience for you at INMUN. Presenting to you the director of Committee X, Abhinav Vallur.",
 				},
 			],
 			ads: [
