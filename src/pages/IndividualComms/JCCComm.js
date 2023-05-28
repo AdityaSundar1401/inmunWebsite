@@ -81,6 +81,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Joint Crisis Committee',
 			agenda: 'World War II',
 			background: wwii,
+		        commDesc: "The world was on the brink of destruction. Growing tensions between the major world powers erupted into a conflict, now known as world war ii. From the battlefields of Europe to the jungles of SouthAfrica, this war engulfed the entire world. Lives were lost, cities were leveled, and the very fabric of human civilization and society was threatened. But amid the chaos arose stories of heroism and bravery. Ordinary men and women rising to the call of action and defending their lands and beliefs. Are you willing to help them, and end this war peacefully, or do you believe in honour by martyrdom? This committee will pit you against the enemy, whose movements remain a mystery until its too late. Delegates will need to push their diplomatic and strategic skills to a whole new level in order to one up the other side.",
 		        icon: jcc,
 			directors: [
 				{
