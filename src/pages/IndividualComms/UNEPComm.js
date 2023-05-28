@@ -88,6 +88,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			agenda:
 				'Addressing the problems that arise from land degradation and deforestation',
 			background: env,
+		        commDesc: "The Earth is a ticking time bomb and humanity's actions are only hastening the end. The continued deforestation taking place to satisfy 8 billion people’s greed results in flooding, disease and malnutrition. It is quite obvious work needs to be done, the question is how? The UNEP will push delegates to design innovative, long term solutions. Intense debate will require delegates to have in-depth knowledge at the tip of their fingers and a keen presence of mind. All this while trying to reach a compromise that satisfies everyone, especially Greta Thunberg. ",
 		        icon: unep,
 			directors: [
 				{
