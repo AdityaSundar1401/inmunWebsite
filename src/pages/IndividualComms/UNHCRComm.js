@@ -88,6 +88,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'UNHCR',
 			agenda: 'Access to jobs and financial services',
 			background: refugees,
+		        commDesc: "“No one leaves home unless home is the mouth of a shark” – Warsan Shire. Scattered helplessly and in disarray around the globe, millions of refugees are susceptible to discrimination, inequities in healthcare & education, and countless other threats. As one of the world’s principal humanitarian agencies, the Office of the United Nations High Commissioner for Refugees coordinates international action to provide protection and humanitarian assistance to refugees. This committee will be participating in the UNHCR Refugee Challenge, with an emphasis on refugee access to jobs & financial services. Weeks, months, years and decades have gone by. The clock is ticking- the time for action is now! As a delegate in this committee, you have the ability to put an end to the desperate circumstances that have colossally wrecked the lives of innumerable refugees! Change the future, by collaboratively creating sustainable, scalable and feasible solutions.",
 		        icon: unhcr,
 			directors: [
 				{
