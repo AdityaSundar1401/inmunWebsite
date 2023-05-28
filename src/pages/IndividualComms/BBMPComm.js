@@ -87,6 +87,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'BBMP',
 			agenda: 'The impact of unplanned urbanisation in the whitefield area ',
 			background: bangalore,
+		        commDesc: "As the city of Bangalore grows, so does its list of problems. 30 years ago the Whitefield area was a part of the Indian countryside; today it forms the core of the city and the country’s tech hub. The exponential rates of expansion in the city have left it in dire straits. From the depletion of 80% of our lakes the increase of garbage surrounding our streets, environmental and social issues are seen everywhere. In an attempt to return the garden city to its former glory, the BBMP hosts a conclave with its policy-makers. ",
 		        icon: bbmp,
 			directors: [
 				{
