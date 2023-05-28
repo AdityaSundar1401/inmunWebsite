@@ -88,6 +88,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Committee X',
 			agenda: 'The Vietnam War',
 			background: vietnam,
+		        commDesc: "1955 to 1975. A time when the blaze of carpet bombs and chemical agents disfigured Vietnam to hell on earth. A time when gunfire drowned the wails of children, and the waters ran red with the blood of 2 million. However, behind the facade of brutal guerilla warfare and grotesque traps at every step of the jungle, Vietnam was no more than a savage game of chess between the Cold war superpowers. As delegates of this committee, will you be the saviours of this nation, or the harbingers of death? The future of Vietnam would be instrumental in the power balance between the 2 sides of the iron curtain. Your actions will change not one nation, but every nation.",
 		        icon: x,
 			directors: [
 				{
