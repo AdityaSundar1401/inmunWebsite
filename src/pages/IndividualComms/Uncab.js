@@ -82,6 +82,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			commName: 'Union Cabinet',
 			agenda: 'Operation Bluestar',
 			background: bluestar,
+		        commDesc: "Human Nature Pursues Strife. And this was the case in 1984, when India experienced one of its darkest periods. Operation Blue Star resulted in the death of civilians and militants and was considered a breach of the sanctity of one of the holiest places on Earth. Delegates must take on historical roles and engage in dynamic crisis simulations to address the evolving crisis by responding to changing events and challenges, and consider the implications of the operation on regional and international security. Access to the Command Centre shows you are one of the most powerful people in India, but with great power comes great responsibility. Can you handle it?",
 		        icon: union,
 			directors: [
 				{
