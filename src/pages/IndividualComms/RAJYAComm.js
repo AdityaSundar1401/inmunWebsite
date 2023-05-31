@@ -96,7 +96,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					name: 'Vivek MK',
 					image: vivek,
 					post: 'Chairperson',
-					des: 'This lad is famous for his aggressive style of munning and no committee is boring when vivek is around. From placing from the very first mun of his life, vivek has been placed around 12 times in muns which includes AJMUN, GearMun being the latest. Apart from munning, Vivek is a die-hard fan of Liverpool and Max Verstappen.',
+					des: "This lad is famous for his aggressive style of munning and no committee is boring when he is around. From the very first mun of his life, Vivek has been placed around 12 times in muns which include AJMUN and GearMun. Apart from munning, Vivek is a die-hard fan of Liverpool and Max Verstappen.",
 				},
 			],
 			ads: [
