@@ -428,7 +428,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 												alt=''
 											/>
 											<h1 className='usg-name'>{logisticsAD.names[index]}</h1>
-                                                                                        <h3>Deputy USG</h3>
+											<h3>Deputy USG</h3>
 										</div>
 									))}
 								</div>
@@ -587,6 +587,37 @@ const Sec = ({ dropDown, drop, height, name }) => {
 											key={ind}>
 											{name}
 										</h1>
+									))}
+								</div>
+							</div>
+						</div>
+						<div className='usg-box all-center '>
+							<div className='usg-category'>
+								<h1 className='all-center usg-post'>Logistics</h1>
+								<div className='all-center pic-box'>
+									<div className='usg-pics'>
+										<img
+											className='usg-pic'
+											src={ali}
+											alt=''
+										/>
+										<h1 className='usg-name'>Tanvi Iyer</h1>
+										<h3>Head of Logistics</h3>
+									</div>
+								</div>
+								<div className='grid-2 all-center pic-box'>
+									{logisticsAD.imgs.map((pic, index) => (
+										<div
+											key={index}
+											className='usg-pics'>
+											<img
+												className='usg-pic'
+												src={pic}
+												alt=''
+											/>
+											<h1 className='usg-name'>{logisticsAD.names[index]}</h1>
+											<h3>Deputy USG</h3>
+										</div>
 									))}
 								</div>
 							</div>
