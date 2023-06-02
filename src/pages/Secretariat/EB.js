@@ -29,10 +29,10 @@ import krisha from './Images/krishareddy1.jpeg';
 import muhammad from './Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from './Images/abhinavathrey1.jpeg';
 import arav from './Images/aravb1.jpeg';
-import ayush from './Images/ayushnair1.jpeg'
-import arnav from './Images/arnav1.jpeg'
-import saravanan from './Images/saravanan.jpeg'
-import bs from './Images/bs.jpeg'
+import ayush from './Images/ayushnair1.jpeg';
+import arnav from './Images/arnav1.jpeg';
+import saravanan from './Images/saravanan.jpeg';
+import bs from './Images/bs.jpeg';
 // background images
 import vietnam from './Images/vietnam.png';
 import bluestar from './Images/bluestar.jpeg';
@@ -62,6 +62,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		post: 'Finance',
 		names: ['Aditya Narayan', 'Aashna Kumar'],
 		imgs: [narayan, aashna],
+	};
+
+	const logisticsAD = {
+		post: 'Deputy USG',
+		names: ['Arushi Patel', 'Treia Menon'],
+		imgs: [ali, ali],
 	};
 
 	const commsEb = [
@@ -107,7 +113,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Hari Sai Harish',
 					image: hari,
-					des: "Hey delegates! I'm Hari and I'm very honored to help chair the UNEP committee this year. I enjoy playing and following a variety of sports and am also very passionate about the fields of coding and public speaking. The MUNs I have taken part in have helped with my confidence and my communication and my experience chairing them has helped me better understand people too. I wish you all the best of luck and hope you cherish your time on this committee!"
+					des: "Hey delegates! I'm Hari and I'm very honored to help chair the UNEP committee this year. I enjoy playing and following a variety of sports and am also very passionate about the fields of coding and public speaking. The MUNs I have taken part in have helped with my confidence and my communication and my experience chairing them has helped me better understand people too. I wish you all the best of luck and hope you cherish your time on this committee!",
 				},
 				{
 					name: 'Yash Iyer',
@@ -150,7 +156,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Vivek MK',
 					image: vivek,
 					post: 'Chairperson',
-					des: "This lad is famous for his aggressive style of munning and no committee is boring when he is around. From the very first mun of his life, Vivek has been placed around 12 times in muns which include AJMUN and GearMun. Apart from munning, Vivek is a die-hard fan of Liverpool and Max Verstappen.",
+					des: 'This lad is famous for his aggressive style of munning and no committee is boring when he is around. From the very first mun of his life, Vivek has been placed around 12 times in muns which include AJMUN and GearMun. Apart from munning, Vivek is a die-hard fan of Liverpool and Max Verstappen.',
 				},
 			],
 			ads: [
@@ -175,7 +181,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Ameya Mundkur',
 					image: ameya,
 					post: 'Chairperson',
-					des: "Hi, delegates! I'm Ameya, your Chairperson for BBMP. I've been actively participating in MUNs for a few years now, my best memories from MUN are when committees spew into complete chaos and still come up with impactful ideas, and  hope to see that in committee. My interests include Public policy and International Relations, and in my free time, you might find me playing instruments, listening to music, watching shows, or having random, useless debates with my friends. Feel free to ask me any questions. Excited to meet you all!"
+					des: "Hi, delegates! I'm Ameya, your Chairperson for BBMP. I've been actively participating in MUNs for a few years now, my best memories from MUN are when committees spew into complete chaos and still come up with impactful ideas, and  hope to see that in committee. My interests include Public policy and International Relations, and in my free time, you might find me playing instruments, listening to music, watching shows, or having random, useless debates with my friends. Feel free to ask me any questions. Excited to meet you all!",
 				},
 			],
 			ads: [
@@ -200,7 +206,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Abhinav Vallur',
 					image: abhi,
 					post: 'Chairperson',
-					des: "“Wake up to reality” - Madara Uchiha. With a keen eye for detail and an ability to foster meaningful discussions, Abhinav always found MUN to be a platform where he could fervently debate topics that impacted the world’s immediate reality. This zeal for debate coupled with his adaptability has earned him a range of accolades from prestigious conferences such as Harvard MUN and DSMUN, across various committee types. He is also an adept athlete who enjoys multiple sports, and is actively involved in the field of cancer research. In his free time you will most likely find him at the gym listening to metal, or binging Naruto (again). While he certainly enjoys all facets of MUN, he is innately biased toward fast paced, thrilling crisis committees that demand unparalleled versatility from delegates. To that end, he hopes to create a similar committee experience for you at INMUN. Presenting to you the director of Committee X, Abhinav Vallur.",
+					des: '“Wake up to reality” - Madara Uchiha. With a keen eye for detail and an ability to foster meaningful discussions, Abhinav always found MUN to be a platform where he could fervently debate topics that impacted the world’s immediate reality. This zeal for debate coupled with his adaptability has earned him a range of accolades from prestigious conferences such as Harvard MUN and DSMUN, across various committee types. He is also an adept athlete who enjoys multiple sports, and is actively involved in the field of cancer research. In his free time you will most likely find him at the gym listening to metal, or binging Naruto (again). While he certainly enjoys all facets of MUN, he is innately biased toward fast paced, thrilling crisis committees that demand unparalleled versatility from delegates. To that end, he hopes to create a similar committee experience for you at INMUN. Presenting to you the director of Committee X, Abhinav Vallur.',
 				},
 			],
 			ads: [
@@ -212,7 +218,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Arav Bhojashettar',
 					image: arav,
-					des: "'It's been said politics is the second oldest profession and I've come to realize over the last few years, it bears a great similarity to the first.' - Ronald Reagan; Arav is known for being cocky and humorous. He highly values communication skills and logic. Arav tends to slip out of tricky situation just as simply as he creates chaos around himself. He bring high quality of debate and environment of unpredictablity into every committee."
+					des: "'It's been said politics is the second oldest profession and I've come to realize over the last few years, it bears a great similarity to the first.' - Ronald Reagan; Arav is known for being cocky and humorous. He highly values communication skills and logic. Arav tends to slip out of tricky situation just as simply as he creates chaos around himself. He bring high quality of debate and environment of unpredictablity into every committee.",
 				},
 			],
 		},
@@ -225,7 +231,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Gautam Chari',
 					image: chari,
 					post: 'Prime Minister',
-					des: "Hi delegates, I am Gautam and am a student from grade 12. It is my distinct honour to serve as the Prime Minister of the Union Cabinet this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!",
+					des: 'Hi delegates, I am Gautam and am a student from grade 12. It is my distinct honour to serve as the Prime Minister of the Union Cabinet this year. Through the years MUN has given me the opportunity to develop a unique set of skills, including public speaking, debating and most importantly the courage to think on my feet and be confident in what I say. As such, I hope to create an atmosphere that enhances your development and safeguards the legacy left behind by my very competent seniors. Cannot wait to see you all in committee and may the force be with you!',
 				},
 			],
 			ads: [
@@ -237,7 +243,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'BS Chetan Swaroop Reddy',
 					image: bs,
-					des: "BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.",
+					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
 				},
 			],
 		},
@@ -256,7 +262,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Johann Ulatill',
 					image: johann,
 					post: 'Crisis Director',
-					des: "I am thrilled to introduce myself as the Crisis Director for INMUN 2023 and the International Head of Press. With over 4 years of exceptional MUN experience, I have accomplished significant milestones both within and outside the MUN community. As the founder of MUNwala, a successful soft skills training company, I have empowered individuals to enhance their personal and professional growth. With this wealth of experience, I am committed to creating a competitive and enriching environment at INMUN 2023. Get ready for an unforgettable journey!",
+					des: 'I am thrilled to introduce myself as the Crisis Director for INMUN 2023 and the International Head of Press. With over 4 years of exceptional MUN experience, I have accomplished significant milestones both within and outside the MUN community. As the founder of MUNwala, a successful soft skills training company, I have empowered individuals to enhance their personal and professional growth. With this wealth of experience, I am committed to creating a competitive and enriching environment at INMUN 2023. Get ready for an unforgettable journey!',
 				},
 				{
 					name: 'Vivin Anand',
@@ -269,7 +275,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Sudyotman Sudershan',
 					image: sud,
-					des: "Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room",
+					des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room',
 				},
 				{
 					name: 'Ashutosh Barman',
@@ -382,6 +388,36 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								<h1 className='all-center usg-post'>{finance.post}</h1>
 								<div className='grid-2 all-center pic-box'>
 									{finance.imgs.map((pic, index) => (
+										<div
+											key={index}
+											className='usg-pics'>
+											<img
+												className='usg-pic'
+												src={pic}
+												alt=''
+											/>
+											<h1 className='usg-name'>{finance.names[index]}</h1>
+										</div>
+									))}
+								</div>
+							</div>
+						</div>
+						<div className='usg-box all-center usgBoxMobile'>
+							<div className='usg-category'>
+								<h1 className='all-center usg-post'>Logistics</h1>
+								<div className='all-center pic-box'>
+									<div className='usg-pics'>
+										<img
+											className='usg-pic'
+											src={ali}
+											alt=''
+										/>
+										<h1 className='usg-name'>Tanvi Iyer</h1>
+										<h3>Head of Logistics</h3>
+									</div>
+								</div>
+								<div className='grid-2 all-center pic-box'>
+									{logisticsAD.imgs.map((pic, index) => (
 										<div
 											key={index}
 											className='usg-pics'>
@@ -581,9 +617,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									<h6>Agenda: {comm.agenda}</h6>
 								</div>
 								<div
-									className={`grid-${comm.directors.length} all-center directorBox`} style={{alignItems: 'start', margin: 'auto'}}>
+									className={`grid-${comm.directors.length} all-center directorBox`}
+									style={{ alignItems: 'start', margin: 'auto' }}>
 									{comm.directors.map((director, idx) => (
-										<div key={idx} style={{margin: '0px auto'}}>
+										<div
+											key={idx}
+											style={{ margin: '0px auto' }}>
 											<img
 												src={director.image}
 												className='directorImage'
@@ -595,9 +634,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 								<div
-									className={`grid-${comm.ads.length} all-center directorBox`} style={{alignItems: 'start', margin: 'auto'}}>
+									className={`grid-${comm.ads.length} all-center directorBox`}
+									style={{ alignItems: 'start', margin: 'auto' }}>
 									{comm.ads.map((ad, ind) => (
-										<div key={ind} style={{margin: '0px auto'}}>
+										<div
+											key={ind}
+											style={{ margin: '0px auto' }}>
 											<img
 												src={ad.image}
 												className='directorImage'
