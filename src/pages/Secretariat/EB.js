@@ -71,6 +71,13 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		imgs: [placeholder, placeholder],
 	};
 
+	const logistics = {
+		post: 'Deputy USG',
+		names: ['Arushi Patel', 'Tanvi Iyer', 'Treia Menon'],
+		posts: ['Deputy USG', 'Head of Logistics', 'Deputy USG'],
+		imgs: [placeholder, placeholder, placeholder],
+	};
+
 	const commsEb = [
 		{
 			commName: 'UNHCR',
@@ -567,7 +574,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							))}
 						</div>
 						<div className='usg-box all-center grid-2'>
-							<div className='usg-category' style={{marginTop: '0px' }}>
+							<div
+								className='usg-category'
+								style={{ marginTop: '0px' }}>
 								<h1 className='all-center usg-post'>{finance.post}</h1>
 								<div className='grid-2 all-center pic-box'>
 									{finance.imgs.map((pic, index) => (
@@ -590,37 +599,25 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 							</div>
-							<div className='usg-category'>
-								<h1 className='all-center usg-post'>Logistics</h1>
-								<div className='all-center pic-box'>
-									<div className='usg-pics'>
+						</div>
+						<div className='usg-category usg-box all-center grid-3'>
+							<h1 className='all-center usg-post'>Logistics</h1>
+							<div className='grid-2 all-center pic-box'>
+								{logistics.imgs.map((pic, index) => (
+									<div
+										key={index}
+										className='usg-pics'>
 										<img
 											className='usg-pic'
-											src={placeholder}
+											src={pic}
 											alt=''
 										/>
-										<h1 className='usg-name'>Tanvi Iyer</h1>
-										<h3>Head of Logistics</h3>
+										<h1 className='usg-name'>{logistics.names[index]}</h1>
+										<h3>{logistics.posts[index]}</h3>
 									</div>
-								</div>
-								<div className='grid-2 all-center pic-box'>
-									{logisticsAD.imgs.map((pic, index) => (
-										<div
-											key={index}
-											className='usg-pics'>
-											<img
-												className='usg-pic'
-												src={pic}
-												alt=''
-											/>
-											<h1 className='usg-name'>{logisticsAD.names[index]}</h1>
-											<h3>Deputy USG</h3>
-										</div>
-									))}
-								</div>
+								))}
 							</div>
 						</div>
-						
 					</div>
 				</div>
 				<div className='eb-box'>
