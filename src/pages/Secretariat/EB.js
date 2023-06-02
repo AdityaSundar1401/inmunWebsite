@@ -566,7 +566,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							))}
 						</div>
-						<div className='usg-box all-center grid 2'>
+						<div className='usg-box all-center grid-2'>
 							<div className='usg-category'>
 								<h1 className='all-center usg-post'>{finance.post}</h1>
 								<div className='grid-2 all-center pic-box'>
