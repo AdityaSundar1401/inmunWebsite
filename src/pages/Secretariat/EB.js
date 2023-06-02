@@ -68,7 +68,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 	const logisticsAD = {
 		post: 'Deputy USG',
 		names: ['Arushi Patel', 'Treia Menon'],
-		imgs: [ali, ali],
+		imgs: [placeholder, placeholder],
 	};
 
 	const commsEb = [
@@ -410,7 +410,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									<div className='usg-pics'>
 										<img
 											className='usg-pic'
-											src={ali}
+											src={placeholder}
 											alt=''
 										/>
 										<h1 className='usg-name'>Tanvi Iyer</h1>
@@ -598,7 +598,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									<div className='usg-pics'>
 										<img
 											className='usg-pic'
-											src={ali}
+											src={placeholder}
 											alt=''
 										/>
 										<h1 className='usg-name'>Tanvi Iyer</h1>
