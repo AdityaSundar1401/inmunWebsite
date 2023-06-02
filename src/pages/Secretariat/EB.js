@@ -24,6 +24,7 @@ import hari from './Images/hari1.jpg';
 import sud from './Images/sud.jpeg';
 import ananya1 from './Images/ananya1.jpeg';
 import ali from './Images/ali1.jpeg';
+import placeholder from './Images/ali/jpeg
 import yash from './Images/yashiyer1.jpeg';
 import krisha from './Images/krishareddy1.jpeg';
 import muhammad from './Images/muhammadhafesjee1.jpeg';
@@ -426,7 +427,8 @@ const Sec = ({ dropDown, drop, height, name }) => {
 												src={pic}
 												alt=''
 											/>
-											<h1 className='usg-name'>{finance.names[index]}</h1>
+											<h1 className='usg-name'>{logisticsAD.names[index]}</h1>
+                                                                                        <h3>Deputy USG</h3>
 										</div>
 									))}
 								</div>
