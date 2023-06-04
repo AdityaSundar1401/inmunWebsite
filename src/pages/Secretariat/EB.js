@@ -573,7 +573,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							))}
 						</div>
-						<div className='usg-box all-center grid-2'>
+						<div className='usg-box all-center'>
 							<div
 								className='usg-category'
 								style={{ marginTop: '0px' }}>
@@ -600,9 +600,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							</div>
 						</div>
-						<div className='usg-category usg-box all-center grid-3'>
-							<h1 className='all-center usg-post'>Logistics</h1>
-							<div className='grid-2 all-center pic-box'>
+						<h1 className='all-center usg-post'>Logistics</h1>
+						<div className='usg-category usg-box all-center'>
+							<div className='grid-2 all-center pic-box grid-3'>
 								{logistics.imgs.map((pic, index) => (
 									<div
 										key={index}
