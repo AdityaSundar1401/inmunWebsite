@@ -601,7 +601,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							</div>
 						</div>
-						<div className='usg-box all-center'>
+						<div className='usg-box all-center' style={{width: '560px'}}>
 							<h1 className='all-center usg-post'>Logistics</h1>
 							<div className='usg-category '>
 								<div className='grid-2 all-center pic-box grid-3'>
