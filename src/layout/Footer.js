@@ -38,9 +38,9 @@ const Footer = () => {
 						<div style={{ maxWidth: '100%' }}>
 							<b>Secretariat</b>
 							<p>Om Mehta:</p>
-							<p>omrsmehta@gmail.com</p>
+							<p>om.mehta@inventureacademy.com</p>
 							<p>Gautam Chari:</p>
-							<p>gautamchari2005@gmail.com</p>
+							<p>gautam.chari@inventureacademy.com</p>
 						</div>
 					</div>
 					<ul
@@ -123,9 +123,9 @@ const Footer = () => {
 					<div style={mobileOtherStyle}>
 						<b>Secretariat</b>
 						<p>Om Mehta:</p>
-						<p>omrsmehta@gmail.com</p>
+						<p>om.mehta@inventureacademy.com</p>
 						<p>Gautam Chari:</p>
-						<p>gautamchari2005@gmail.com</p>
+						<p>gautam.chari@inventureacademy.com</p>
 					</div>
 					<ul
 						className='socials'
