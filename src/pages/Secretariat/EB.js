@@ -600,22 +600,24 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							</div>
 						</div>
-						<h1 className='all-center usg-post'>Logistics</h1>
-						<div className='usg-category usg-box all-center'>
-							<div className='grid-2 all-center pic-box grid-3'>
-								{logistics.imgs.map((pic, index) => (
-									<div
-										key={index}
-										className='usg-pics'>
-										<img
-											className='usg-pic'
-											src={pic}
-											alt=''
-										/>
-										<h1 className='usg-name'>{logistics.names[index]}</h1>
-										<h3>{logistics.posts[index]}</h3>
-									</div>
-								))}
+						<div className='usg-box all-center'>
+							<h1 className='all-center usg-post'>Logistics</h1>
+							<div className='usg-category '>
+								<div className='grid-2 all-center pic-box grid-3'>
+									{logistics.imgs.map((pic, index) => (
+										<div
+											key={index}
+											className='usg-pics'>
+											<img
+												className='usg-pic'
+												src={pic}
+												alt=''
+											/>
+											<h1 className='usg-name'>{logistics.names[index]}</h1>
+											<h3>{logistics.posts[index]}</h3>
+										</div>
+									))}
+								</div>
 							</div>
 						</div>
 					</div>
