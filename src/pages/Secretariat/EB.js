@@ -29,6 +29,7 @@ import yash from './Images/yashiyer1.jpeg';
 import krisha from './Images/krishareddy1.jpeg';
 import muhammad from './Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from './Images/abhinavathrey1.jpeg';
+import tanvi from './Images/tanvi.jpeg';
 import arushi from './Images/arushi.jpeg';
 import arav from './Images/aravb1.jpeg';
 import ayush from './Images/ayushnair1.jpeg';
@@ -76,7 +77,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		post: 'Deputy USG',
 		names: ['Arushi Patel', 'Tanvi Iyer', 'Treia Menon'],
 		posts: ['Deputy USG', 'Head of Logistics', 'Deputy USG'],
-		imgs: [arushi, placeholder, placeholder],
+		imgs: [arushi, tanvi, placeholder],
 	};
 
 	const commsEb = [
