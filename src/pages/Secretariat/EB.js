@@ -223,7 +223,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Pradyumn Mohan',
 					image: prady,
-					des: '',
+					des: '“Yesterday is history, tomorrow is a mystery, but today is a gift! That is why it is called the present” is a quote that I Pradyumn Mohan, a musician, an aspiring med student and an experienced MUNner live by. I also hope that everyone attending committee X will live by it, fighting and cherishing each moment and choice of theirs, as each may be their last. Good luck delegates and see you on the battlefield!',
 				},
 				{
 					name: 'Arav Bhojashettar',
