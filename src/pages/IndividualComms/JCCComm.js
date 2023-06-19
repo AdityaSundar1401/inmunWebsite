@@ -82,11 +82,14 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		commName: 'Joint Crisis Committee',
 		agenda: 'World War II',
 		background: wwii,
+		commDesc:
+			'The world was on the brink of destruction. Growing tensions between the major world powers erupted into a conflict, now known as world war ii. From the battlefields of Europe to the jungles of SouthAfrica, this war engulfed the entire world. Lives were lost, cities were leveled, and the very fabric of human civilization and society was threatened. But amid the chaos arose stories of heroism and bravery. Ordinary men and women rising to the call of action and defending their lands and beliefs. Are you willing to help them, and end this war peacefully, or do you believe in honour by martyrdom? This committee will pit you against the enemy, whose movements remain a mystery until its too late. Delegates will need to push their diplomatic and strategic skills to a whole new level in order to one up the other side.',
+		icon: jcc,
 		directors: [
 			{
 				name: 'Aditya Sundar',
 				image: adi,
-				post: 'Co-director of the Allies',
+				post: 'Director of the Allies',
 				des: 'Greetings delegates, this is Aditya Sundar from 12A and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 			},
 			{
@@ -98,7 +101,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			{
 				name: 'Vivin Anand',
 				image: vivin,
-				post: 'Co-director of the Axis',
+				post: 'Director of the Axis',
 				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
 			},
 		],
@@ -225,6 +228,22 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 									</div>
 								))}
 							</div>
+							<div
+								className={`grid-${comm.dir2.length} all-center directorBox`}>
+								{comm.dir2.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ maxWidth: '90%', color: 'white' }}>
+											{director.des}
+										</p>
+									</div>
+								))}
+							</div>
 							<div className={`grid-${comm.ads.length} all-center directorBox`}>
 								{comm.ads.map((ad, ind) => (
 									<div key={ind}>
@@ -235,20 +254,6 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										<h1 style={{ color: 'white' }}>{ad.name}</h1>
 										<h3 style={{ color: 'white' }}>Assistant Director</h3>
 										<p style={{ maxWidth: '90%', color: 'white' }}>{ad.des}</p>
-									</div>
-								))}
-							</div>
-							<div
-								className={`grid-${comm.dir2.length} all-center directorBox`}>
-								{comm.dir2.map((director, idx) => (
-									<div key={idx}>
-										<img
-											src={director.image}
-											className='directorImage'
-										/>
-										<h1>{director.name}</h1>
-										<h3>{director.post}</h3>
-										<p style={{ maxWidth: '90%' }}>{director.des}</p>
 									</div>
 								))}
 							</div>
@@ -370,6 +375,22 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 								))}
 							</div>
 							<div
+								className={`grid-${comm.dir2.length} all-center directorBox`}>
+								{comm.dir2.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1 style={{ color: 'white' }}>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ maxWidth: '90%', color: 'white' }}>
+											{director.des}
+										</p>
+									</div>
+								))}
+							</div>
+							<div
 								className={`grid-${comm.ads.length} all-center directorBox`}
 								style={{ gridGap: '3rem', alignItems: 'start' }}>
 								{comm.ads.map((ad, ind) => (
@@ -383,20 +404,6 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										<h1 style={{ color: 'white' }}>{ad.name}</h1>
 										<h3 style={{ color: 'white' }}>Assistant Director</h3>
 										<p style={{ color: 'white' }}>{ad.des}</p>
-									</div>
-								))}
-							</div>
-							<div
-								className={`grid-${comm.dir2.length} all-center directorBox`}>
-								{comm.dir2.map((director, idx) => (
-									<div key={idx}>
-										<img
-											src={director.image}
-											className='directorImage'
-										/>
-										<h1>{director.name}</h1>
-										<h3>{director.post}</h3>
-										<p style={{ maxWidth: '90%' }}>{director.des}</p>
 									</div>
 								))}
 							</div>
