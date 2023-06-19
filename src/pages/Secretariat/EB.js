@@ -8,6 +8,7 @@ import omu from '../../om.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johannnew.cr2';
 import vivin from './Images/vivin.jpeg';
+import zaid from './Images/zaid.jpeg';
 import aashna from './Images/aashna2.jpeg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
