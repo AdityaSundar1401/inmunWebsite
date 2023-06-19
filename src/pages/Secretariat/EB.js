@@ -8,6 +8,7 @@ import omu from '../../om.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johannnew.cr2';
 import vivin from './Images/vivin.jpeg';
+import zaid from './Images/zaid.jpeg';
 import aashna from './Images/aashna2.jpeg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
@@ -266,7 +267,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Aditya Sundar',
 					image: adi,
-					post: 'Director of the Allies',
+					post: 'Co-director of the Allies',
 					des: 'Greetings delegates, this is Aditya Sundar from 12A and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
 				},
 				{
@@ -278,8 +279,16 @@ const Sec = ({ dropDown, drop, height, name }) => {
 				{
 					name: 'Vivin Anand',
 					image: vivin,
-					post: 'Director of the Axis',
+					post: 'Co-director of the Axis',
 					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
+				},
+			],
+			dir2: [
+				{
+					name: 'Zaid Sherif',
+					image: zaid,
+					post: 'Co-director of the Axis',
+					des: "'I'll always help topple a government' Alex 'Technoblade' Having been in the circuit since 2017, Zaid has definitely earned himself the reputation of being one of the most indomitable delegates in Banglore . He has attended over 25 conferences, which includes a diverse experience as an Executive Member or a member of the Secreteriat. With numerous accolades to his name with Best Delegate awards from conferences such as SJCMUN, CoMUN, AMUN and CJCMUN, him and his iconic bow-tie never fail to unnerve those around him. Presenting to you the co-director of JCC, Zaid Sheriff.",
 				},
 			],
 			ads: [
@@ -499,6 +508,20 @@ const Sec = ({ dropDown, drop, height, name }) => {
 										</div>
 									))}
 								</div>
+								<div
+									className={`grid-${comm.dir2.length} all-center directorBox`}>
+									{comm.dir2.map((director, idx) => (
+										<div key={idx}>
+											<img
+												src={director.image}
+												className='directorImage'
+											/>
+											<h1>{director.name}</h1>
+											<h3>{director.post}</h3>
+											<p style={{ maxWidth: '90%' }}>{director.des}</p>
+										</div>
+									))}
+								</div>
 							</div>
 						</div>
 					))}
@@ -603,7 +626,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							</div>
 						</div>
-						<div className='usg-box all-center' style={{width: '560px'}}>
+						<div
+							className='usg-box all-center'
+							style={{ width: '560px' }}>
 							<h1 className='all-center usg-post'>Logistics</h1>
 							<div className='usg-category '>
 								<div className='grid-2 all-center pic-box grid-3'>
