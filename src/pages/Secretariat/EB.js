@@ -8,7 +8,6 @@ import omu from '../../om.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johannnew.cr2';
 import vivin from './Images/vivin.jpeg';
-import zaid from './Images/zaid.jpeg';
 import aashna from './Images/aashna2.jpeg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
@@ -495,6 +494,22 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 								<div
+									className={`grid-${comm.dir2.length} all-center directorBox`}>
+									{comm.dir2.map((director, idx) => (
+										<div key={idx}>
+											<img
+												src={director.image}
+												className='directorImage'
+											/>
+											<h1 style={{ color: 'white' }}>{director.name}</h1>
+											<h3>{director.post}</h3>
+											<p style={{ maxWidth: '90%', color: 'white' }}>
+												{director.des}
+											</p>
+										</div>
+									))}
+								</div>
+								<div
 									className={`grid-${comm.ads.length} all-center directorBox`}>
 									{comm.ads.map((ad, ind) => (
 										<div key={ind}>
@@ -505,20 +520,6 @@ const Sec = ({ dropDown, drop, height, name }) => {
 											<h1>{ad.name}</h1>
 											<h3 style={{ color: 'white' }}>Assistant Director</h3>
 											<p style={{ maxWidth: '90%' }}>{ad.des}</p>
-										</div>
-									))}
-								</div>
-								<div
-									className={`grid-${comm.dir2.length} all-center directorBox`}>
-									{comm.dir2.map((director, idx) => (
-										<div key={idx}>
-											<img
-												src={director.image}
-												className='directorImage'
-											/>
-											<h1>{director.name}</h1>
-											<h3>{director.post}</h3>
-											<p style={{ maxWidth: '90%' }}>{director.des}</p>
 										</div>
 									))}
 								</div>
@@ -693,6 +694,22 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 								<div
+									className={`grid-${comm.dir2.length} all-center directorBox`}>
+									{comm.dir2.map((director, idx) => (
+										<div key={idx}>
+											<img
+												src={director.image}
+												className='directorImage'
+											/>
+											<h1 style={{ color: 'white' }}>{director.name}</h1>
+											<h3>{director.post}</h3>
+											<p style={{ maxWidth: '90%', color: 'white' }}>
+												{director.des}
+											</p>
+										</div>
+									))}
+								</div>
+								<div
 									className={`grid-${comm.ads.length} all-center directorBox`}
 									style={{ alignItems: 'start', margin: 'auto' }}>
 									{comm.ads.map((ad, ind) => (
@@ -706,20 +723,6 @@ const Sec = ({ dropDown, drop, height, name }) => {
 											<h1>{ad.name}</h1>
 											<h3 style={{ color: 'white' }}>Assistant Director</h3>
 											<p>{ad.des}</p>
-										</div>
-									))}
-								</div>
-								<div
-									className={`grid-${comm.dir2.length} all-center directorBox`}>
-									{comm.dir2.map((director, idx) => (
-										<div key={idx}>
-											<img
-												src={director.image}
-												className='directorImage'
-											/>
-											<h1>{director.name}</h1>
-											<h3>{director.post}</h3>
-											<p style={{ maxWidth: '90%' }}>{director.des}</p>
 										</div>
 									))}
 								</div>
