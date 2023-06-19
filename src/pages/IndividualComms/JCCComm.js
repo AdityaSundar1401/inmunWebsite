@@ -78,44 +78,50 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-			commName: 'Joint Crisis Committee',
-			agenda: 'World War II',
-			background: wwii,
-		        commDesc: "The world was on the brink of destruction. Growing tensions between the major world powers erupted into a conflict, now known as world war ii. From the battlefields of Europe to the jungles of SouthAfrica, this war engulfed the entire world. Lives were lost, cities were leveled, and the very fabric of human civilization and society was threatened. But amid the chaos arose stories of heroism and bravery. Ordinary men and women rising to the call of action and defending their lands and beliefs. Are you willing to help them, and end this war peacefully, or do you believe in honour by martyrdom? This committee will pit you against the enemy, whose movements remain a mystery until its too late. Delegates will need to push their diplomatic and strategic skills to a whole new level in order to one up the other side.",
-		        icon: jcc,
-			directors: [
-				{
-					name: 'Aditya Sundar',
-					image: adi,
-					post: 'Director of the Allies',
-					des: 'Greetings delegates, this is Aditya Sundar from 12A and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
-				},
-				{
-					name: 'Johann Ulatill',
-					image: johann,
-					post: 'Crisis Director',
-					des: 'I am thrilled to introduce myself as the Crisis Director for INMUN 2023 and the International Head of Press. With over 4 years of exceptional MUN experience, I have accomplished significant milestones both within and outside the MUN community. As the founder of MUNwala, a successful soft skills training company, I have empowered individuals to enhance their personal and professional growth. With this wealth of experience, I am committed to creating a competitive and enriching environment at INMUN 2023. Get ready for an unforgettable journey!',
-				},
-				{
-					name: 'Vivin Anand',
-					image: vivin,
-					post: 'Director of the Axis',
-					des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
-				},
-			],
-			ads: [
-				{
-					name: 'Sudyotman Sudershan',
-					image: sud,
-					des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room',
-				},
-				{
-					name: 'Ashutosh Barman',
-					image: ashutosh,
-					des: 'I’ve always enjoyed a good debate, and am known to everyone close to me as the guy who argues too much - but it comes from a place of love. I’m passionate about sports, music, and anything to do with physics, and have been cursed by being a Ferrari fan. I love movies and games and really any sort of entertainment. Although I’ve been told otherwise, I firmly believe I have a good sense of humour. So if I make a “bad” joke - just laugh for my sanity. I am really looking forward to being on the board for this JCC, and if it lives up to my expectations, I promise it will be an unforgettable experience.',
-				},
-			],
-		};
+		commName: 'Joint Crisis Committee',
+		agenda: 'World War II',
+		background: wwii,
+		directors: [
+			{
+				name: 'Aditya Sundar',
+				image: adi,
+				post: 'Co-director of the Allies',
+				des: 'Greetings delegates, this is Aditya Sundar from 12A and I will be serving as Director for the Allies. I have done a number of MUNs, from HMUN India to DSMUN and have developed a certain attitude towards Crisis Committees specifically, which is why I am looking forward to see how you delegates decide to move through one of the most significant events in history. Apart from doing MUNs, I am also a musician and a science student, so that’s 3 things I am really passionate about. Hope to see you in committee and may the force be with you!',
+			},
+			{
+				name: 'Johann Ulatill',
+				image: johann,
+				post: 'Crisis Director',
+				des: 'I am thrilled to introduce myself as the Crisis Director for INMUN 2023 and the International Head of Press. With over 4 years of exceptional MUN experience, I have accomplished significant milestones both within and outside the MUN community. As the founder of MUNwala, a successful soft skills training company, I have empowered individuals to enhance their personal and professional growth. With this wealth of experience, I am committed to creating a competitive and enriching environment at INMUN 2023. Get ready for an unforgettable journey!',
+			},
+			{
+				name: 'Vivin Anand',
+				image: vivin,
+				post: 'Co-director of the Axis',
+				des: "Hey delegates! I'm Vivin Anand, co-director for INMUN's JCC this year. I am looking forward to seeing how each and every delegate uniquely attempts to tackle the greatest and arguably most consequential war in modern history, from both sides! Outside of MUN, I am a huge sports fan, especially Cricket and Mixed Martial Arts and I love listening to and playing music. See you in committee!",
+			},
+		],
+		dir2: [
+			{
+				name: 'Zaid Sherif',
+				image: zaid,
+				post: 'Co-director of the Axis',
+				des: "'I'll always help topple a government' Alex 'Technoblade' Having been in the circuit since 2017, Zaid has definitely earned himself the reputation of being one of the most indomitable delegates in Banglore . He has attended over 25 conferences, which includes a diverse experience as an Executive Member or a member of the Secreteriat. With numerous accolades to his name with Best Delegate awards from conferences such as SJCMUN, CoMUN, AMUN and CJCMUN, him and his iconic bow-tie never fail to unnerve those around him. Presenting to you the co-director of JCC, Zaid Sheriff.",
+			},
+		],
+		ads: [
+			{
+				name: 'Sudyotman Sudershan',
+				image: sud,
+				des: 'Hello delegates, I am Sudyotman Sudershan. I have been part of the MUN community for half a decade. I am absolutely excited to see our Joint Crisis Committee in action. I am looking forward to seeing how our committee will progress, and how the changing situation of the war will impact your decisions in face of threats both external and internal. See you in the War Room',
+			},
+			{
+				name: 'Ashutosh Barman',
+				image: ashutosh,
+				des: 'I’ve always enjoyed a good debate, and am known to everyone close to me as the guy who argues too much - but it comes from a place of love. I’m passionate about sports, music, and anything to do with physics, and have been cursed by being a Ferrari fan. I love movies and games and really any sort of entertainment. Although I’ve been told otherwise, I firmly believe I have a good sense of humour. So if I make a “bad” joke - just laugh for my sanity. I am really looking forward to being on the board for this JCC, and if it lives up to my expectations, I promise it will be an unforgettable experience.',
+			},
+		],
+	};
 
 	if (isMobile) {
 		return (
@@ -231,6 +237,20 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 									</div>
 								))}
 							</div>
+							<div
+								className={`grid-${comm.dir2.length} all-center directorBox`}>
+								{comm.dir2.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ maxWidth: '90%' }}>{director.des}</p>
+									</div>
+								))}
+							</div>
 						</div>
 					</div>
 
@@ -335,7 +355,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 								className={`grid-${comm.directors.length} all-center directorBox`}
 								style={{ gridGap: '3rem', alignItems: 'start' }}>
 								{comm.directors.map((director, idx) => (
-									<div key={idx} style={{margin: '0px auto'}}>
+									<div
+										key={idx}
+										style={{ margin: '0px auto' }}>
 										<img
 											src={director.image}
 											className='directorImage'
@@ -350,7 +372,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 								className={`grid-${comm.ads.length} all-center directorBox`}
 								style={{ gridGap: '3rem', alignItems: 'start' }}>
 								{comm.ads.map((ad, ind) => (
-									<div key={ind} style={{margin: '0px auto'}}>
+									<div
+										key={ind}
+										style={{ margin: '0px auto' }}>
 										<img
 											src={ad.image}
 											className='directorImage'
@@ -358,6 +382,20 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										<h1 style={{ color: 'white' }}>{ad.name}</h1>
 										<h3 style={{ color: 'white' }}>Assistant Director</h3>
 										<p style={{ color: 'white' }}>{ad.des}</p>
+									</div>
+								))}
+							</div>
+							<div
+								className={`grid-${comm.dir2.length} all-center directorBox`}>
+								{comm.dir2.map((director, idx) => (
+									<div key={idx}>
+										<img
+											src={director.image}
+											className='directorImage'
+										/>
+										<h1>{director.name}</h1>
+										<h3>{director.post}</h3>
+										<p style={{ maxWidth: '90%' }}>{director.des}</p>
 									</div>
 								))}
 							</div>
