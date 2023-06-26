@@ -107,6 +107,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: 'Currently doing his 2nd PUC  at St. Joseph’s Pre-university college, you will find this delegate making powerful speeches to get the entire committee on his side. He has placements at conferences like CJCMUN, DWMUN, GEARMUN etc. He is a marketing geek who is often found running google ad campaigns for companies, and is also an SEO specialist. He engages in multiple community service activities. He enjoys movies, football and fiction.',
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'UNEP',
@@ -133,6 +134,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.",
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'Lok Sabha',
@@ -158,6 +160,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "With a bit of a rough start in the Bangalore circuit, this youth is now building a reputation across the city for his old-fashioned lobbying skills and inventive speeches. If you're in a committee with him, committee will never be boring.Apart from MUNning, he loves to explore the city on his cycle (often getting into accidents), plays the guitar, is currently working on a startup company, has given a Ted Talk and plans to write CLAT. His accolades include placements at DeMUN, ECMRMUN and AJMUN, He has also chaired the UNSC Committee at GearMUN and is the Head Delegate for the NPS ITPL MUN Delegation.",
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'Rajya Sabha',
@@ -183,6 +186,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "'When diplomacy ends, War begins' - Hi, I'm Abhinav, and I'm passionate about chess and MUNs. I love debating and putting forward my opinion on global issues which I feel is quite necessary with other individuals.I love press conferences.",
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'BBMP',
@@ -208,6 +212,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "'Diplomacy is the velvet glove that cloaks the fist of power.' - This Executive Board member is no stranger to MUNs. With a placement at every conference she’s attended and even a BD in her first ever committee, she’s been through all munning has to offer. Whether it be arguing for climate rights or against China’s hold on economies, she is confident, well researched and knows how to build her bloc. Her achievements speak for her, and her ability to speak and argue points prove her caliber. Presenting the Assistant Director of the Bruhat Bengaluru Mahanagara Palike, Krisha Reddy.",
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'Committee X',
@@ -233,6 +238,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "'It's been said politics is the second oldest profession and I've come to realize over the last few years, it bears a great similarity to the first.' - Ronald Reagan; Arav is known for being cocky and humorous. He highly values communication skills and logic. Arav tends to slip out of tricky situation just as simply as he creates chaos around himself. He bring high quality of debate and environment of unpredictablity into every committee.",
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'Union Cabinet',
@@ -258,6 +264,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
 				},
 			],
+			dir2: [],
 		},
 		{
 			commName: 'Joint Crisis Committee',
