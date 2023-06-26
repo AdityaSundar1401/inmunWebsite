@@ -5,6 +5,7 @@ import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
 import abhi from './Images/abhi2.jpg';
 import omu from '../../om.jpeg';
+import zaid from './Images/zaid.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johannnew.cr2';
 import vivin from './Images/vivin.jpeg';
