@@ -510,6 +510,20 @@ const Sec = ({ dropDown, drop, height, name }) => {
 										</div>
 									))}
 								</div>
+										<div
+									className={`grid-${comm.ads.length} all-center directorBox`}>
+									{comm.ads.map((ad, ind) => (
+										<div key={ind}>
+											<img
+												src={ad.image}
+												className='directorImage'
+											/>
+											<h1>{ad.name}</h1>
+											<h3 style={{ color: 'white' }}>Assistant Director</h3>
+											<p style={{ maxWidth: '90%' }}>{ad.des}</p>
+										</div>
+									))}
+								</div>
 							</div>
 						</div>
 					))}
