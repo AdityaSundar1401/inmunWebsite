@@ -495,7 +495,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 								<div
-									className={`grid-${comm.dir2.length} all-center directorBox`}>
+									className={`grid-1 all-center directorBox`}>
 									{comm.dir2.map((director, idx) => (
 										<div key={idx}>
 											<img
@@ -695,7 +695,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									))}
 								</div>
 								<div
-									className={`grid-${comm.dir2.length} all-center directorBox`}>
+									className={`grid-1 all-center directorBox`}>
 									{comm.dir2.map((director, idx) => (
 										<div key={idx}>
 											<img
