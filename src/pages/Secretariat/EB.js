@@ -38,6 +38,7 @@ import ayush from './Images/ayushnair1.jpeg';
 import arnav from './Images/arnav1.jpeg';
 import saravanan from './Images/saravanan.jpeg';
 import bs from './Images/bs.jpeg';
+import gunav from './Images/gunav.jpeg';
 // background images
 import vietnam from './Images/vietnam.png';
 import bluestar from './Images/bluestar.jpeg';
@@ -296,6 +297,12 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					image: zaid,
 					post: 'Co-director of the Axis',
 					des: "'I'll always help topple a government' Alex 'Technoblade' Having been in the circuit since 2017, Zaid has definitely earned himself the reputation of being one of the most indomitable delegates in Banglore . He has attended over 25 conferences, which includes a diverse experience as an Executive Member or a member of the Secreteriat. With numerous accolades to his name with Best Delegate awards from conferences such as SJCMUN, CoMUN, AMUN and CJCMUN, him and his iconic bow-tie never fail to unnerve those around him. Presenting to you the co-director of JCC, Zaid Sheriff.",
+				},
+				{
+					name: 'Gunav',
+					image: gunav,
+					post: 'Co-director of the Allies',
+					des: "Opinionated and never hesitant to elucidate his point of view, Gunav is as firm as he is considerate. Having been to more than 50 conferences, Gunav has an impressive placement record to say the least. Awards to his name include the likes of the Best Delegate Awards at MUNs such as CLMUN, GWHMUN, SMUN, SJBHSMUN and HMUN India to name a few and also accolades from MUNs such as TISBMUN, KMUN and BMUN. With a penchant for fast-paced debate and being skilled at handling situations that would make even the most seasoned MUNners uncomfortable, Gunav enjoys challenges and is adept at using a diplomatic approache to tackle even the most unnerving predicaments. Apart from MUN, Gunav is an avid debater and a passionate lover of Motorsport. Gunav actively participates in parliamentary debates and ADR Competitions at college and has even represented India in Sri Lanka at the Motorcross Championships twice. His perfervid appreciation for sport and speed is what, among other things, Gunav is known for."
 				},
 			],
 			ads: [
