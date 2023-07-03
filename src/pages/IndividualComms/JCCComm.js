@@ -111,7 +111,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				name: 'Zaid Sherif',
 				image: zaid,
 				post: 'Co-director of the Axis',
-				des: "'I'll always help topple a government' Alex 'Technoblade' Having been in the circuit since 2017, Zaid has definitely earned himself the reputation of being one of the most indomitable delegates in Banglore . He has attended over 25 conferences, which includes a diverse experience as an Executive Member or a member of the Secreteriat. With numerous accolades to his name with Best Delegate awards from conferences such as SJCMUN, CoMUN, AMUN and CJCMUN, him and his iconic bow-tie never fail to unnerve those around him. Presenting to you the co-director of JCC, Zaid Sheriff.",
+				des: "'I'll always help topple a government' - Alex 'Technoblade'; Having been in the circuit since 2017, Zaid has definitely earned himself the reputation of being one of the most indomitable delegates in Banglore . He has attended over 25 conferences, which includes a diverse experience as an Executive Member or a member of the Secreteriat. With numerous accolades to his name with Best Delegate awards from conferences such as SJCMUN, CoMUN, AMUN and CJCMUN, him and his iconic bow-tie never fail to unnerve those around him. Presenting to you the co-director of JCC, Zaid Sheriff.",
 			},
 			{
 				name: 'Gunav Menon',
