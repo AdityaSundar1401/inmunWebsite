@@ -64,11 +64,18 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		},
 	];
 
-	const finance = {
-		post: 'Finance',
-		names: ['Aditya Narayan', 'Aashna Kumar'],
-		imgs: [narayan, aashna],
-	};
+	const financesocials = [
+		{
+			post: 'Finance',
+			names: ['Aditya Narayan', 'Aashna Kumar'],
+			imgs: [narayan, aashna],
+		},
+		{
+			post: 'Social Media',
+			names: ['Ashutosh Barman'],
+			imgs: [ashutosh],
+		}
+	];
 
 	const logisticsAD = {
 		post: 'Deputy USG',
