@@ -424,24 +424,27 @@ const Sec = ({ dropDown, drop, height, name }) => {
 								</div>
 							))}
 						</div>
+								
 						<div className='usg-box all-center usgBoxMobile'>
-							<div className='usg-category'>
-								<h1 className='all-center usg-post'>{financesocials.post}</h1>
-								<div className='grid-2 all-center pic-box'>
-									{financesocials.imgs.map((pic, index) => (
-										<div
-											key={index}
-											className='usg-pics'>
-											<img
-												className='usg-pic'
-												src={pic}
-												alt=''
-											/>
-											<h1 className='usg-name'>{financesocials.names[index]}</h1>
-										</div>
-									))}
+							{financesocials.map((usg, idx) => (
+								<div className='usg-category ' key={idx}>
+									<h1 className='all-center usg-post'>{financesocials.post}</h1>
+									<div className='grid-2 all-center pic-box'>
+										{financesocials.imgs.map((pic, index) => (
+											<div
+												key={index}
+												className='usg-pics'>
+												<img
+													className='usg-pic'
+													src={pic}
+													alt=''
+												/>
+												<h1 className='usg-name'>{financesocials.names[index]}</h1>
+											</div>
+										))}
+									</div>
 								</div>
-							</div>
+							))}
 						</div>
 						<div className='usg-box all-center usgBoxMobile'>
 							<div className='usg-category'>
