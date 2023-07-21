@@ -426,9 +426,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 						</div>
 						<div className='usg-box all-center usgBoxMobile'>
 							<div className='usg-category'>
-								<h1 className='all-center usg-post'>{finance.post}</h1>
+								<h1 className='all-center usg-post'>{financesocials.post}</h1>
 								<div className='grid-2 all-center pic-box'>
-									{finance.imgs.map((pic, index) => (
+									{financesocials.imgs.map((pic, index) => (
 										<div
 											key={index}
 											className='usg-pics'>
@@ -437,7 +437,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 												src={pic}
 												alt=''
 											/>
-											<h1 className='usg-name'>{finance.names[index]}</h1>
+											<h1 className='usg-name'>{financesocials.names[index]}</h1>
 										</div>
 									))}
 								</div>
@@ -626,9 +626,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							<div
 								className='usg-category'
 								style={{ marginTop: '0px' }}>
-								<h1 className='all-center usg-post'>{finance.post}</h1>
+								<h1 className='all-center usg-post'>{financesocials.post}</h1>
 								<div className='grid-2 all-center pic-box'>
-									{finance.imgs.map((pic, index) => (
+									{financesocials.imgs.map((pic, index) => (
 										<div
 											key={index}
 											className='usg-pics'>
@@ -639,7 +639,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 											/>
 										</div>
 									))}
-									{finance.names.map((name, ind) => (
+									{financesocials.names.map((name, ind) => (
 										<h1
 											className='usg-name'
 											key={ind}>
