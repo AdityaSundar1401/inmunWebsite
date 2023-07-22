@@ -428,7 +428,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 						<div className='usg-box all-center usgBoxMobile'>
 							{financesocials.map((finsoc, idx) => (
 								<div className='usg-category ' key={idx}>
-									<h1 className='all-center usg-post'>{financesocials.post}</h1>
+									<h1 className='all-center usg-post'>{finsoc.post}</h1>
 									<div className='grid-2 all-center pic-box'>
 										{finsoc.imgs.map((pic, index) => (
 											<div
