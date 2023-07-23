@@ -9,6 +9,8 @@ import zaid from './Images/zaid.jpeg';
 import adi from './Images/adi1.jpg';
 import johann from './Images/johannnew.cr2';
 import vivin from './Images/vivin.jpeg';
+import eshan from './Images/eshan.jpeg';
+import praty from './Images/praty.jpeg';
 import aashna from './Images/aashna2.jpeg';
 import narayan from './Images/narayan1.jpg';
 import tommy from './Images/tommy.jpeg';
@@ -163,9 +165,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "I'm Abhimanyu from Grade 12 at Inventure and I will be one of your Assistant Directors for the Lok Sabha at INMUN 2023.Model United Nations to me is a great opportunity to understand how decisions are made, may that be, at any committee simulating the United Nations, the Parliament or the Lok Sabha. By taking part in this crucial decision-making process as delegates, you have the opportunity to learn about different perspectives on certain issues while of course using diplomacy to make sure the decision you want is taken. I hope that every delegate can learn and take away knowledge that you can use not just at your next MUN conference, but even in the real world.I look forward to seeing a lot of enlightening conversations during our committee sessions and of course a lot of fun outside of the committee.",
 				},
 				{
-					name: 'Muhammed Hafesjee',
-					image: muhammad,
-					des: "With a bit of a rough start in the Bangalore circuit, this youth is now building a reputation across the city for his old-fashioned lobbying skills and inventive speeches. If you're in a committee with him, committee will never be boring.Apart from MUNning, he loves to explore the city on his cycle (often getting into accidents), plays the guitar, is currently working on a startup company, has given a Ted Talk and plans to write CLAT. His accolades include placements at DeMUN, ECMRMUN and AJMUN, He has also chaired the UNSC Committee at GearMUN and is the Head Delegate for the NPS ITPL MUN Delegation.",
+					name: 'Pratyush P Mithal',
+					image: praty,
+					des: "Hey Guys! This is your other deputy speaker here, Pratyush, and I just want to say how excited I am to be a part of this committee. I can’t wait to interact with each and every one of you and hopefully by the end help you make a difference. A difference in the world we live in, a difference in our lives and most importantly a difference in the issue we are trying to solve through our agenda. I hope to help you become better munners, help you step outside your comfort zone and most of all take away something from this fulfilling experience. I am a passionate individual with a love for sports, particularly basketball. When I'm not on the court, I indulge in public speaking and debating, relishing the art of expressing ideas and persuading others. Additionally, my fondness for Model United Nations allows me to engage in international relations and collaborative problem-solving on a global scale. With a diverse range of interests encompassing sports, public speaking, economics, and MUN, I am eager to embark on a journey of self-discovery and making a positive impact in the world. So let us embark on this journey, grow and learn together!",
 				},
 			],
 			dir2: [],
@@ -265,6 +267,11 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Arnav Aggarwal',
 					image: arnav,
 					des: 'Hello Delegates! My name is Arnav Raj Aggarwal and I am ecstatic to serve on the executive board for this committee. The opportunity to participate in MUN has served as a bridge between my love for public speaking and debate along with my interest in regional and international affairs, awarding me a placement in every conference thus far. Participating in spirited debate has allowed me to connect with like-minded individuals, and I sincerely hope this committee provides you the same. Outside the realm of MUN, my interests lie in the fields of medicine and research, whilst I am simultaneously invested entrepreneurship and the general logos behind STEM. During my spare time, I enjoy playing sports competitively and am also an active pursuer of the performing arts, specifically speech and drama.',
+				},
+				{
+					name: 'Eshaan Bharath',
+					image: eshan,
+					des: '',
 				},
 			],
 			dir2: [],
