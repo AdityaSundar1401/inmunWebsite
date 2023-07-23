@@ -13,6 +13,7 @@ import johann from '../Secretariat/Images/johann1.jpg';
 import tommy from '../Secretariat/Images/tommy.jpeg';
 import samu from '../Secretariat/Images/samu.jpeg';
 import arnav from '../Secretariat/Images/arnav1.jpeg';
+import eshan from '../Secretariat/Images/eshan.jpeg';
 import dafoe from '../Secretariat/Images/dafoe.webp';
 import ameya from '../Secretariat/Images/ameya1.jpg';
 import lasya from '../Secretariat/Images/lasya1.jpg';
@@ -99,9 +100,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 					des: "Hello Delegates! My name is Arnav Raj Aggarwal and I am ecstatic to serve on the executive board for this committee. The opportunity to participate in MUN has served as a bridge between my love for public speaking and debate along with my interest in regional and international affairs, awarding me a placement in every conference thus far. Participating in spirited debate has allowed me to connect with like-minded individuals, and I sincerely hope this committee provides you the same. Outside the realm of MUN, my interests lie in the fields of medicine and research, whilst I am simultaneously invested entrepreneurship and the general logos behind STEM. During my spare time, I enjoy playing sports competitively and am also an active pursuer of the performing arts, specifically speech and drama.",
 				},
 				{
-					name: 'BS Chetan Swaroop Reddy',
+					name: 'Eshaan Bharath',
 					image: bs,
-					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
+					des: '',
 				},
 			],
 		};
