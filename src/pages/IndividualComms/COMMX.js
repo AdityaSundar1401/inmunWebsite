@@ -100,9 +100,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 			],
 			ads: [
 				{
-					name: 'Pradyumn Mohan',
-					image: prady,
-					des: '“Yesterday is history, tomorrow is a mystery, but today is a gift! That is why it is called the present” is a quote that I Pradyumn Mohan, a musician, an aspiring med student and an experienced MUNner live by. I also hope that everyone attending committee X will live by it, fighting and cherishing each moment and choice of theirs, as each may be their last. Good luck delegates and see you on the battlefield!',
+					name: 'BS Chetan Swaroop Reddy',
+					image: bs,
+					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
 				},
 				{
 					name: 'Arav Bhojashettar',
