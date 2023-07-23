@@ -236,14 +236,14 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			],
 			ads: [
 				{
-					name: 'Pradyumn Mohan',
-					image: prady,
-					des: '“Yesterday is history, tomorrow is a mystery, but today is a gift! That is why it is called the present” is a quote that I Pradyumn Mohan, a musician, an aspiring med student and an experienced MUNner live by. I also hope that everyone attending committee X will live by it, fighting and cherishing each moment and choice of theirs, as each may be their last. Good luck delegates and see you on the battlefield!',
-				},
-				{
 					name: 'Arav Bhojashettar',
 					image: arav,
 					des: "'It's been said politics is the second oldest profession and I've come to realize over the last few years, it bears a great similarity to the first.' - Ronald Reagan; Arav is known for being cocky and humorous. He highly values communication skills and logic. Arav tends to slip out of tricky situation just as simply as he creates chaos around himself. He bring high quality of debate and environment of unpredictablity into every committee.",
+				},
+				{
+					name: 'BS Chetan Swaroop Reddy',
+					image: bs,
+					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
 				},
 			],
 			dir2: [],
@@ -265,11 +265,6 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Arnav Aggarwal',
 					image: arnav,
 					des: 'Hello Delegates! My name is Arnav Raj Aggarwal and I am ecstatic to serve on the executive board for this committee. The opportunity to participate in MUN has served as a bridge between my love for public speaking and debate along with my interest in regional and international affairs, awarding me a placement in every conference thus far. Participating in spirited debate has allowed me to connect with like-minded individuals, and I sincerely hope this committee provides you the same. Outside the realm of MUN, my interests lie in the fields of medicine and research, whilst I am simultaneously invested entrepreneurship and the general logos behind STEM. During my spare time, I enjoy playing sports competitively and am also an active pursuer of the performing arts, specifically speech and drama.',
-				},
-				{
-					name: 'BS Chetan Swaroop Reddy',
-					image: bs,
-					des: 'BS Chetan is a passionate MUNner who has been active in the circuit since Grade 6. He has been to about 15 MUNs since then. Having been to MUNs since a young age, He has grown into diplomacy, politics and negotiations. Nevertheless, He always yearns for full-scale chaos in committee. He holds accolades from AJMUN, CISMUN, GMUN, and OxfordMUN among others.',
 				},
 			],
 			dir2: [],
