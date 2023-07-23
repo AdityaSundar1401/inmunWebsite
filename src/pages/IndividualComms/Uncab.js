@@ -101,8 +101,8 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 				},
 				{
 					name: 'Eshaan Bharath',
-					image: bs,
-					des: '',
+					image: eshan,
+					des: ".Since joining the circuit in 2023, my keen interest in global policies and international relations has not only flourished, but it has also led to my successful participation in MUNs, earning me notable awards from FISMUN, GEARMUN, MAISMUN, and more. My first engagement with a crises committee earlier this year sparked an enduring passion that has only grown with time. In this conference, I'll be serving as your Assistant Director for the Union Cabinet. Beyond MUNs, I like to spend my time in the gym or playing cricket. I am truly excited about the opportunity to interact with all of you, and I am committed to facilitating a productive and rewarding conference.",
 				},
 			],
 		};
