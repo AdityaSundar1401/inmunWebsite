@@ -3,6 +3,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
+import UNHCRBG from '../Secretariat/Images/UNHCRBG.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
@@ -287,7 +288,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href='../Secretariat/Images/narayan1.jpg'
+										href={UNHCRBG}
 										target='_blank'>
 										Background guide
 									</a>
