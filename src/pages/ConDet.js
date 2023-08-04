@@ -158,22 +158,29 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img
-							src={comingSoon}
+						<a
 							style={{
-								border: 'solid',
-								borderColor: '#ff8500',
-								borderWidth: 'auto',
-								height: '210.08px',
-								width: '150px',
-								objectFit: 'cover',
+								width: '100%',
+								height: '209px',
 							}}
-						/>
+							className='detImages'
+							href={conferenceSchedule}
+							target='_blank'>
+							<img
+								src={handbook}
+								
+								style={{
+									border: 'solid',
+									borderColor: 'black',
+									borderWidth: 'auto',
+								}}
+							/>
+						</a>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
-								margin: '0px 2px',
+								margin: '0px auto',
 							}}
 							className='text-center'>
 							Conference Schedule
