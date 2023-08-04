@@ -157,7 +157,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
+									<a
 										href={BBMPBG}
 										target='_blank'>
 										Background Guide
@@ -170,7 +170,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
+									<a
 										href={BBMPMatrix}
 										target='_blank'>
 										Committee Matrix
@@ -291,7 +291,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
+									<a
 										href={BBMPBG}
 										target='_blank'>
 										Background guide
@@ -304,7 +304,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
+									<a
 										href={BBMPMatrix}
 										target='_blank'>
 										Committee Matrix
