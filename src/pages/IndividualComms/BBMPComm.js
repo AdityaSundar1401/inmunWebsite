@@ -158,7 +158,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a>
-										<h3>Background Guide</h3>
+										href={BBMPBG}
+										target='_blank'>
+										Background Guide
 									</a>
 								</div>
 								<div
@@ -169,7 +171,9 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a>
-										<h3>Country Matrix</h3>
+										href={BBMPMatrix}
+										target='_blank'>
+										Committee Matrix
 									</a>
 								</div>
 							</div>
