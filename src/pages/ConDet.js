@@ -168,7 +168,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							href={pdfConferenceSchedule}
 							target='_blank'>
 							<img
-								src={handbook}
+								src={conferenceSchedule}
 								
 								style={{
 									border: 'solid',
