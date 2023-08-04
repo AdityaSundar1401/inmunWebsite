@@ -287,7 +287,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href='./Images/sud.jpeg'
+										href='../Secretariat/Images/UNHCRBG.pdf'
 										target='_blank'>
 										Background guide
 									</a>
