@@ -29,6 +29,7 @@ import krisha from '../Secretariat/Images/krishareddy1.jpeg';
 import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
 import abhinavathrey from '../Secretariat/Images/abhinavathrey1.jpeg';
 import arav from '../Secretariat/Images/aravb1.jpeg';
+import bs from '../Secretariat/Images/bs.jpeg'
 import ayush from '../Secretariat/Images/ayushnair1.jpeg'
 import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
