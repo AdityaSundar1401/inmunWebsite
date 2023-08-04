@@ -286,8 +286,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
-										<h3>Background Guide</h3>
+									<a
+										href='/'
+										target='_blank'>
+										Background guide
 									</a>
 								</div>
 								<div
