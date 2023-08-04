@@ -7,7 +7,8 @@ import Navbar from '../layout/Navbar';
 import handbook from './confHandbook.jpeg';
 import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
-import conferenceSchedule from './conferenceSchedule.pdf';
+import pdfConferenceSchedule from './conferenceSchedule.pdf';
+import conferenceSchedule from './conferenceSchedule.png';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
 	// Drop Down Functions
@@ -164,7 +165,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 								height: '209px',
 							}}
 							className='detImages'
-							href={conferenceSchedule}
+							href={pdfConferenceSchedule}
 							target='_blank'>
 							<img
 								src={handbook}
