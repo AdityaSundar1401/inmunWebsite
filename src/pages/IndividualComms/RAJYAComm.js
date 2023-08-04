@@ -3,6 +3,8 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
+import RajyaSabhaBG from '../Secretariat/Images/RajyaSabhaBG.pdf'
+import RajyaSabhaMatrix from '../Secretariat/Images/RajyaSabhaMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
@@ -158,8 +160,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
-										<h3>Background Guide</h3>
+									<a
+										href={RajyaSabhaBG}
+										target='_blank'>
+										Background Guide
 									</a>
 								</div>
 								<div
@@ -169,8 +173,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
-										<h3>Country Matrix</h3>
+									<a
+										href={RajyaSabhaMatrix}
+										target='_blank'>
+										Committee Matrix
 									</a>
 								</div>
 							</div>
@@ -288,8 +294,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
-										<h3>Background Guide</h3>
+									<a
+										href={RajyaSabhaBG}
+										target='_blank'>
+										Background Guide
 									</a>
 								</div>
 								<div
@@ -299,8 +307,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										height: '50px',
 										borderRadius: '20px',
 									}}>
-									<a>
-										<h3>Country Matrix</h3>
+									<a
+										href={RajyaSabhaMatrix}
+										target='_blank'>
+										Committee Matrix
 									</a>
 								</div>
 							</div>
