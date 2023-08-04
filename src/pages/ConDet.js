@@ -7,6 +7,7 @@ import Navbar from '../layout/Navbar';
 import handbook from './confHandbook.jpeg';
 import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
+import conferenceSchedule from './conferenceSchedule.pdf';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
 	// Drop Down Functions
