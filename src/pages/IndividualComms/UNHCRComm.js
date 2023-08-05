@@ -3,7 +3,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import UNHCRBG from '../Secretariat/Images/UNHCRBG.pdf'
+import UNHCRBG from '../Secretariat/Images/UNHCRBG2.pdf'
 import UNHCRMatrix from '../Secretariat/Images/UNHCRMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
