@@ -3,8 +3,8 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import UNEPBG from '../Secretariat/Images/XBG.pdf'
-import UNEPMatrix from '../Secretariat/Images/XMatrix.pdf'
+import UNEPBG from '../Secretariat/Images/UNEPBG.pdf'
+import UNEPMatrix from '../Secretariat/Images/UNEPMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
