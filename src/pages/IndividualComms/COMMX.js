@@ -307,7 +307,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href={XBG}
+										href={XMatrix}
 										target='_blank'>
 										Committee Matrix
 									</a>
