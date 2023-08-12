@@ -100,6 +100,30 @@ export class App extends Component {
 				commClass: 'GA',
 				bgImage: omu,
 			},
+			
+			ECOSOC: {
+				commName: 'economic-and-social-council',
+				commDisplay: 'Economic and Social Council',
+				commIcon: unep,
+				commAgenda:
+					'Addressing the global debt crisis',
+				commDesc: `Lorem ipsum dolor sit amet, cibo ubique eligendi id eos, eu cum tollit suscipiantur. Paulo virtute sententiae ex mea. Et graece intellegam instructior usu, et summo conceptam mei. Te vulputate mediocritatem pri, ex mel iudico quando disputationi. Vocent vidisse mei ut, in vis modus vocibus persecuti.
+
+				Cu vim fierent voluptua salutandi. Vis in modus augue ceteros. Oratio repudiare consetetur at pri, sed officiis qualisque definitionem eu. Vim fugit munere aliquip an, cu mentitum sententiae deterruisset nec, cu nam utinam atomorum tincidunt. Nec ad omnes sadipscing scriptorem, regione tritani ius in, duo ei dicta putent bonorum.
+				
+				Latine scripta vis in, est electram constituam ut. Id quo sint facilis fastidii, in graece scaevola pertinacia duo, duo an veniam postulant. Eam id diam officiis. Unum veri cu est, dico corrumpit honestatis nec cu. Aperiam fuisset vituperata mel no, errem aliquid facilisi ut sed, tempor aliquid admodum mea te. Legimus maiorum eos ut.
+				
+				Torquatos reprimique an quo, timeam sensibus inimicus cum an, sea cu sadipscing scribentur repudiandae. Maiestatis neglegentur pri ne, sea vitae exerci an. Perfecto expetendis cu qui, ius inani eruditi consulatu ex. Solum ocurreret deseruisse an ius. Sit nusquam eligendi placerat ne, his ex alii adhuc libris, te diam prima vel. Vis sonet populo te, mei id feugiat labores ocurreret.
+				
+				Mel ea tibique temporibus, eam impetus phaedrum molestiae ex. Sea at semper scripta euismod. Vix legere fabellas patrioque at. Feugiat molestie sea ea, labore tamquam ne eam. Soluta putant iriure mei ad. Ad eos eleifend reformidans, eu pro probo tantas. Has at amet concludaturque, no velit accumsan usu.`,
+				commDir: ['Nandita Dey'],
+				commAD: ['Lasya Verma', 'Joseph Stalin'],
+				dirIcon: [ali],
+				ADIcons: [tommy, tommy],
+				commClass: 'GA',
+				bgImage: omu,
+			},
+				
 			LOK: {
 				commName: 'Lok-Sabha',
 				commName: 'lok-sabha',
