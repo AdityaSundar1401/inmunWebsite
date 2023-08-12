@@ -3,9 +3,8 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import UNEPBG from '../Secretariat/Images/ECOSOCBG.pdf'
-import UNEPMatrix from '../Secretariat/Images/ECOSOCMatrix.pdf'
-import pratyush from '../Secretariat/Images/pratyush.jpeg';
+import UNEPBG from '../Secretariat/Images/UNEPBG.pdf'
+import UNEPMatrix from '../Secretariat/Images/UNEPMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
@@ -87,25 +86,30 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	}, [lastScrollY]);
 
 	const comm = {
-			commName: 'ECOSOC',
+			commName: 'UNEP',
 			agenda:
-				'Addressing the global debt crisis',
+				'Addressing the problems that arise from land degradation and deforestation',
 			background: env,
-		        commDesc: "",
+		        commDesc: "The Earth is a ticking time bomb and humanity's actions are only hastening the end. The continued deforestation taking place to satisfy 8 billion people’s greed results in flooding, disease and malnutrition. It is quite obvious work needs to be done, the question is how? The UNEP will push delegates to design innovative, long term solutions. Intense debate will require delegates to have in-depth knowledge at the tip of their fingers and a keen presence of mind. All this while trying to reach a compromise that satisfies everyone, especially Greta Thunberg. ",
 		        icon: unep,
 			directors: [
 				{
-					name: 'Siddharth Dey',
+					name: 'Syed Ali',
 					image: ali,
 					post: 'Chairperson',
-					des: "",
+					des: "'Young people - they care. They know that this is the world that they're going to grow up in, that they're going to spend the rest of their lives in. But, I think it's more idealistic than that. They actually believe that humanity, human species, has no right to destroy and despoil regardless.' - Sir David Attenborough; This EB member is no stranger to the circuit with over 5 years of experience as a munner he’s bagged accolades and served on the executive board of various noteworthy conferences across the city but it’s his versatility that stands out as he possesses a award from each different type of a committee a Mun has to offer, the jack of all trades, presenting to you the Chairperson of the UNEP, Syed Ali.",
 				},
 			],
 			ads: [
 				{
-					name: 'Pratyush Mittal',
-					image: pratyush,
-					des: "",
+					name: 'Hari Sai Harish',
+					image: hari,
+					des: "Hey delegates! I'm Hari and I'm very honored to help chair the UNEP committee this year. I enjoy playing and following a variety of sports and am also very passionate about the fields of coding and public speaking. The MUNs I have taken part in have helped with my confidence and my communication and my experience chairing them has helped me better understand people too. I wish you all the best of luck and hope you cherish your time on this committee!"
+				},
+				{
+					name: 'Yash Iyer',
+					image: yash,
+					des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.",
 				},
 			],
 		};
