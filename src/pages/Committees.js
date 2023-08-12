@@ -14,6 +14,7 @@ const Committees = ({ commStuff, dropDown, drop, height, name }) => {
 	const cris = [];
 	gas.push(commStuff.UNEP);
 	gas.push(commStuff.UNHCR);
+	gas.push(commStuff.ECOSOC);
 	regs.push(commStuff.LOK);
 	regs.push(commStuff.RAJYA);
 	regs.push(commStuff.BBMP);
@@ -85,7 +86,7 @@ const Committees = ({ commStuff, dropDown, drop, height, name }) => {
 							GENERAL ASSEMBLIES
 						</div>
 						<div
-							style={userStyle2}
+							style={userStyle3}
 							className='commMap'>
 							{gas.map((ga) => (
 								<div className={isMobile && 'committeeDivMobile'}>
@@ -181,7 +182,7 @@ const Committees = ({ commStuff, dropDown, drop, height, name }) => {
 							GENERAL ASSEMBLIES
 						</div>
 						<div
-							style={userStyle2}
+							style={userStyle3}
 							className='commMap'>
 							{gas.map((ga) => (
 								<div className={isMobile && 'committeeDivMobile'}>
