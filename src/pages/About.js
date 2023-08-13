@@ -415,6 +415,7 @@ const About = ({ dropDown, drop, height, name }) => {
 								offer teaching-learning experiences that are compelling and
 								lifelong.
 							</p>
+							<br />
 						</div>
 					</div>
 				</div>
