@@ -186,6 +186,7 @@ const About = ({ dropDown, drop, height, name }) => {
 									are part of the timetable.
 								</p>
 								<br />
+								<br />
 								<p>
 									This is the world of Inventure Academy. An enabling and
 									nurturing environment with world-class infrastructure and
