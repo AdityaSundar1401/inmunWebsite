@@ -3,9 +3,11 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import UNEPBG from '../Secretariat/Images/UNEPBG.pdf'
-import UNEPMatrix from '../Secretariat/Images/UNEPMatrix.pdf'
+import ECOSOCBG from '../Secretariat/Images/UNEPBG.pdf'
+import ECOSOCMatrix from '../Secretariat/Images/UNEPMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
+import pratyush from '../Secretariat/Images/pratyush.jpeg';
+import siddharth from '../Secretariat/Images/siddharth.jpeg';
 import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
 import johann from '../Secretariat/Images/johannnew.cr2';
@@ -35,6 +37,7 @@ import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
 import unep from '../../icons/IUNEP.png';
+import ecosoc from '../../icons/IUNEP.png';
 import unhcr from '../../icons/IUNHCR.png';
 import union from '../../icons/IUNION.png';
 import jcc from '../../icons/IJCC.png';
@@ -88,28 +91,23 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 	const comm = {
 			commName: 'ECOSOC',
 			agenda:
-				'Addressing the problems that arise from land degradation and deforestation',
+				'Addressing the global debt crisis',
 			background: env,
-		        commDesc: "The Earth is a ticking time bomb and humanity's actions are only hastening the end. The continued deforestation taking place to satisfy 8 billion people’s greed results in flooding, disease and malnutrition. It is quite obvious work needs to be done, the question is how? The UNEP will push delegates to design innovative, long term solutions. Intense debate will require delegates to have in-depth knowledge at the tip of their fingers and a keen presence of mind. All this while trying to reach a compromise that satisfies everyone, especially Greta Thunberg. ",
-		        icon: unep,
+		        commDesc: "With a growing burden on global prosperity, the urgency of addressing the global debt crisis has been underscored by a grave warning as the global public debt surged to an unprecedented high of $92 trillion in 2022. This staggering five-fold increase in public debt levels since 2000 necessitates immediate and collaborative action to confront the escalating crisis, which disproportionately affects not only developing countries but all nations at their core. The consequences are evident, such as the recent economic default in Sri Lanka that led to the overthrowing of the government, mass protests, power cuts, and social unrest. As of June 30, 2023, 11 countries are in debt distress, 25 countries are at high risk, 26 countries are at moderate risk, and only 7 countries are at low risk of debt distress. The focus lies in formulating strategies, policies, and solutions that foster sustainable economic growth, financial stability, and equitable development, ultimately steering the global economic landscape towards a more prosperous future.",
+		        icon: ecosoc,
 			directors: [
 				{
-					name: 'Syed Ali',
-					image: ali,
+					name: 'Pratyush Mittal',
+					image: pratyush,
 					post: 'Chairperson',
 					des: "'Young people - they care. They know that this is the world that they're going to grow up in, that they're going to spend the rest of their lives in. But, I think it's more idealistic than that. They actually believe that humanity, human species, has no right to destroy and despoil regardless.' - Sir David Attenborough; This EB member is no stranger to the circuit with over 5 years of experience as a munner he’s bagged accolades and served on the executive board of various noteworthy conferences across the city but it’s his versatility that stands out as he possesses a award from each different type of a committee a Mun has to offer, the jack of all trades, presenting to you the Chairperson of the UNEP, Syed Ali.",
 				},
 			],
 			ads: [
 				{
-					name: 'Hari Sai Harish',
-					image: hari,
-					des: "Hey delegates! I'm Hari and I'm very honored to help chair the UNEP committee this year. I enjoy playing and following a variety of sports and am also very passionate about the fields of coding and public speaking. The MUNs I have taken part in have helped with my confidence and my communication and my experience chairing them has helped me better understand people too. I wish you all the best of luck and hope you cherish your time on this committee!"
-				},
-				{
-					name: 'Yash Iyer',
-					image: yash,
-					des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.",
+					name: 'Siddharth Dey',
+					image: siddharth,
+					des: "Hey Guys! This is your other deputy speaker here, Pratyush, and I just want to say how excited I am to be a part of this committee. I can’t wait to interact with each and every one of you and hopefully by the end help you make a difference. A difference in the world we live in, a difference in our lives and most importantly a difference in the issue we are trying to solve through our agenda. I hope to help you become better munners, help you step outside your comfort zone and most of all take away something from this fulfilling experience. I am a passionate individual with a love for sports, particularly basketball. When I'm not on the court, I indulge in public speaking and debating, relishing the art of expressing ideas and persuading others. Additionally, my fondness for Model United Nations allows me to engage in international relations and collaborative problem-solving on a global scale. With a diverse range of interests encompassing sports, public speaking, economics, and MUN, I am eager to embark on a journey of self-discovery and making a positive impact in the world. So let us embark on this journey, grow and learn together!",
 				},
 			],
 		};
@@ -159,7 +157,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href={UNEPBG}
+										href={ECOSOCBG}
 										target='_blank'>
 										Background Guide
 									</a>
@@ -172,7 +170,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href={UNEPMatrix}
+										href={ECOSOCMatrix}
 										target='_blank'>
 										Committee Matrix
 									</a>
@@ -293,7 +291,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href={UNEPBG}
+										href={ECOSOCBG}
 										target='_blank'>
 										Background Guide
 									</a>
@@ -306,7 +304,7 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 										borderRadius: '20px',
 									}}>
 									<a
-										href={UNEPMatrix}
+										href={ECOSOCMatrix}
 										target='_blank'>
 										Committee Matrix
 									</a>
