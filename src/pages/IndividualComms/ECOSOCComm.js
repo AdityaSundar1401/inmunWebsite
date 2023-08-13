@@ -3,8 +3,8 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import ECOSOCBG from '../Secretariat/Images/UNEPBG.pdf'
-import ECOSOCMatrix from '../Secretariat/Images/UNEPMatrix.pdf'
+import ECOSOCBG from '../Secretariat/Images/ECOSOCBG.pdf'
+import ECOSOCMatrix from '../Secretariat/Images/ECOSOCMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import pratyush from '../Secretariat/Images/pratyush.jpeg';
 import siddharth from '../Secretariat/Images/siddharth.jpeg';
@@ -37,7 +37,7 @@ import bbmp from '../../icons/IBBMP.png';
 import lok from '../../icons/ILOK.png';
 import rajya from '../../icons/IRAJYA.png';
 import unep from '../../icons/IUNEP.png';
-import ecosoc from '../../icons/IUNEP.png';
+import ecosoc from '../../icons/IECOSOC.jpeg';
 import unhcr from '../../icons/IUNHCR.png';
 import union from '../../icons/IUNION.png';
 import jcc from '../../icons/IJCC.png';
