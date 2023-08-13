@@ -12,6 +12,7 @@ import diversity from './Secretariat/Images/rajyasabhabg.jpeg';
 import health from './Secretariat/Images/health.jpeg';
 import refugees from './Secretariat/Images/refugees.jpeg';
 import unep from './Secretariat/Images/unep.jpeg';
+import ecosoc from './Secretariat/Images/unep.jpeg';
 import Footer from '../layout/Footer';
 
 const Committee = ({ match, dropDown, drop, height, name }) => {
@@ -82,6 +83,13 @@ const Committee = ({ match, dropDown, drop, height, name }) => {
 			directors: ['Ali Oez'],
 			path: 'united-nations-environmental-program',
 		},
+		{
+			commName: 'ECOSOC',
+			agenda: 'Addressing the global debt crisis',
+			background: ecosoc,
+			directors: ['Siddharth Dey'],
+			path: 'economic-and-social-council',
+		}
 	];
 
 	const commRBDetails = [
