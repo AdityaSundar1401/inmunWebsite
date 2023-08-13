@@ -451,7 +451,7 @@ export class App extends Component {
 								exact
 								path='/economic-and-social-council'
 								render={(props) => (
-									<ECOSOC>
+									<ECOSOC
 										{...props}
 										dropDown={this.dropDown}
 										drop={this.state.drop}
