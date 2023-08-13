@@ -13,6 +13,7 @@ import BBMP from './pages/IndividualComms/BBMPComm';
 import JCC from './pages/IndividualComms/JCCComm';
 import UNEP from './pages/IndividualComms/UNEPComm';
 import UNHCR from './pages/IndividualComms/UNHCRComm';
+import ECOSOC from './pages/IndividualComms/ECOSOCComm';
 import X from './pages/IndividualComms/COMMX';
 import Home from './pages/Home';
 import Sec from './pages/Secretariat/EB';
@@ -447,6 +448,19 @@ export class App extends Component {
 								)}
 							/>
 							<Route
+								exact
+								path='/economic-and-social-council'
+								render={(props) => (
+									<ECOSOC>
+										{...props}
+										dropDown={this.dropDown}
+										drop={this.state.drop}
+										height={this.height}
+										name={this.name}
+									/>
+								)}
+							/>
+ 							<Route
 								exact
 								path='/united-nations-environmental-program'
 								render={(props) => (
