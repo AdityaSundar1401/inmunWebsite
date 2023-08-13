@@ -97,19 +97,20 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		        icon: ecosoc,
 			directors: [
 				{
+					name: 'Siddharth Dey',
+					image: siddharth,
+					des: "Hey Guys! This is your other deputy speaker here, Pratyush, and I just want to say how excited I am to be a part of this committee. I can’t wait to interact with each and every one of you and hopefully by the end help you make a difference. A difference in the world we live in, a difference in our lives and most importantly a difference in the issue we are trying to solve through our agenda. I hope to help you become better munners, help you step outside your comfort zone and most of all take away something from this fulfilling experience. I am a passionate individual with a love for sports, particularly basketball. When I'm not on the court, I indulge in public speaking and debating, relishing the art of expressing ideas and persuading others. Additionally, my fondness for Model United Nations allows me to engage in international relations and collaborative problem-solving on a global scale. With a diverse range of interests encompassing sports, public speaking, economics, and MUN, I am eager to embark on a journey of self-discovery and making a positive impact in the world. So let us embark on this journey, grow and learn together!",
+				},
+			],
+			ads: [
+				{
 					name: 'Pratyush Mittal',
 					image: pratyush,
 					post: 'Chairperson',
 					des: "'Young people - they care. They know that this is the world that they're going to grow up in, that they're going to spend the rest of their lives in. But, I think it's more idealistic than that. They actually believe that humanity, human species, has no right to destroy and despoil regardless.' - Sir David Attenborough; This EB member is no stranger to the circuit with over 5 years of experience as a munner he’s bagged accolades and served on the executive board of various noteworthy conferences across the city but it’s his versatility that stands out as he possesses a award from each different type of a committee a Mun has to offer, the jack of all trades, presenting to you the Chairperson of the UNEP, Syed Ali.",
 				},
 			],
-			ads: [
-				{
-					name: 'Siddharth Dey',
-					image: siddharth,
-					des: "Hey Guys! This is your other deputy speaker here, Pratyush, and I just want to say how excited I am to be a part of this committee. I can’t wait to interact with each and every one of you and hopefully by the end help you make a difference. A difference in the world we live in, a difference in our lives and most importantly a difference in the issue we are trying to solve through our agenda. I hope to help you become better munners, help you step outside your comfort zone and most of all take away something from this fulfilling experience. I am a passionate individual with a love for sports, particularly basketball. When I'm not on the court, I indulge in public speaking and debating, relishing the art of expressing ideas and persuading others. Additionally, my fondness for Model United Nations allows me to engage in international relations and collaborative problem-solving on a global scale. With a diverse range of interests encompassing sports, public speaking, economics, and MUN, I am eager to embark on a journey of self-discovery and making a positive impact in the world. So let us embark on this journey, grow and learn together!",
-				},
-			],
+			
 		};
 
 	if (isMobile) {
