@@ -7,7 +7,6 @@ import ECOSOCBG from '../Secretariat/Images/ECOSOCBG.pdf'
 import ECOSOCMatrix from '../Secretariat/Images/ECOSOCMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import pratyush from '../Secretariat/Images/pratyush.jpeg';
-import siddharth from '../Secretariat/Images/siddharth2.png';
 import siddharth from '../Secretariat/Images/siddharth3.png';
 import omu from '../Secretariat/Images/omu.jpeg';
 import adi from '../Secretariat/Images/adi1.jpg';
