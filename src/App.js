@@ -43,6 +43,7 @@ import bbmp from './icons/IBBMP.png';
 import lok from './icons/ILOK.png';
 import rajya from './icons/IRAJYA.png';
 import unep from './icons/IUNEP.png';
+import ecosoc from './icons/IECOSOC.jpeg';
 import unhcr from './icons/IUNHCR.png';
 import union from './icons/IUNION.png';
 import jcc from './icons/IJCC.png';
@@ -105,7 +106,7 @@ export class App extends Component {
 			ECOSOC: {
 				commName: 'economic-and-social-council',
 				commDisplay: 'Economic and Social Council',
-				commIcon: unep,
+				commIcon: ecosoc,
 				commAgenda:
 					'Addressing the global debt crisis',
 				commDesc: `Lorem ipsum dolor sit amet, cibo ubique eligendi id eos, eu cum tollit suscipiantur. Paulo virtute sententiae ex mea. Et graece intellegam instructior usu, et summo conceptam mei. Te vulputate mediocritatem pri, ex mel iudico quando disputationi. Vocent vidisse mei ut, in vis modus vocibus persecuti.
