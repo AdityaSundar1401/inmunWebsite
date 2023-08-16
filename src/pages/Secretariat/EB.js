@@ -4,9 +4,11 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
 import abhi from './Images/abhi2.jpg';
+import shivam from './Images/shivam.jpeg';
 import omu from '../../om.jpeg';
 import zaid from './Images/zaid.jpeg';
 import adi from './Images/adi1.jpg';
+import siddharth from './Images/siddharth3.png';
 import johann from './Images/johannnew.cr2';
 import vivin from './Images/vivin.jpeg';
 import eshan from './Images/eshan.jpeg';
@@ -126,10 +128,10 @@ const Sec = ({ dropDown, drop, height, name }) => {
 			background: unep,
 			directors: [
 				{
-					name: 'Syed Ali',
-					image: ali,
+					name: 'Shivam',
+					image: shivam,
 					post: 'Chairperson',
-					des: "'Young people - they care. They know that this is the world that they're going to grow up in, that they're going to spend the rest of their lives in. But, I think it's more idealistic than that. They actually believe that humanity, human species, has no right to destroy and despoil regardless.'  - Sir David Attenborough; This EB member is no stranger to the circuit with over 5 years of experience as a munner he’s bagged accolades and served on the executive board of various noteworthy conferences across the city but it’s his versatility that stands out as he possesses a award from each different type of a committee a Mun has to offer, the jack of all trades, presenting to you the Chairperson of the UNEP, Syed Ali.",
+					des: "'Whoever appeals to the law against his fellow man is either a fool or a coward, Whoever cannot take care of himself without that law is both' - Randy Blythe; Despite commencing his MUN career amidst the challenges posed by the COVID era, he swiftly adapted to offline MUNs, showcasing his fastidious nature and astute thinking. His approach to committees is holistic, where he consistently maintains an unwavering presence and exerts unyielding dominance. His competence shines through his multiple accolades, triumphing in conferences like NCFEMUN, SNISMUN, DWMUN, and more. Besides MUNs, he fervently embraces the role of music, which holds a significant place in his life and is not something he neglects. His diverse musical palette encompasses a wide spectrum, ranging from the intensity of heavy metal to the soulful melodies of jazz. With his presence in the committee, you can assuredly anticipate a productive and enjoyable experience.'",
 				},
 			],
 			ads: [
@@ -142,6 +144,28 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Yash Iyer',
 					image: yash,
 					des: "'Man, what the hell!' - This was said by one of Yash's fellow delegates at INYP last year when he shook the committee. Whether it is launching ballistic missiles at a person, attaining global domination or covering the world with concentration camps, Yash finds a way to keep the spirit of all his committees alive. He truly did so at INYP last year where he won the best delegate award for convincing an entire committee to adopt Chinese-operated concentration camps in their own countries. He has served on the Executive Board at multiple conferences and will ensure that INVMUN 2023 is filled with heated and entertaining debates. Yash is unbeatable and direct debates and holds a position at India's National Debate Team Camp for WSDC and was chosen to represent India in British-Parliamentary Debate at the prestigious ICYD competition. He values turning your position in a conference around the most, he values rising up the ranks as you gain an undisputable position of relevance from a precarious position, he values hard work, determination and confidence. At INVMUN, with his experience, he will help you achieve this. Whether it may be through Spiderman and Ronaldo quotes or via other means, with him you are guaranteed to leave the conference with valuable lessons.",
+				},
+			],
+			dir2: [],
+		},
+		{
+			commName: 'ECOSOC',
+			agenda:
+				'Addressing the global debt crisis',
+			background: unep,
+			directors: [
+				{
+					name: 'Siddharth Dey',
+					image: siddharth,
+					post: 'Chairperson',
+					des: "'Whoever appeals to the law against his fellow man is either a fool or a coward, Whoever cannot take care of himself without that law is both' - Randy Blythe; Despite commencing his MUN career amidst the challenges posed by the COVID era, he swiftly adapted to offline MUNs, showcasing his fastidious nature and astute thinking. His approach to committees is holistic, where he consistently maintains an unwavering presence and exerts unyielding dominance. His competence shines through his multiple accolades, triumphing in conferences like NCFEMUN, SNISMUN, DWMUN, and more. Besides MUNs, he fervently embraces the role of music, which holds a significant place in his life and is not something he neglects. His diverse musical palette encompasses a wide spectrum, ranging from the intensity of heavy metal to the soulful melodies of jazz. With his presence in the committee, you can assuredly anticipate a productive and enjoyable experience.'",
+				},
+			],
+			ads: [
+				{
+					name: 'Pratyush Mittal',
+					image: praty,
+					des: "Hey Guys! This is your other deputy speaker here, Pratyush, and I just want to say how excited I am to be a part of this committee. I can’t wait to interact with each and every one of you and hopefully by the end help you make a difference. A difference in the world we live in, a difference in our lives and most importantly a difference in the issue we are trying to solve through our agenda. I hope to help you become better munners, help you step outside your comfort zone and most of all take away something from this fulfilling experience. I am a passionate individual with a love for sports, particularly basketball. When I'm not on the court, I indulge in public speaking and debating, relishing the art of expressing ideas and persuading others. Additionally, my fondness for Model United Nations allows me to engage in international relations and collaborative problem-solving on a global scale. With a diverse range of interests encompassing sports, public speaking, economics, and MUN, I am eager to embark on a journey of self-discovery and making a positive impact in the world. So let us embark on this journey, grow and learn together!",
 				},
 			],
 			dir2: [],
@@ -165,9 +189,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					des: "I'm Abhimanyu from Grade 12 at Inventure and I will be one of your Assistant Directors for the Lok Sabha at INMUN 2023.Model United Nations to me is a great opportunity to understand how decisions are made, may that be, at any committee simulating the United Nations, the Parliament or the Lok Sabha. By taking part in this crucial decision-making process as delegates, you have the opportunity to learn about different perspectives on certain issues while of course using diplomacy to make sure the decision you want is taken. I hope that every delegate can learn and take away knowledge that you can use not just at your next MUN conference, but even in the real world.I look forward to seeing a lot of enlightening conversations during our committee sessions and of course a lot of fun outside of the committee.",
 				},
 				{
-					name: 'Pratyush P Mithal',
-					image: praty,
-					des: "Hey Guys! This is your other deputy speaker here, Pratyush, and I just want to say how excited I am to be a part of this committee. I can’t wait to interact with each and every one of you and hopefully by the end help you make a difference. A difference in the world we live in, a difference in our lives and most importantly a difference in the issue we are trying to solve through our agenda. I hope to help you become better munners, help you step outside your comfort zone and most of all take away something from this fulfilling experience. I am a passionate individual with a love for sports, particularly basketball. When I'm not on the court, I indulge in public speaking and debating, relishing the art of expressing ideas and persuading others. Additionally, my fondness for Model United Nations allows me to engage in international relations and collaborative problem-solving on a global scale. With a diverse range of interests encompassing sports, public speaking, economics, and MUN, I am eager to embark on a journey of self-discovery and making a positive impact in the world. So let us embark on this journey, grow and learn together!",
+					name: 'Eshaan Bharath',
+					image: eshan,
+					des: "Since joining the circuit in 2023, my keen interest in global policies and international relations has not only flourished, but it has also led to my successful participation in MUNs, earning me notable awards from FISMUN, GEARMUN, MAISMUN, and more. My first engagement with a crises committee earlier this year sparked an enduring passion that has only grown with time. In this conference, I'll be serving as your Assistant Director for the Union Cabinet. Beyond MUNs, I like to spend my time in the gym or playing cricket. I am truly excited about the opportunity to interact with all of you, and I am committed to facilitating a productive and rewarding conference.",
 				},
 			],
 			dir2: [],
@@ -267,12 +291,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 					name: 'Arnav Aggarwal',
 					image: arnav,
 					des: 'Hello Delegates! My name is Arnav Raj Aggarwal and I am ecstatic to serve on the executive board for this committee. The opportunity to participate in MUN has served as a bridge between my love for public speaking and debate along with my interest in regional and international affairs, awarding me a placement in every conference thus far. Participating in spirited debate has allowed me to connect with like-minded individuals, and I sincerely hope this committee provides you the same. Outside the realm of MUN, my interests lie in the fields of medicine and research, whilst I am simultaneously invested entrepreneurship and the general logos behind STEM. During my spare time, I enjoy playing sports competitively and am also an active pursuer of the performing arts, specifically speech and drama.',
-				},
-				{
-					name: 'Eshaan Bharath',
-					image: eshan,
-					des: "Since joining the circuit in 2023, my keen interest in global policies and international relations has not only flourished, but it has also led to my successful participation in MUNs, earning me notable awards from FISMUN, GEARMUN, MAISMUN, and more. My first engagement with a crises committee earlier this year sparked an enduring passion that has only grown with time. In this conference, I'll be serving as your Assistant Director for the Union Cabinet. Beyond MUNs, I like to spend my time in the gym or playing cricket. I am truly excited about the opportunity to interact with all of you, and I am committed to facilitating a productive and rewarding conference.",
-				},
+				}
 			],
 			dir2: [],
 		},
