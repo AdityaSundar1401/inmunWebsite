@@ -220,12 +220,6 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 									<p>Final allocations and country matrices released</p>
 								</div>
 							</div>
-							<div className='date right'>
-								<div className='content'>
-									<h2>22nd August </h2>
-									<p>Final day for position paper submission</p>
-								</div>
-							</div>
 							<div className='date left'>
 								<div className='content'>
 									<h2>24th-26th August </h2>
