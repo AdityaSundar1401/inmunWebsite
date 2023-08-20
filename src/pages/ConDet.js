@@ -9,6 +9,7 @@ import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
 import pdfConferenceSchedule from './conferenceSchedule.pdf';
 import rop from './ropDoc.pdf';
+import ropImage from './ropImage.png';
 import conferenceSchedule from './conferenceSchedule.png';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
@@ -144,7 +145,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							href={rop}
 							target='_blank'>
 							<img
-								src={comingSoon}
+								src={ropImage}
 								
 								style={{
 									border: 'solid',
