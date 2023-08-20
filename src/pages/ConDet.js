@@ -8,7 +8,7 @@ import handbook from './confHandbook.jpeg';
 import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
 import pdfConferenceSchedule from './conferenceSchedule.pdf';
-import rop from './ropDoc.pdf;
+import rop from './ropDoc.pdf';
 import conferenceSchedule from './conferenceSchedule.png';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
