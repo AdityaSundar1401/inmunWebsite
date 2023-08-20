@@ -8,6 +8,7 @@ import handbook from './confHandbook.jpeg';
 import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
 import pdfConferenceSchedule from './conferenceSchedule.pdf';
+import rop from './ropDoc.pdf
 import conferenceSchedule from './conferenceSchedule.png';
 
 const ConDet = ({ dropDown, drop, height, name }) => {
@@ -128,27 +129,35 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							Conference Policy
 						</h2>
 					</div>
+					
 					<div
 						style={{
 							width: '150px',
 							height: 'auto',
 						}}>
-						<img
-							src={comingSoon}
+						<a
 							style={{
-								border: 'solid',
-								borderColor: '#ff8500',
-								borderWidth: 'auto',
-								height: '210.08px',
-								width: '150px',
-								objectFit: 'cover',
+								width: '100%',
+								height: '209px',
 							}}
-						/>
+							className='detImages'
+							href={rop}
+							target='_blank'>
+							<img
+								src={comingSoon}
+								
+								style={{
+									border: 'solid',
+									borderColor: 'black',
+									borderWidth: 'auto',
+								}}
+							/>
+						</a>
 						<h2
 							style={{
 								maxWidth: '150px',
 								color: 'black',
-								margin: '0px 2px',
+								margin: '0px auto',
 							}}
 							className='text-center'>
 							Rules of Procedure
