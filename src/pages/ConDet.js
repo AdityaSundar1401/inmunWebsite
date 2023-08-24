@@ -7,7 +7,7 @@ import Navbar from '../layout/Navbar';
 import handbook from './confHandbook.jpeg';
 import pdfhandbook from './confHandbook2.pdf';
 import comingSoon from './comingSoon.jpeg';
-import pdfConferenceSchedule from './conferenceSchedule.pdf';
+import pdfConferenceSchedule from './conferenceScheduleUpdated.pdf';
 import rop from './ropDoc.pdf';
 import ropImage from './ropImage.png';
 import conferenceSchedule from './conferenceSchedule.png';
