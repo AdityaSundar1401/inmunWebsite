@@ -82,18 +82,19 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		}
 	];
 
-	const logisticsAD = {
-		post: 'Deputy USG',
-		names: ['Arushi Patel', 'Treia Menon'],
-		imgs: [placeholder, placeholder],
-	};
-
 	const logistics = {
 		post: 'Deputy USG',
-		names: ['Arushi Patel', 'Tanvi Iyer', 'Akshay Satish', 'Treia Menon'],
-		posts: ['Deputy USG', 'Head of Logistics', 'Head of Logistics', 'Deputy USG'],
-		imgs: [arushi, tanvi, akshay, treia],
+		names: ['Tanvi Iyer', 'Akshay Satish'],
+		posts: ['Head of Logistics', 'Head of Logistics'],
+		imgs: [tanvi, akshay],
 	};
+
+	const logisticsADs = {
+		post: 'Deputy USG',
+		names: ['Arushi Patel', 'Treia Menon'],
+		posts: ['Deputy USG', 'Deputy USG'],
+		imgs: [arushi, treia],
+	}
 
 	const commsEb = [
 		{
@@ -483,7 +484,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 									</div>
 								</div>
 								<div className='grid-2 all-center pic-box'>
-									{logisticsAD.imgs.map((pic, index) => (
+									{logistics.imgs.map((pic, index) => (
 										<div
 											key={index}
 											className='usg-pics'>
@@ -492,7 +493,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 												src={pic}
 												alt=''
 											/>
-											<h1 className='usg-name'>{logisticsAD.names[index]}</h1>
+											<h1 className='usg-name'>{logistics.names[index]}</h1>
 											<h3>Deputy USG</h3>
 										</div>
 									))}
@@ -694,6 +695,21 @@ const Sec = ({ dropDown, drop, height, name }) => {
 											/>
 											<h1 className='usg-name'>{logistics.names[index]}</h1>
 											<h3>{logistics.posts[index]}</h3>
+										</div>
+									))}
+								</div>
+								<div className='grid-2 all-center pic-box grid-3'>
+									{logisticsADs.imgs.map((pic, index) => (
+										<div
+											key={index}
+											className='usg-pics'>
+											<img
+												className='usg-pic'
+												src={pic}
+												alt=''
+											/>
+											<h1 className='usg-name'>{logisticsADs.names[index]}</h1>
+											<h3>{logisticsADs.posts[index]}</h3>
 										</div>
 									))}
 								</div>
