@@ -25,6 +25,7 @@ import hari from '../Secretariat/Images/hari1.jpg';
 import sud from '../Secretariat/Images/sud.jpeg';
 import ananya from '../Secretariat/Images/ananya1.jpeg';
 import ali from '../Secretariat/Images/ali1.jpeg';
+import shivam from '../Secretariat/Images/shivam.jpeg';
 import yash from '../Secretariat/Images/yashiyer1.jpeg';
 import krisha from '../Secretariat/Images/krishareddy1.jpeg';
 import muhammad from '../Secretariat/Images/muhammadhafesjee1.jpeg';
@@ -94,10 +95,10 @@ const DetComm = ({ match, dropDown, drop, height, name }) => {
 		        icon: unep,
 			directors: [
 				{
-					name: 'Syed Ali',
-					image: ali,
+					name: 'Shivam',
+					image: shivam,
 					post: 'Chairperson',
-					des: "'Young people - they care. They know that this is the world that they're going to grow up in, that they're going to spend the rest of their lives in. But, I think it's more idealistic than that. They actually believe that humanity, human species, has no right to destroy and despoil regardless.' - Sir David Attenborough; This EB member is no stranger to the circuit with over 5 years of experience as a munner he’s bagged accolades and served on the executive board of various noteworthy conferences across the city but it’s his versatility that stands out as he possesses a award from each different type of a committee a Mun has to offer, the jack of all trades, presenting to you the Chairperson of the UNEP, Syed Ali.",
+					des: "'Whoever appeals to the law against his fellow man is either a fool or a coward, Whoever cannot take care of himself without that law is both' - Randy Blythe; Despite commencing his MUN career amidst the challenges posed by the COVID era, he swiftly adapted to offline MUNs, showcasing his fastidious nature and astute thinking. His approach to committees is holistic, where he consistently maintains an unwavering presence and exerts unyielding dominance. His competence shines through his multiple accolades, triumphing in conferences like NCFEMUN, SNISMUN, DWMUN, and more. Besides MUNs, he fervently embraces the role of music, which holds a significant place in his life and is not something he neglects. His diverse musical palette encompasses a wide spectrum, ranging from the intensity of heavy metal to the soulful melodies of jazz. With his presence in the committee, you can assuredly anticipate a productive and enjoyable experience.'",
 				},
 			],
 			ads: [
