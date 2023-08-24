@@ -64,7 +64,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 		},
 		{
 			post: 'Communication',
-			names: ['Aditya Sundar', 'Johann Ullatil (IHOP)'],
+			names: ['Aditya Sundar', 'Johann Ullatil'],
 			imgs: [adi, johann],
 		},
 	];
