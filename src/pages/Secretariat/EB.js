@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../layout/Navbar';
 import Footer from '../../layout/Footer';
+import akshay from './Images/akshay.jpeg';
 import abhi from './Images/abhi2.jpg';
 import shivam from './Images/shivam.jpeg';
 import omu from '../../om.jpeg';
@@ -89,9 +90,9 @@ const Sec = ({ dropDown, drop, height, name }) => {
 
 	const logistics = {
 		post: 'Deputy USG',
-		names: ['Arushi Patel', 'Tanvi Iyer', 'Treia Menon'],
-		posts: ['Deputy USG', 'Head of Logistics', 'Deputy USG'],
-		imgs: [arushi, tanvi, treia],
+		names: ['Arushi Patel', 'Tanvi Iyer', 'Akshay Satish', 'Treia Menon'],
+		posts: ['Deputy USG', 'Head of Logistics', 'Head of Logistics', 'Deputy USG'],
+		imgs: [arushi, tanvi, akshay, treia],
 	};
 
 	const commsEb = [
