@@ -683,7 +683,7 @@ const Sec = ({ dropDown, drop, height, name }) => {
 							style={{ width: '560px' }}>
 							<h1 className='all-center usg-post'>Logistics</h1>
 							<div className='usg-category '>
-								<div className='grid-2 all-center pic-box grid-3'>
+								<div className='grid-2 all-center pic-box grid-2'>
 									{logistics.imgs.map((pic, index) => (
 										<div
 											key={index}
@@ -698,7 +698,8 @@ const Sec = ({ dropDown, drop, height, name }) => {
 										</div>
 									))}
 								</div>
-								<div className='grid-2 all-center pic-box grid-3'>
+								<br />
+								<div className='grid-2 all-center pic-box grid-2'>
 									{logisticsADs.imgs.map((pic, index) => (
 										<div
 											key={index}
