@@ -201,41 +201,51 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 					</h1>
 					<br />
 					<ul>
-						<li>
+						<li
+							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/19XhD1ygqwBojuzFCRrKq7IESKKtDdVsE/view?usp=sharing'>
 								Joint Crisis Committee
 							</a>
 						</li>
-						<li>
+						<br />
+						<li
+							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1nP93-X5vyF8smfyOMD_ks3FH-DtFZuTF/view?usp=sharing'>
 								Union Cabinet
 							</a>
 						</li>
-						<li>
+						<br />
+						<li
+							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
 								Lok Sabha
 							</a>
 						</li>
-						<li>
+						<br />
+						<li
+							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
 								BBMP
 							</a>
 						</li>
-						<li>
+						<br />
+						<li
+							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1KKpu3AuthkW1Zk8BZ1vVyR-lEYYEKTSI/view?usp=sharing'>
 								UNEP
 							</a>
 						</li>
+						<br />
 					</ul>
 				</div>
 				<div className='timeline'>
