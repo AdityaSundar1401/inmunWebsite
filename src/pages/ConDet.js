@@ -86,7 +86,6 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							target='_blank'>
 							<img
 								src={handbook}
-								
 								style={{
 									border: 'solid',
 									borderColor: 'black',
@@ -130,7 +129,7 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							Conference Policy
 						</h2>
 					</div>
-					
+
 					<div
 						style={{
 							width: '150px',
@@ -146,7 +145,6 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							target='_blank'>
 							<img
 								src={ropImage}
-								
 								style={{
 									border: 'solid',
 									borderColor: 'black',
@@ -179,7 +177,6 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							target='_blank'>
 							<img
 								src={conferenceSchedule}
-								
 								style={{
 									border: 'solid',
 									borderColor: 'black',
@@ -197,6 +194,49 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							Conference Schedule
 						</h2>
 					</div>
+				</div>
+				<div className='linksMeetings'>
+					<h1 style={{ fontSize: '40px' }}>
+						Links for pre-conferene training meetings
+					</h1>
+					<br />
+					<ul>
+						<li>
+							<a
+								style={{ fontSize: '25px' }}
+								href='https://drive.google.com/file/d/19XhD1ygqwBojuzFCRrKq7IESKKtDdVsE/view?usp=sharing'>
+								Joint Crisis Committee
+							</a>
+						</li>
+						<li>
+							<a
+								style={{ fontSize: '25px' }}
+								href='https://drive.google.com/file/d/1nP93-X5vyF8smfyOMD_ks3FH-DtFZuTF/view?usp=sharing'>
+								Union Cabinet
+							</a>
+						</li>
+						<li>
+							<a
+								style={{ fontSize: '25px' }}
+								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
+								Lok Sabha
+							</a>
+						</li>
+						<li>
+							<a
+								style={{ fontSize: '25px' }}
+								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
+								BBMP
+							</a>
+						</li>
+						<li>
+							<a
+								style={{ fontSize: '25px' }}
+								href='https://drive.google.com/file/d/1KKpu3AuthkW1Zk8BZ1vVyR-lEYYEKTSI/view?usp=sharing'>
+								UNEP
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div className='timeline'>
 					<h1 className='timeline-heading'>Timeline of important events</h1>
