@@ -228,8 +228,18 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							className='btn bg-primary'>
 							<a
 								style={{ fontSize: '25px', color: 'black' }}
-								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
+								href='https://drive.google.com/file/d/1hsPxfh-yMesusUlj4U5jSEdVp9usf7LT/view?usp=sharing'>
 								Lok Sabha
+							</a>
+						</li>
+						<br />
+						<li
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
+							className='btn bg-primary'>
+							<a
+								style={{ fontSize: '25px', color: 'black' }}
+								href='https://drive.google.com/file/d/11HqabnUL4LmwmslHKJLg-6QJdhq5UuaQ/view?usp=sharing'>
+								Rajya Sabha
 							</a>
 						</li>
 						<br />
@@ -253,6 +263,17 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 							</a>
 						</li>
 						<br />
+						<li
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
+							className='btn bg-primary'>
+							<a
+								style={{ fontSize: '25px', color: 'black' }}
+								href='https://drive.google.com/file/d/1V290n3gqMYfLw5fbgY-FqGux4gaIDeZk/view?usp=sharing'>
+								ECOSOC
+							</a>
+						</li>
+						<br />
+									
 					</ul>
 				</div>
 				<div className='timeline'>
