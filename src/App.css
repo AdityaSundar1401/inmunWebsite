@@ -1794,3 +1794,7 @@ h3 {
 .socials a:hover i {
 	color: aqua;
 }
+
+.linksMeetings a {
+	font-family: 'Dosis', sans-serif;
+}
