@@ -200,9 +200,10 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						Links for pre-conferene training meetings
 					</h1>
 					<br />
-					<ul>
+					<ul className='all-center'>
 						<li
-							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
+							style={{ width: '280px' }}
+							className='btn bg-primary'>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/19XhD1ygqwBojuzFCRrKq7IESKKtDdVsE/view?usp=sharing'>
@@ -211,7 +212,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						</li>
 						<br />
 						<li
-							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
+							style={{ width: '280px' }}
+							className='btn bg-primary'>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1nP93-X5vyF8smfyOMD_ks3FH-DtFZuTF/view?usp=sharing'>
@@ -220,7 +222,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						</li>
 						<br />
 						<li
-							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
+							style={{ width: '280px' }}
+							className='btn bg-primary'>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
@@ -229,7 +232,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						</li>
 						<br />
 						<li
-							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
+							style={{ width: '280px' }}
+							className='btn bg-primary'>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
@@ -238,7 +242,8 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						</li>
 						<br />
 						<li
-							style={{ border: 'solid', borderColor: 'black', width: '260px' }}>
+							style={{ width: '280px' }}
+							className='btn bg-primary'>
 							<a
 								style={{ fontSize: '25px' }}
 								href='https://drive.google.com/file/d/1KKpu3AuthkW1Zk8BZ1vVyR-lEYYEKTSI/view?usp=sharing'>
