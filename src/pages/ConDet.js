@@ -195,47 +195,49 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						</h2>
 					</div>
 				</div>
-				<div className='linksMeetings'>
+				<div
+					className='linksMeetings'
+					style={{ marginTop: '50px' }}>
 					<h1 style={{ fontSize: '40px' }}>
 						Links for pre-conferene training meetings
 					</h1>
 					<br />
 					<ul className='all-center'>
 						<li
-							style={{ width: '280px' }}
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
 							className='btn bg-primary'>
 							<a
-								style={{ fontSize: '25px' }}
+								style={{ fontSize: '25px', color: 'black' }}
 								href='https://drive.google.com/file/d/19XhD1ygqwBojuzFCRrKq7IESKKtDdVsE/view?usp=sharing'>
 								Joint Crisis Committee
 							</a>
 						</li>
 						<br />
 						<li
-							style={{ width: '280px' }}
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
 							className='btn bg-primary'>
 							<a
-								style={{ fontSize: '25px' }}
+								style={{ fontSize: '25px', color: 'black' }}
 								href='https://drive.google.com/file/d/1nP93-X5vyF8smfyOMD_ks3FH-DtFZuTF/view?usp=sharing'>
 								Union Cabinet
 							</a>
 						</li>
 						<br />
 						<li
-							style={{ width: '280px' }}
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
 							className='btn bg-primary'>
 							<a
-								style={{ fontSize: '25px' }}
+								style={{ fontSize: '25px', color: 'black' }}
 								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
 								Lok Sabha
 							</a>
 						</li>
 						<br />
 						<li
-							style={{ width: '280px' }}
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
 							className='btn bg-primary'>
 							<a
-								style={{ fontSize: '25px' }}
+								style={{ fontSize: '25px', color: 'black' }}
 								href='https://drive.google.com/file/d/1K_qqARN07PBAaM-HigrVvCm7qkkPPKiO/view?usp=sharing'>
 								BBMP
 							</a>
