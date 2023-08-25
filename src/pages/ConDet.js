@@ -244,10 +244,10 @@ const ConDet = ({ dropDown, drop, height, name }) => {
 						</li>
 						<br />
 						<li
-							style={{ width: '280px' }}
+							style={{ width: '280px', border: 'solid', borderColor: 'black' }}
 							className='btn bg-primary'>
 							<a
-								style={{ fontSize: '25px' }}
+								style={{ fontSize: '25px', color: 'black' }}
 								href='https://drive.google.com/file/d/1KKpu3AuthkW1Zk8BZ1vVyR-lEYYEKTSI/view?usp=sharing'>
 								UNEP
 							</a>
