@@ -3,7 +3,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import Navbar from '../../layout/Navbar';
-import ECOSOCBG from '../Secretariat/Images/ECOSOCBG.pdf'
+import ECOSOCBG from '../Secretariat/Images/ECOSOCBG2.pdf'
 import ECOSOCMatrix from '../Secretariat/Images/ECOSOCMatrix.pdf'
 import abhi from '../Secretariat/Images/abhi2.jpg';
 import pratyush from '../Secretariat/Images/pratyush.jpeg';
